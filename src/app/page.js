@@ -3,6 +3,7 @@ import classes from "./Page.module.scss";
 import { Montserrat } from 'next/font/google'
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import Link from "@/components/Link";
+import Download from "@/components/Download";
 
 const fontH1 = Montserrat({ subsets: ['latin'] });
 
@@ -33,7 +34,7 @@ export default function Home() {
           <dt>CONTACT</dt>
           <dd>
             <p>
-              MOBILE:<br/>
+              MOBILE:<br />
               <Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} />
             </p>
             <p>
@@ -45,7 +46,7 @@ export default function Home() {
               <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
             </ul>
             <p>
-              EMAIL:<br/>
+              EMAIL:<br />
               <Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} />
             </p>
           </dd>
@@ -53,25 +54,25 @@ export default function Home() {
         <dl>
           <dt>TECHNOLOGIES</dt>
           <dd>
-              <ul>
-                <li>NodeJS</li>
-                <li>PHP: 5.x, 7.x and 8.x</li>
-                <li>Javascript vanilla and ES6</li>
-                <li>VueJS and NuxtJS</li>
-                <li>ReactJS and NextJS</li>
-                <li>C#</li>
-                <li>MongoDB, MariaDB, SQL Server, PostgresSQL, Oracle</li>
-              </ul>
+            <ul>
+              <li>NodeJS</li>
+              <li>PHP: 5.x, 7.x and 8.x</li>
+              <li>Javascript vanilla and ES6</li>
+              <li>VueJS and NuxtJS</li>
+              <li>ReactJS and NextJS</li>
+              <li>C#</li>
+              <li>MongoDB, MariaDB, SQL Server, PostgresSQL, Oracle</li>
+            </ul>
           </dd>
         </dl>
         <dl>
           <dt>SPOKEN LANGUAGES</dt>
           <dd>
-              <ul>
-                <li>Spanish: native</li>
-                <li>English: fluid (no native)</li>
-                <li>Italian: initial</li>
-              </ul>
+            <ul>
+              <li>Spanish: native</li>
+              <li>English: fluid (no native)</li>
+              <li>Italian: initial</li>
+            </ul>
           </dd>
         </dl>
       </div>
@@ -79,6 +80,9 @@ export default function Home() {
         <div>
           <div className={classes.ThemeSwitcher}>
             <ThemeSwitcher />
+            <Download href="/assets/eng.pdf">
+              <Image src="/images/download.svg" alt="download" />
+            </Download>
           </div>
           <hgroup>
             <h1 className={fontH1.className}>Matias Perrone</h1>

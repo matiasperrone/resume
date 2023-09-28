@@ -8,18 +8,7 @@ import dynamic from "next/dynamic";
 const ThemeSwitcher = ({tooltipPlacement = "auto"}) => {
     const darkThemeMediaMatch = typeof window !== "undefined" ? window.matchMedia("(prefers-color-scheme: dark)")?.matches : null;
     const [darkTheme, setDarkTheme] = useState(darkThemeMediaMatch);
-
-    useEffect(function mount() {
-        function onScroll() {
-          console.log("scroll!");
-        }
     
-        window.addEventListener("scroll", onScroll);
-    
-        return function unMount() {
-          window.removeEventListener("scroll", onScroll);
-        };
-      });
     const bodyAttrs = useMemo(() => {
         if (darkTheme === null) {
             return {};
@@ -61,7 +50,7 @@ const ThemeSwitcher = ({tooltipPlacement = "auto"}) => {
             placement={tooltipPlacement}
             overlay={tooltip}>
             <span className={classes.themeSwitch} onClick={() => setDarkTheme(!darkTheme)}>
-                {icon}
+                {icon} {title}
             </span>
         </OverlayTrigger>
     );

@@ -9,7 +9,7 @@ const nextConfig = {
       removeConsole,
     },
     output: "export",
-    distDir: "build/_next",
+    distDir: "build",
 }
 
 module.exports = nextConfig
