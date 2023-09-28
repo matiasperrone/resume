@@ -1,5 +1,3 @@
-"use client";
-
 import { Image } from "react-bootstrap";
 import classes from "./Page.module.scss";
 import { Montserrat } from 'next/font/google'
@@ -36,19 +34,19 @@ export default function Home() {
           <dd>
             <p>
               MOBILE:<br/>
-              <Link href="tel:+5491155662732" text="+54 9 11 5566.2732" />
+              <Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} />
             </p>
             <p>
-              WEB SITES:<br/>
-              <ul>
-                <li><a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a></li>
-                <li><a href="https://www.github.com/matiasperrone/">GitHub</a></li>
-                <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
-              </ul>
+              WEB SITES:
             </p>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a></li>
+              <li><a href="https://www.github.com/matiasperrone/">GitHub</a></li>
+              <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
+            </ul>
             <p>
               EMAIL:<br/>
-              <Link href="mailto:hello@matiasperrone.com" text="hello@matiasperrone.com" />
+              <Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} />
             </p>
           </dd>
         </dl>
