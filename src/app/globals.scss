@@ -1,0 +1,153 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+@mixin light-theme {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --foreground-gray: 23, 23, 23;
+  --background-gray: 232, 232, 232;
+  --background-highlight: 85, 139, 184;
+  --foreground-highlight: 255, 255, 255;
+  --foreground-title-highlight: 85, 139, 184;
+  --link: 20, 20, 20;
+  --link-highlighted: 30, 30, 165;
+}
+@mixin dark-theme {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --background-gray: 65, 65, 65;
+  --foreground-gray: 232, 232, 232;
+  --background-highlight: 85, 139, 184;
+  --foreground-highlight: 255, 255, 255;
+  --foreground-title-highlight: 0, 139, 238;
+  --link: 205, 205, 205;
+  --link-highlighted: 105, 105, 165;
+}
+
+:root, [data-theme="light"] {
+  @include light-theme;
+}
+
+[data-theme="dark"] {
+  @include dark-theme;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root, [data-theme="dark"] {
+    @include dark-theme;
+  }
+  [data-theme="light"] {
+    @include light-theme;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  padding: 4em 1.33333em ;
+  font-size: 15px;
+}
+
+
+.w-10 {
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-95 {
+  width: 95%;
+}
+.w-100 {
+  width: 100%;
+}
+
+hgroup {
+  margin-bottom: 1rem;
+}
+
+hgroup > p {
+  font-size: 0.82rem;
+}
+
+h3 {
+  border-bottom: 2px solid #99b9d4;
+  font-weight: 800;
+  margin-bottom: 0.3333em;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+section {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+article {
+  margin: 1rem 0;
+  padding: 0 0.3333em;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(var(--foreground-rgb), 0.5);
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+article > dl > dt.job-dates {
+  font-style: italic;
+}
+
+article > dl > dd {
+  margin: 1rem 0;
+  word-break: break-word;
+}
+
+article > dl > dd > * {
+  margin-bottom: .6em;
+}
+
+.tooltip {
+  background-color: rgba(var(--background-rgb), .7);
+  color: rgb(var(--foreground-rgb));
+  border-radius: 3px;
+  padding: 0.3333em .66667em;
+  font-size: 1rem;
+  box-shadow: 0 0 3px rgb(var(--foreground-rgb)) inset;
+}
+
+a {
+  color: rgb(var(--link));
+  text-decoration: none;
+
+  &:visited {
+    color: rgb(var(--link));
+  }
+  &:active, &:hover, &:focus {
+    color: rgb(var(--link-highlighted));
+  }
+}
