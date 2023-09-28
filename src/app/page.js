@@ -95,8 +95,7 @@ export default function Home() {
             </h1>
             <p>Full Stack Developer, Javascript, PHP, ReactJS and VueJS lover.</p>
           </hgroup>
-          <span className="d-block d-md-none">
-
+          <span className={classes.showOnMobile}>
             <section>
               <h3>PROFILE</h3>
               <dl>

@@ -194,6 +194,14 @@ $padding-top-layout: 2rem;
     }
 }
 
+.showOnMobile {
+    display: block;
+    
+    @media screen and (min-width: 900px) {
+        display: none;
+    }
+}
+
 .leftSideBar {
     position: sticky;
 }
