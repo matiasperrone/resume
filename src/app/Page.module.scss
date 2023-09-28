@@ -1,22 +1,45 @@
+$padding-top-layout: 2rem;
+
 .layout {
     position: relative;
     display: flex;
-    min-width: 760px;
     width: 100%;
+    min-width: 0;
     min-height: 100vh;
     align-content: stretch;
     justify-content: stretch;
+    overflow: auto;
     flex-wrap: nowrap;
     background-color: rgb(var(--background-rgb));
 
+    @media screen and (min-width: 900px) {
+        min-width: 760px;
+    }
+
     & > *:first-child {
-        position: relative;
-        min-width: 274px;
-        max-width: 20%;
+        display: none;
+        position: absolute;
         width: 100%;
+        max-width: 100%;
+        padding: 0;
+        padding-top: 2rem;
+        max-height: 100vh;
+        min-width: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
         height: 100%;
         background-color: rgb(var(--background-gray));
-        padding: 0.75em;
+
+        @media screen and (min-width: 900px) {
+            display: block;
+            position: initial;
+            width: 100%;
+            min-width: 274px;
+            max-width: 20%;
+            padding: 0.75em;
+            height: auto;
+            max-height: 100%;
+        }
 
         & > img {
             position: relative;
@@ -46,8 +69,9 @@
     }
 
     & > *:last-child {
-        min-width: 486px;
-        width: calc(100% - 274px);
+        min-width: 0;
+        width: 100%;
+        max-width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -55,16 +79,27 @@
         justify-content: stretch;
         color: rgb(var(--foreground-gray));
         background-color: rgb(var(--background-gray));
-        padding-top: 2rem;
+        padding-top: $padding-top-layout;
+
+        @media screen and (min-width: 900px) {
+            min-width: 486px;
+            width: calc(100% - 274px);
+        }
+
+
         & > * {
             color: rgb(var(--foreground-rgb));
             background-color: rgb(var(--background-rgb));
             width: 100%;
-            border-radius: 80px 0 0 0;
-            padding: 0px 45px;
-            & > * {
-                max-width: 1200px;
-            }
+            max-width: 100%;
+
+            @media screen and (min-width: 900px) {
+                padding: 0px 45px;
+                border-radius: 80px 0 0 0;
+                & > * {
+                    max-width: 1200px;
+                }
+            }            
         }
 
         & h1 {
@@ -81,7 +116,7 @@
     font-size: 1rem;
     right: 2rem;
     top: 0;
-    height: 2rem;
+    height: $padding-top-layout;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,6 +124,7 @@
 }
 
 .art1 {
+    display: none;
     height: 95px;
     width: 125px;
     position: absolute;
@@ -97,6 +133,11 @@
     z-index: 1;
     background-color: rgb(var(--background-rgb));
     overflow: hidden;
+
+    @media screen and (min-width: 900px) {
+        display: block;
+    }
+
     & > *:first-child {
         position: absolute;
         right: 0;
@@ -151,4 +192,8 @@
             }
         }
     }
+}
+
+.leftSideBar {
+    position: sticky;
 }

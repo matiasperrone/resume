@@ -19,62 +19,64 @@ export default function Home() {
           </div>
         </div>
         <Image src="/images/matias.jpg" alt="" />
-        <dl>
-          <dt>PROFILE</dt>
-          <dd>
-            <p>
-              My experience goes from designing and develop a system from scratch, documenting the initial requirements to the training courses, and the design of technical and user manuals for a wide variety of methods with different characteristics.
-            </p>
-            <p>
-              I am a &quot;fan&quot; of teamwork, and I consider myself self-taught. My innovative and proactive approach has always been beneficial facing challenges that appeared throughout my career. Many of the technologies I use, I have learned them in a self-taught way, based on knowledge acquired at the National Technological University.
-            </p>
-          </dd>
-        </dl>
-        <dl>
-          <dt>CONTACT</dt>
-          <dd>
-            <p>
-              MOBILE:<br />
-              <Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} />
-            </p>
-            <p>
-              WEB SITES:
-            </p>
-            <ul>
-              <li><a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a></li>
-              <li><a href="https://www.github.com/matiasperrone/">GitHub</a></li>
-              <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
-            </ul>
-            <p>
-              EMAIL:<br />
-              <Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} />
-            </p>
-          </dd>
-        </dl>
-        <dl>
-          <dt>TECHNOLOGIES</dt>
-          <dd>
-            <ul>
-              <li>NodeJS</li>
-              <li>PHP: 5.x, 7.x and 8.x</li>
-              <li>Javascript vanilla and ES6</li>
-              <li>VueJS and NuxtJS</li>
-              <li>ReactJS and NextJS</li>
-              <li>C#</li>
-              <li>MongoDB, MariaDB, SQL Server, PostgresSQL, Oracle</li>
-            </ul>
-          </dd>
-        </dl>
-        <dl>
-          <dt>SPOKEN LANGUAGES</dt>
-          <dd>
-            <ul>
-              <li>Spanish: native</li>
-              <li>English: fluid (no native)</li>
-              <li>Italian: initial</li>
-            </ul>
-          </dd>
-        </dl>
+        <div className={classes.leftSideBar}>
+          <dl>
+            <dt>PROFILE</dt>
+            <dd>
+              <p>
+                My experience goes from designing and develop a system from scratch, documenting the initial requirements to the training courses, and the design of technical and user manuals for a wide variety of methods with different characteristics.
+              </p>
+              <p>
+                I am a &quot;fan&quot; of teamwork, and I consider myself self-taught. My innovative and proactive approach has always been beneficial facing challenges that appeared throughout my career. Many of the technologies I use, I have learned them in a self-taught way, based on knowledge acquired at the National Technological University.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>CONTACT</dt>
+            <dd>
+              <p>
+                MOBILE:<br />
+                <Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} />
+              </p>
+              <p>
+                WEB SITES:
+              </p>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a></li>
+                <li><a href="https://www.github.com/matiasperrone/">GitHub</a></li>
+                <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
+              </ul>
+              <p>
+                EMAIL:<br />
+                <Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} />
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>TECHNOLOGIES</dt>
+            <dd>
+              <ul>
+                <li>NodeJS</li>
+                <li>PHP: 5.x, 7.x and 8.x</li>
+                <li>Javascript vanilla and ES6</li>
+                <li>VueJS and NuxtJS</li>
+                <li>ReactJS and NextJS</li>
+                <li>C#</li>
+                <li>MongoDB, MariaDB, SQL Server, PostgresSQL, Oracle</li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>SPOKEN LANGUAGES</dt>
+            <dd>
+              <ul>
+                <li>Spanish: native</li>
+                <li>English: fluid (no native)</li>
+                <li>Italian: initial</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
       </div>
       <div>
         <div>
@@ -82,21 +84,90 @@ export default function Home() {
             <ThemeSwitcher />
             <Download href="/assets/eng.pdf">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5z"/>
+                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5z" />
               </svg>
               {" Download"}
             </Download>
           </div>
           <hgroup>
-            <h1 className={fontH1.className}>Matias Perrone</h1>
+            <h1 className={fontH1.className}>
+              Matias Perrone
+            </h1>
             <p>Full Stack Developer, Javascript, PHP, ReactJS and VueJS lover.</p>
           </hgroup>
+          <span className="d-block d-md-none">
+
+            <section>
+              <h3>PROFILE</h3>
+              <dl>
+                <dd>
+                  <p>
+                    My experience goes from designing and develop a system from scratch, documenting the initial requirements to the training courses, and the design of technical and user manuals for a wide variety of methods with different characteristics.
+                  </p>
+                  <p>
+                    I am a &quot;fan&quot; of teamwork, and I consider myself self-taught. My innovative and proactive approach has always been beneficial facing challenges that appeared throughout my career. Many of the technologies I use, I have learned them in a self-taught way, based on knowledge acquired at the National Technological University.
+                  </p>
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h3>CONTACT</h3>
+              <dl>
+                <dd>
+                  <p>
+                    MOBILE:<br />
+                    <Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} />
+                  </p>
+                  <p>
+                    WEB SITES:
+                  </p>
+                  <ul>
+                    <li><a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a></li>
+                    <li><a href="https://www.github.com/matiasperrone/">GitHub</a></li>
+                    <li><a href="https://resume.matiasperrone.com/">Resume</a></li>
+                  </ul>
+                  <p>
+                    EMAIL:<br />
+                    <Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} />
+                  </p>
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h3>TECHNOLOGIES</h3>
+              <dl>
+                <dd>
+                  <ul>
+                    <li>NodeJS</li>
+                    <li>PHP: 5.x, 7.x and 8.x</li>
+                    <li>Javascript vanilla and ES6</li>
+                    <li>VueJS and NuxtJS</li>
+                    <li>ReactJS and NextJS</li>
+                    <li>C#</li>
+                    <li>MongoDB, MariaDB, SQL Server, PostgresSQL, Oracle</li>
+                  </ul>
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h3>SPOKEN LANGUAGES</h3>
+              <dl>
+                <dd>
+                  <ul>
+                    <li>Spanish: native</li>
+                    <li>English: fluid (no native)</li>
+                    <li>Italian: initial</li>
+                  </ul>
+                </dd>
+              </dl>
+            </section>
+          </span>
           <section>
             <h3>EDUCATION</h3>
             <p><b>Systems Analyst - UTN</b></p>
             <p>1997 - 2005</p>
           </section>
-          <article>
+          <section>
             <h3>TECHNOLOGIES</h3>
             <div className={classes.technologies}>
               <div className={classes.technology}>
@@ -148,7 +219,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </article>
+          </section>
           <article>
             <h3>WORK EXPERIENCE</h3>
             <article>

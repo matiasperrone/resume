@@ -31,7 +31,7 @@
   @include dark-theme;
 }
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   :root, [data-theme="dark"] {
     @include dark-theme;
   }
@@ -40,10 +40,17 @@
   }
 }
 
+
+@media print {
+  :root, [data-theme="light"], [data-theme="dark"] {
+    @include light-theme;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
-  padding: 4em 1.33333em ;
+  padding: 0.5em;
   font-size: 15px;
 }
 

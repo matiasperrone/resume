@@ -3,4 +3,7 @@
     z-index: 2;
     font-size: 1em;
     line-height: 1em;
+    @media print {
+        display: none;
+    }
 }
