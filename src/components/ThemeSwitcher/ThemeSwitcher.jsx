@@ -49,9 +49,9 @@ const ThemeSwitcher = ({tooltipPlacement = "auto"}) => {
         <OverlayTrigger
             placement={tooltipPlacement}
             overlay={tooltip}>
-            <span className={classes.themeSwitch} onClick={() => setDarkTheme(!darkTheme)}>
+            <div className={classes.themeSwitch} onClick={() => setDarkTheme(!darkTheme)}>
                 {icon} {title}
-            </span>
+            </div>
         </OverlayTrigger>
     );
 };

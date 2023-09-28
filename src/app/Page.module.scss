@@ -29,10 +29,6 @@
             z-index: 3;
         }
 
-        & li {
-
-        }
-
         & dl > dt {
             color: rgb(var(--foreground-title-highlight));
             font-weight: 800;
@@ -59,7 +55,7 @@
         justify-content: stretch;
         color: rgb(var(--foreground-gray));
         background-color: rgb(var(--background-gray));
-        padding-top: 32px;
+        padding-top: 2rem;
         & > * {
             color: rgb(var(--foreground-rgb));
             background-color: rgb(var(--background-rgb));
@@ -82,9 +78,14 @@
 
 .ThemeSwitcher {
     position: absolute;
+    font-size: 1rem;
     right: 2rem;
     top: 0;
-    font-size: 1.3333rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
 }
 
 .art1 {
