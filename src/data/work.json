@@ -1,9 +1,284 @@
-[
-    {
-        "title": "Pest Share",
-        "position": "Full Stack Developer",
-        "subtitle": "Directly: pestshare.com",
-        "from": "",
-        "to": ""
+{
+    "en": {
+        "summary": [
+            "I've been a developer since 1998 and a full stack web developer since 2004, I have 19 years of experience, as a Functional Analyst but also as a developer with PHP (19+ yrs), Javascript (19+ yrs), NodeJS (4+ yrs), VueJS (5+ yrs), ReactJS (2+ yrs), I have a colege degree in System Analysis.",
+            "I have worked in many industries and many different companies with its peculiarities, I'm an active listener so I can offer the best solution for your particular needs and objectives.",
+            "I truly love development. I get excited every time my favorite languages and tools release a new feature. I love to learn new things, so sometimes go on and on talking about development all day with my dev friends.",
+            "In 2012 I co-founded a startup called aluGuest (it was operative until 2017), a platform for temporary accommodation rental. I build the architecture for aluGuest from zero, I was able to gather a small but solid web development and design team to solve our needs, at the time there was no React, no Vue or even Node yet, or they were in very early stages (beta versions or prior), so I build a solid platform using jQuery, PHP, MySQL and MongoDB, it was fast and bullet proof, we process credit cards and handle money, we didn't have any security breach and the code was robust.",
+            "Later in 2017 I learned VueJS, I was part of several projects using it, a very large one for the Argentina government (a Transportation Agency), and other private held companies in the most diverse applications, also rebuild my ex partner's (from aluGuest) company ecommerce platform (a small temp apartment rental agency in Buenos Aires) Welcome2BA, using NuxtJS (a VueJS framework) and PHP 7.",
+            "In the latest years I worked with ReactJS, NextJS and some minor VueJS projects. I also worked in backend creating APIs and batch applications in NodeJS and PHP.",
+            "I have more to share, so I hope we can meet soon."
+        ],
+        "title": "Full Stack Developer, Javascript, PHP, ReactJS and VueJS lover.",
+        "education": [
+            {
+                "institution": "UTN - National Technology University",
+                "address": "Buenos Aires, Argentina",
+                "dates": "1997 - 2005",
+                "degree": "Systems Analyst",
+                "description": ""
+            }
+        ],
+        "download": {
+            "name": "Matias Perrone - resume.pdf",
+            "file": "eng.pdf"
+        },
+        "technologies": [
+            {"name": "AWS", "logo": "aws.svg"},
+            {"name": "Docker", "logo": "docker.svg"},
+            {"name": "PHP", "logo": "php.svg", "version": "5.x, 7.x and 8.x"},
+            {"name": "Javascript", "logo": "javascript.svg"},
+            {"name": "Bootstrap", "logo": "bootstrap.svg"},
+            {"name": "CodeIgniter", "logo": "codeigniter.svg"},
+            {"name": "Laravel", "logo": "laravel.svg", "version": "5.x, 8.x and 10.x"},
+            {"name": "NodeJS", "logo": "nodejs.svg"},
+            {"name": "VueJS", "logo": "vuejs.svg", "version": "2.x and 3.x"},
+            {"name": "NuxtJS", "logo": "nuxtjs.svg"},
+            {"name": "ReactJS", "logo": "reactjs.svg"},
+            {"name": "NextJS", "logo": "nextjs.svg"},
+            {"name": "CSS", "logo": "css.svg"},
+            {"name": "HTML5", "logo": "html5.svg"},
+            {"name": "MongoDB", "logo": "mongodb.svg"},
+            {"name": "MariaDB", "logo": "mariadb.svg"},
+            {"name": "MySQL", "logo": "mysql.svg"},
+            {"name": "SQL Server", "logo": "sqlserver.svg"},
+            {"name": "PostgreSQL", "logo": "postgresql.svg"},
+            {"name": "Oracle", "logo": "oracle.svg"}
+        ],
+        "languages": {
+            "Spanish": "native",
+            "English": "fluid (no native)",
+            "Italian": "initial"
+        },
+        "websites": {
+            "LinkedIn": "https://www.linkedin.com/in/matiasperrone/",
+            "GitHub": "https://www.linkedin.com/in/matiasperrone/",
+            "Resume": "https://resume.matiasperrone.com/"
+        },
+        "jobs": [
+            {
+                "company": "Pest Share",
+                "position": "Full Stack Developer",
+                "dates": "March 2023 - September 2023: 6 months",
+                "customer": {
+                    "title": "Directly",
+                    "content": "pestshare.com"
+                },
+                "description": [
+                    "Pest Share is a startup company their goal is to \"Remove the confusion and frustration around property manager pest control. Residents report pest problems and local service providers take care of the rest.\".",
+                    "I was hired to build the \"Claim Management\" project, a way to the customer to request a pest control service and to Pest Share operations to handle such service removing the current manual process.",
+                    "I convinced the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version, I also introduced Laravel along with a backend team member as backend for the API, and at the same time keep the legacy code working as needed.",
+                    "In my time in Pest Share I've:",
+                    [
+                        "Created the integration code to submit a pest control request from any web page.",
+                        "Move part of the project to ReactJS and into a new way of doing software.",
+                        "Fixed bugs in the legacy code.",
+                        "Integrated the legacy code with the new ReactJS code.",
+                        "Solved various DB issues in the legacy code.",
+                        "Solved the database synchronization between old and new tables."
+                    ]
+                ],
+                "techs": "NextJS, ReactJS, PHP 7.4, PHP 8.2, CodeIgniter, Laravel, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
+            },
+            {
+                "company": "Mahisoft",
+                "position": "Full Stack Developer",
+                "dates": "November 2021 - January 2023: 1 year, 2 months",
+                "customer": {
+                    "title": "Customer",
+                    "content": "BidMyListing.com"
+                },
+                "description": [
+                    "BidMyListing is startup company, focused on real estate as a marketplace platform that allows homeowners to choose the best real estate agents in their area who will pay them upfront to list their home.",
+                    "My main task was to implement the features requested by the business on the frontend side. I have been with the team since started prior the production version, building the foundation of the first versions of the platform and always improving ever since.",
+                    "We were a dynamic team of very skilled developers, who keep you learning all the time, pushing to the best of your ability, I was very happy to be part of it!"
+                ],
+                "techs": "NodeJS, ReactJS, MongoDB, Jest."
+            },
+            {
+                "company": "Willdom",
+                "position": "Full Stack Developer",
+                "dates": "March 2021 - November 2021: 9 months",
+                "customer": {
+                    "title": "Customer",
+                    "content": "LaCure Villas"
+                },
+                "description": [
+                    "LaCure Villas is a luxury temporary rental agency for the more exclusive and demanding customers.",
+                    "My objective in LaCure is to stabilize the old system, so the business can still work and then start design and develop a new system.",
+                    "The new system must handle the calendar synchronization across different providers and connect with several external sources and at the same time improve the response time and reduce the downtime of the internal process, provide with the possibility of online payments, connection with the ERP, and the CRM and a lot of new features that the business needs.",
+                    "I worked with a team of developers that help on this task."
+                ],
+                "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
+            },
+            {
+                "company": "Wortise",
+                "position": "Lead Developer",
+                "dates": "May 2020 - January 2021: 9 months",
+                "description": [
+                    "In Wortise, which is a very young company with a dynamic spirit, I work in the development area, carrying out analysis, participating a lot, contributing my grain of sand and sharing with great minds a job that fills me a lot, I feel a belonging that I do not I felt before and the team&apos;s push allows me and asks me to give my best.",
+                    "In particular, I carry out internal business support software development, changes within the AdServer core and also completely innovative, ambitious and disruptive projects.",
+                    ""
+                ],
+                "techs": {
+                    "Techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB.",
+                    "Databases": "MongoDB, MySQL, PostgreSQL, ElasticSearch, BigQuery."
+                }
+            },
+            {
+                "company": "Global Innovation",
+                "position": "Developer and founder",
+                "dates": "Feb. 2017 - May 2020: 3 years and 4 months",
+                "description": [
+                    "This is my personal brand as developer.",
+                    "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
+                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects are focused on web environments and web services depending on needs."
+                ],
+                "techs": {
+                    "Techs": "NodeJS, VueJS, PHP, C#.",
+                    "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
+                }
+            },
+            {
+                "company": "Global Innovation",
+                "position": "Senior Lead Software Engineer",
+                "dates": "Feb. 2017 - Jan. 2019: 2 years",
+                "customer": {
+                    "title": "Customers",
+                    "content": "Baires Apartments and Welcome2BA"
+                },
+                "description": [
+                    "BAires Apartments partnered with Welcome2BA in order to become more profitable and, together be, the biggest player on Temporary Rentals in Buenos Aires.",
+                    "My main goal: migration of systems, process integration, change the process and systems smoothly in order to do what each one does better and improve the others.",
+                    "Integration with third parties software, like ZenDesk, Slack, Zoho CRM, Cliengo, aluPays.",
+                    "My main goal: migration of systems, process integration, smoothly changes in the process and systems to do what each do better and improve each other processes and systems."
+                ],
+                "techs": "PHP 5.6 and 7, CodeIgniter, CakePHP, jQuery, Javascript, SQL Server, MariaDB, NuxtJS (VueJS), MongoDB."
+            },
+            {
+                "company": "aluGuest.com",
+                "position": "Founder, CTO and Senior Developer",
+                "dates": "Apr. 2012 - Jan. 2017: 4 years and 10 months",
+                "description": [
+                    "aluGuest.com was a platform for temporary accomodation rental focused in the latinamerican market.",
+                    "We have integrations with large credit card processing providers like Braintree and PayPal and we had to create are own credit card processing company with its own API and integration, we called it aluPays.",
+                    "It was a big challenge create everything from zero and one of the greatest moments in my carrier, I've lead a team of designers, developers, I also overseed operations, and managed budgets."
+                ],
+                "techs": "PHP 5.6, PHP 7, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1."
+            }
+        ],
+        "oldjobs": [
+            {
+                "company": "Movistar",
+                "position": "Functional Analyst",
+                "dates": "Dec. 2010 - Apr. 2012: 1 year and 5 months",
+                "description": [
+                    "My task were the Project Management and Functional Analysis, as a link between business analysts and the software factory in addition to managing the setup of the environments for new applications and interact with other areas such as Production Management, Information Security and Application Architecture to reach the best possible solution, both technically and functionally.",
+                    "The area is focused to everything involving applications for client’s self-management, such as www.movistar.com.ar, www.tiendamovistar.com.ar, online.movistar.com.ar (Self-management for individuals), portal-empresas.movistar.com.ar (Self-management for Companies and Organizations) and several others for internal customer management.",
+                    "The company allowed me to grow professionally by finding more formal ways and procedures."
+                ]
+            },
+            {
+                "company": "Global Innovation",
+                "position": "Developer and founder",
+                "dates": "May 2007 - Dec. 2010: 3 years and 8 months",
+                "description": [
+                    "This is my personal brand as developer.",
+                    "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
+                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects were focused on web environments and web services depending on the different needs.",
+                    "Clients: Terminales Rio de la Plata (Port Operator), FunArg, ATM (Insurance), Plus Mobile Communications, Welcome2BA.com (ARG +1 year), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA +2 years), Urge Interactive (USA), Datta Point (USA), among others."
+                ],
+                "techs": "PHP 5.x, Javascript. jQuery, Symfony, CodeIgniter, CakePHP, Zend, MongoDB, SQL Server, Oracle, MariaDB, MySQL."
+            },
+            {
+                "company": "RealidadIT.com",
+                "position": "Author and Cofounder",
+                "dates": "Oct. 2009 - Sept. 2013: 4 years",
+                "description": [
+                    "Blog with news about IT in Argentina and around the world."
+                ]
+            },
+            {
+                "company": "Striggy.com",
+                "position": "Founder and developer",
+                "dates": "Mar. 2006 - Dec. 2010: 4 years and 10 months",
+                "description": [
+                    "Business Plan. Design and development of the site. Product advertisement.",
+                    "demo: https://www.matiasperrone.com/striggy"
+                ],
+                "techs": "PHP 5.x, Javascript. jQuery, MySQL."
+            },
+            {
+                "company": "Plus Mobile Communications / Audiotel",
+                "position": "Systems Analyst",
+                "dates": "Nov. 2004 - May 2006: 1 year and 7 months",
+                "description": [
+                    "November of 2004 to March of 2005:",
+                    "I worked as a Systems Analyst, analyzing and designing business support systems for internal and external clients, focusing mainly on the analysis, design and development business management system and billing for VoIP services.",
+                    "And before switching to Plus Mobile, I performed the construction of a system for surveys that integrates human resources with staff supervision area of the Call Center, in order to implement a tracking system of recruitment, compliance tasks and access to the building.",
+                    "",
+                    "April of 2005 to May of 2006:",
+                    "Given a horizontal growth, I changed of company within the enterprise group to Plus Mobile Communications, overseeing and helping to overcome the disadvantages that used to present to programmers and designers in the tasks to be performed.",
+                    "I did the analysis and design of several systems that supported the main core business, that were the SMS services and mobile content for both Argentina and Latin America. The project consisted in web services and server."
+                ],
+                "techs": "PHP 4, PHP 5, Javascript, ASP 3, jQuery, SQL Server, MySQL."
+            },
+            {
+                "company": "IBM",
+                "position": "Semi-Senior Programmer Analyst",
+                "dates": "Jun. 2004 - Nov. 2004: 6 months",
+                "description": [
+                    "As a programmer Analyst for one of the clients (IBM) in a project of Telefonica de Argentina. Responsible to detect wrong data in the information provided by the Commercial and Technical Management system and make the changes to correct them."
+                ],
+                "techs": "Visual Basic 6, SQL Server, LocalDB."
+            },
+            {
+                "company": "Physis Informática",
+                "position": "Programmer Analyst",
+                "dates": "Mar. 2004 - May. 2004: 3 months",
+                "description": [
+                    "Development of new features to several systems that were commercialized by the company."
+                ],
+                "techs": "Visual Basic 6, SQL Server, LocalDB."
+            },
+            {
+                "company": "FunArg",
+                "position": "Programmer Analyst",
+                "dates": "Ago. 2001 - Nov. 2003: 2 years and 4 months",
+                "description": [
+                    "This was my first time as a System Analyst, responsible of several management modules of the ERP of the company.",
+                    "This multinational company was dedicated to the area of funeral services and private cemeteries."
+                ],
+                "techs": "Visual Basic 6, SQL Server, Microsoft Access."
+            },
+            {
+                "company": "Freelance",
+                "position": "Developer",
+                "dates": "Ago. 2001 - Nov. 2003: 2 years and 4 months",
+                "description": [
+                    "I developed several systems and offer support and technical advising to my clients."
+                ],
+                "techs": "Visual Basic 6, SQL Server, Microsoft Access."
+            },
+            {
+                "company": "Telectronica",
+                "position": "Software Developer",
+                "dates": "Dic. 2000 - Mar. 2001: 4 months",
+                "description": [
+                    "Development of customized systems, mainly systems to collect data in devices like Palm Pilot. This company is Argentine and has branches in Uruguay and Brazil, and also is supplier of the necessary equipment to collect the information."
+                ],
+                "techs": "Visual Basic 6, SQL Server, Microsoft Access."
+            },
+            {
+                "company": "DayCom",
+                "position": "System Support and Developer",
+                "dates": "Dic. 2000 - Mar. 2001: 4 months",
+                "description": [
+                    "Subsidiary company of Offnet S.p.A. from Italy that changed its trade name to Offnet Argentina S.A., It were dedicated to Telecommunications Businesses. Its main project was the maintenance of the services 112 and 114 of Telecom, among others.",
+                    "Hired as a programmer, but due to a high demand of resources he changed to the Technical Support Department, although still developing systems for internal use that were oriented to maintenance and administration tasks in UNIX (IVRs) and Windows NT 4 servers."
+                ],
+                "techs": "ANSI C, Bash scripting, Unix Administration."
+            }
+        ]
     }
-]
+}
