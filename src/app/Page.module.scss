@@ -3,72 +3,33 @@ $padding-top-layout: 2rem;
 .layout {
     position: relative;
     display: flex;
+    flex-direction: column;
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     min-height: 100vh;
     align-content: stretch;
     justify-content: stretch;
-    overflow: auto;
     flex-wrap: nowrap;
-    background-color: rgb(var(--background-rgb));
+    padding: 20px;
+    border-radius: 80px 0 0 0;
+    border: 45px solid rgb(var(--background-gray));
+    border-bottom: none;
+    border-right: none;
 
-    @media screen and (min-width: 900px) {
-        min-width: 760px;
+    @media print {
+        border: 20px solid rgb(var(--background-gray));
+        border-bottom: none;
+        border-right: none;
+        border-radius: 40px 0 0 0;
+        padding: 15px;
     }
 
-    & > *:first-child {
-        display: none;
-        position: absolute;
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-        padding-top: 2rem;
-        max-height: 100vh;
-        min-width: 0;
-        overflow-x: hidden;
-        overflow-y: auto;
-        height: 100%;
-        background-color: rgb(var(--background-gray));
 
-        @media screen and (min-width: 900px) {
-            display: block;
-            position: initial;
-            width: 100%;
-            min-width: 274px;
-            max-width: 20%;
-            padding: 0.75em;
-            height: auto;
-            max-height: 100%;
-        }
-
-        & > img {
-            position: relative;
-            top: 15px;
-            margin-bottom: 30px;
-            width: 153px;
-            left: calc(50% - 153px / 2);
-            border: 4px solid #0070c0;
-            box-shadow: 0 0 0.66em rgb(var(--foreground-rgb));
-            z-index: 3;
-        }
-
-        & dl > dt {
-            color: rgb(var(--foreground-title-highlight));
-            font-weight: 800;
-            margin-bottom: 0.6667em;
-        }
-        & dl > dd {
-            font-size: 1em;
-            margin: 0;
-            margin-bottom: 0.6667em;
-            padding-left: 0.3333em;
-            & > p {
-                margin-bottom: 0.3em;
-            }
-            & > ul {
-                margin-top: 0;
-            }
-        }
+    @media screen and (max-width: 899px) {
+        border: none;
+        border-radius: 0;
+        padding: 10px;
     }
 
     & > *:last-child {
@@ -81,12 +42,10 @@ $padding-top-layout: 2rem;
         align-content: stretch;
         justify-content: stretch;
         color: rgb(var(--foreground-gray));
-        background-color: rgb(var(--background-gray));
-        padding-top: $padding-top-layout;
 
         @media screen and (min-width: 900px) {
             min-width: 486px;
-            width: calc(100% - 274px);
+            width: 100%;
         }
 
 
@@ -95,14 +54,6 @@ $padding-top-layout: 2rem;
             background-color: rgb(var(--background-rgb));
             width: 100%;
             max-width: 100%;
-
-            @media screen and (min-width: 900px) {
-                padding: 0px 45px;
-                border-radius: 80px 0 0 0;
-                & > * {
-                    max-width: 1200px;
-                }
-            }            
         }
 
         & h1 {
@@ -110,6 +61,10 @@ $padding-top-layout: 2rem;
             font-weight: 400;
             text-transform: uppercase;
             line-height: 1.1em;
+
+            @media screen and (max-width: 1200px) {
+                text-align: center;
+            }
         }
     }
 }
@@ -118,54 +73,23 @@ $padding-top-layout: 2rem;
     position: absolute;
     font-size: 1rem;
     right: 2rem;
-    top: 0;
+    top: -2.4rem;
     height: $padding-top-layout;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
-}
+    z-index: 3;
 
-.art1 {
-    display: none;
-    height: 95px;
-    width: 125px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: rgb(var(--background-rgb));
-    overflow: hidden;
-
-    @media screen and (min-width: 900px) {
-        display: block;
+    @media print {
+        display: none;
     }
 
-    & > *:first-child {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 100%;
-        width: 75px;
-        border-radius: 75px 0 0 0;
+    @media screen and (max-width: 767px) {
+        position: static;
         background-color: rgb(var(--background-gray));
-    }
-    & > *:last-child {
-        position: absolute;
-        bottom: 0;
-        right: 58px;
-        height: 56px;
-        width: 75px;
-        background-color: rgb(var(--background-gray));
-        & > *:first-child {
-            height: 90px;
-            width: 500px;
-            position: absolute;
-            bottom: 0;
-            right: 2px;
-            border-radius: 0 0 500px 0;
-            background-color: rgb(var(--background-rgb));
-        }
+        padding: 0 1em;
+        justify-content: space-between;
     }
 }
 
@@ -178,6 +102,14 @@ $padding-top-layout: 2rem;
     gap: 20px;
     flex-wrap: wrap;
     color: rgb(var(--foreground-rgb));
+
+    @media screen and (max-width: 899px) {
+        max-height: 160px;
+        overflow: auto;
+        margin-bottom: 10px;
+    }
+
+
 }
 
 .technology {
@@ -208,10 +140,26 @@ $padding-top-layout: 2rem;
     }
 }
 
-.showOnMobile {
-    display: block;
-    
-    @media screen and (min-width: 900px) {
-        display: none;
+.otherInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px 30px;
+
+    @media screen and (max-width: 899px) {
+        flex-direction: column;
+
+        & > *:nth-child(n + 2) {
+            display: none;
+        }
     }
+
+    & > * {
+        margin: 0;
+
+        & > * {
+            padding-left: 5px;
+            padding-right: 20px;
+        }
+    }
+
 }

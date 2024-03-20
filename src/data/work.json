@@ -52,7 +52,7 @@
         },
         "websites": {
             "LinkedIn": "https://www.linkedin.com/in/matiasperrone/",
-            "GitHub": "https://www.linkedin.com/in/matiasperrone/",
+            "GitHub": "https://www.github.com/matiasperrone/",
             "Resume": "https://resume.matiasperrone.com/"
         },
         "jobs": [
@@ -65,9 +65,9 @@
                     "content": "pestshare.com"
                 },
                 "description": [
-                    "Pest Share is a startup company their goal is to \"Remove the confusion and frustration around property manager pest control. Residents report pest problems and local service providers take care of the rest.\".",
-                    "I was hired to build the \"Claim Management\" project, a way to the customer to request a pest control service and to Pest Share operations to handle such service removing the current manual process.",
-                    "I convinced the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version, I also introduced Laravel along with a backend team member as backend for the API, and at the same time keep the legacy code working as needed.",
+                    "As the main developer of the \"Claim Management\" project, I was able to convince the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version.",
+                    "I also introduced Laravel along with a backend team member for the API, and at the same time keep the legacy code working as needed.",
+                    "This project allows a customer to request a pest control service and, at the same time, to the Pest Share operations team handle such service removing the current manual process.",
                     "In my time in Pest Share I've:",
                     [
                         "Created the integration code to submit a pest control request from any web page.",
@@ -76,7 +76,8 @@
                         "Integrated the legacy code with the new ReactJS code.",
                         "Solved various DB issues in the legacy code.",
                         "Solved the database synchronization between old and new tables."
-                    ]
+                    ],
+                    "Pest Share is a startup company their goal is to \"Remove the confusion and frustration around property manager pest control. Residents report pest problems and local service providers take care of the rest.\"."
                 ],
                 "techs": "NextJS, ReactJS, PHP 7.4, PHP 8.2, CodeIgniter, Laravel, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
             },
@@ -89,8 +90,9 @@
                     "content": "BidMyListing.com"
                 },
                 "description": [
+                    "As part of the team I had to implement the features requested by the business on the frontend side.",
+                    "I was with the team since started, prior the production version, building the foundation of the first versions of the platform and always improving ever since.",
                     "BidMyListing is startup company, focused on real estate as a marketplace platform that allows homeowners to choose the best real estate agents in their area who will pay them upfront to list their home.",
-                    "My main task was to implement the features requested by the business on the frontend side. I have been with the team since started prior the production version, building the foundation of the first versions of the platform and always improving ever since.",
                     "We were a dynamic team of very skilled developers, who keep you learning all the time, pushing to the best of your ability, I was very happy to be part of it!"
                 ],
                 "techs": "NodeJS, ReactJS, MongoDB, Jest."
@@ -104,10 +106,9 @@
                     "content": "LaCure Villas"
                 },
                 "description": [
-                    "LaCure Villas is a luxury temporary rental agency for the more exclusive and demanding customers.",
-                    "My objective in LaCure is to stabilize the old system, so the business can still work and then start design and develop a new system.",
-                    "The new system must handle the calendar synchronization across different providers and connect with several external sources and at the same time improve the response time and reduce the downtime of the internal process, provide with the possibility of online payments, connection with the ERP, and the CRM and a lot of new features that the business needs.",
-                    "I worked with a team of developers that help on this task."
+                    "My objective in LaCure Villas was to stabilize the old system, that have been suffering a lot of bug issues and crashes, so the business can still work and then start design and develop a new system.",
+                    "The new system should be handling the calendar synchronization across different providers and connect to several external providers' API's and, at the same time, improve the response time and reduce the downtime of the internal process, providing, in the future, the possibility of online payments, connection with the ERP, and the CRM and a lot of new features that the business needed.",
+                    "LaCure Villas is a luxury temporary rental agency for the more exclusive and demanding customers. We were a small team of 3 developers and a manager."
                 ],
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
             },
@@ -117,8 +118,7 @@
                 "dates": "May 2020 - January 2021: 9 months",
                 "description": [
                     "In Wortise, which is a very young company with a dynamic spirit, I work in the development area, carrying out analysis, participating a lot, contributing my grain of sand and sharing with great minds a job that fills me a lot, I feel a belonging that I do not I felt before and the team&apos;s push allows me and asks me to give my best.",
-                    "In particular, I carry out internal business support software development, changes within the AdServer core and also completely innovative, ambitious and disruptive projects.",
-                    ""
+                    "In particular, I carry out internal business support software development, changes within the AdServer core and also completely innovative, ambitious and disruptive projects."
                 ],
                 "techs": {
                     "Techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB.",

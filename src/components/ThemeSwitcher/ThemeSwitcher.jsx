@@ -8,7 +8,7 @@ import dynamic from "next/dynamic";
 const ThemeSwitcher = ({tooltipPlacement = "auto"}) => {
     const darkThemeMediaMatch = typeof window !== "undefined" ? window.matchMedia("(prefers-color-scheme: dark)")?.matches : null;
     const [darkTheme, setDarkTheme] = useState(darkThemeMediaMatch);
-    
+
     const bodyAttrs = useMemo(() => {
         if (darkTheme === null) {
             return {};
@@ -59,4 +59,3 @@ const ThemeSwitcher = ({tooltipPlacement = "auto"}) => {
 export default dynamic(() => Promise.resolve(ThemeSwitcher), {
     ssr: false,
 });
-  

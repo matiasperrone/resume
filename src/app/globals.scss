@@ -1,5 +1,7 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-reboot.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-utilities.min.css");
 
 @mixin light-theme {
   --foreground-rgb: 0, 0, 0;
@@ -45,6 +47,15 @@
 @media print {
   :root, [data-theme="light"], [data-theme="dark"] {
     @include light-theme;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  box-sizing: border-box;
+  & * {
+    box-sizing: border-box;
   }
 }
 
@@ -94,17 +105,26 @@ body {
 }
 
 hgroup {
+  max-width: 100%;
   margin-bottom: 1rem;
 }
 
-hgroup > p {
+hgroup p {
   font-size: 0.82rem;
+}
+
+hgroup > * {
+  max-width: 100%;
 }
 
 h3 {
   border-bottom: 2px solid #99b9d4;
   font-weight: 800;
   margin-bottom: 0.3333em;
+
+  @media screen and (max-width: 1200px) {
+      text-align: center;
+  }
 }
 
 h4 {
@@ -163,3 +183,79 @@ a {
 .cursor-pointer {
   cursor: pointer;
 }
+
+hgroup {
+  display: flex;
+  padding: 20px 0 0 20px;
+  gap: 40px;
+
+  @media print {
+    gap: 20px;
+    padding: 10px 0 0 10px;
+  }
+
+  @media screen and (max-width: 899px) {
+    gap: 0px;
+    padding: 0;
+  }
+
+  & > *:has(img) {
+    display: flex;
+    width: 153px;
+    align-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 899px) {
+      display: none;
+    }
+
+    @media print {
+      align-content: flex-start;
+      min-width: 75px;
+    }
+
+    & > * {
+      max-width: 100%;
+      border: 4px solid #0070c0;
+      box-shadow: 0 0 0.66em rgb(var(--foreground-rgb));
+    }
+  }
+}
+
+.work-experience {
+  dd {
+    max-height: calc(1.42em * 3.5);
+    overflow: hidden;
+    cursor: pointer;
+
+    &.show-all {
+      max-height: initial;
+      cursor: default;
+    }
+  }
+
+  a {
+    display: block;
+    text-align: right;
+    font-size: 0.85em;
+
+    &.show-all {
+      display: none;
+    }
+  }
+}
+
+@media print {
+  .work-experiences {
+    break-before: page;
+  }
+
+  .work-experience {
+    break-inside: avoid;
+
+    & dd {
+      max-height: initial;
+    }
+  }
+}
+
