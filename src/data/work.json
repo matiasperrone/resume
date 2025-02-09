@@ -24,26 +24,89 @@
             "file": "eng.pdf"
         },
         "technologies": [
-            {"name": "AWS", "logo": "aws.svg"},
-            {"name": "Docker", "logo": "docker.svg"},
-            {"name": "PHP", "logo": "php.svg", "version": "5.x, 7.x and 8.x"},
-            {"name": "Javascript", "logo": "javascript.svg"},
-            {"name": "Bootstrap", "logo": "bootstrap.svg"},
-            {"name": "CodeIgniter", "logo": "codeigniter.svg"},
-            {"name": "Laravel", "logo": "laravel.svg", "version": "5.x, 8.x and 10.x"},
-            {"name": "NodeJS", "logo": "nodejs.svg"},
-            {"name": "VueJS", "logo": "vuejs.svg", "version": "2.x and 3.x"},
-            {"name": "NuxtJS", "logo": "nuxtjs.svg"},
-            {"name": "ReactJS", "logo": "reactjs.svg"},
-            {"name": "NextJS", "logo": "nextjs.svg"},
-            {"name": "CSS", "logo": "css.svg"},
-            {"name": "HTML5", "logo": "html5.svg"},
-            {"name": "MongoDB", "logo": "mongodb.svg"},
-            {"name": "MariaDB", "logo": "mariadb.svg"},
-            {"name": "MySQL", "logo": "mysql.svg"},
-            {"name": "SQL Server", "logo": "sqlserver.svg"},
-            {"name": "PostgreSQL", "logo": "postgresql.svg"},
-            {"name": "Oracle", "logo": "oracle.svg"}
+            {
+                "name": "AWS",
+                "logo": "aws.svg"
+            },
+            {
+                "name": "Docker",
+                "logo": "docker.svg"
+            },
+            {
+                "name": "PHP",
+                "logo": "php.svg",
+                "version": "5.x, 7.x and 8.x"
+            },
+            {
+                "name": "Javascript",
+                "logo": "javascript.svg"
+            },
+            {
+                "name": "Laravel",
+                "logo": "laravel.svg",
+                "version": "5.x, 8.x to 11.x"
+            },
+            {
+                "name": "CodeIgniter",
+                "logo": "codeigniter.svg"
+            },
+            {
+                "name": "NodeJS",
+                "logo": "nodejs.svg"
+            },
+            {
+                "name": "ReactJS",
+                "logo": "reactjs.svg"
+            },
+            {
+                "name": "NextJS",
+                "logo": "nextjs.svg"
+            },
+            {
+                "name": "VueJS",
+                "logo": "vuejs.svg",
+                "version": "2.x and 3.x"
+            },
+            {
+                "name": "NuxtJS",
+                "logo": "nuxtjs.svg"
+            },
+            {
+                "name": "Bootstrap",
+                "logo": "bootstrap.svg"
+            },
+            {
+                "name": "CSS",
+                "logo": "css.svg"
+            },
+            {
+                "name": "HTML5",
+                "logo": "html5.svg"
+            },
+            {
+                "name": "MongoDB",
+                "logo": "mongodb.svg"
+            },
+            {
+                "name": "MariaDB",
+                "logo": "mariadb.svg"
+            },
+            {
+                "name": "MySQL",
+                "logo": "mysql.svg"
+            },
+            {
+                "name": "SQL Server",
+                "logo": "sqlserver.svg"
+            },
+            {
+                "name": "PostgreSQL",
+                "logo": "postgresql.svg"
+            },
+            {
+                "name": "Oracle",
+                "logo": "oracle.svg"
+            }
         ],
         "languages": {
             "Spanish": "native",
@@ -57,13 +120,33 @@
         },
         "jobs": [
             {
-                "company": "Pest Share",
+                "company": "Command|Link - USA",
+                "position": "Full Stack Senior Developer",
+                "dates": "May 2024 - Current",
+                "description": [
+                    "As a Senior Developer I developed new internal APIs unsing Laravel and new UI interfaces using ReactJS, I had to connect to different DB vendors like MySQL and SQL Server, and third party APIs to consume information relative to the business.",
+                    "I participate in some architecture definitions and proposed ideas for change and improvement.",
+                    "I work alongside QA to bring quality and velocity when new features are ready to be tested.",
+                    "I also work well in messy legacy environments with little or no documentation is available."
+                ],
+                "techs": "ReactJS, PHP 8.4, PHP 8.3, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
+            },
+            {
+                "company": "Globant - Argentina | Kingdom of Saudi Arabia",
+                "position": "Senior Web UI Developer",
+                "dates": "Jan 2024 - May 2024: 5 months",
+                "description": [
+                    "As a Senior Web UI Developer I resolved a lot of performance issues and development issues.",
+                    "I manage to set the time down from 16 seconds loading time to 1.5 seconds, and teach others to follow performance guidelines.",
+                    "I became part of kayanee.com project from KSA to bring performance improvements and share knowledge of how to develop vanilla javascript.",
+                    "I participated as keynote speaker in a Javascript development seminar about performance improvements for young developers."
+                ],
+                "techs": "Shopify, Liquid, Vanilla Javascript, HTML, jQuery, CSS."
+            },
+            {
+                "company": "Pest Share - USA",
                 "position": "Full Stack Developer",
                 "dates": "March 2023 - September 2023: 6 months",
-                "customer": {
-                    "title": "Directly",
-                    "content": "pestshare.com"
-                },
                 "description": [
                     "As the main developer of the \"Claim Management\" project, I was able to convince the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version.",
                     "I also introduced Laravel along with a backend team member for the API, and at the same time keep the legacy code working as needed.",
@@ -82,7 +165,7 @@
                 "techs": "NextJS, ReactJS, PHP 7.4, PHP 8.2, CodeIgniter, Laravel, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
             },
             {
-                "company": "Mahisoft",
+                "company": "Mahisoft - USA",
                 "position": "Full Stack Developer",
                 "dates": "November 2021 - January 2023: 1 year, 2 months",
                 "customer": {
@@ -98,7 +181,7 @@
                 "techs": "NodeJS, ReactJS, MongoDB, Jest."
             },
             {
-                "company": "Willdom",
+                "company": "Willdom - USA",
                 "position": "Full Stack Developer",
                 "dates": "March 2021 - November 2021: 9 months",
                 "customer": {
@@ -113,7 +196,7 @@
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
             },
             {
-                "company": "Wortise",
+                "company": "Wortise - Argentina / Uruguay",
                 "position": "Lead Developer",
                 "dates": "May 2020 - January 2021: 9 months",
                 "description": [
@@ -126,7 +209,7 @@
                 }
             },
             {
-                "company": "Global Innovation",
+                "company": "Global Innovation - Argentina, USA, etc.",
                 "position": "Developer and founder",
                 "dates": "Feb. 2017 - May 2020: 3 years and 4 months",
                 "description": [
