@@ -31,22 +31,12 @@
                 "logo": "docker.svg"
             },
             {
-                "name": "PHP",
-                "logo": "php.svg",
-                "version": "5.x, 7.x and 8.x"
-            },
-            {
                 "name": "Javascript",
                 "logo": "javascript.svg"
             },
             {
-                "name": "Laravel",
-                "logo": "laravel.svg",
-                "version": "5.x, 8.x to 11.x"
-            },
-            {
-                "name": "CodeIgniter",
-                "logo": "codeigniter.svg"
+                "name": "Typescript",
+                "logo": "typescript.svg"
             },
             {
                 "name": "NodeJS",
@@ -70,16 +60,26 @@
                 "logo": "nuxtjs.svg"
             },
             {
-                "name": "Bootstrap",
-                "logo": "bootstrap.svg"
-            },
-            {
                 "name": "CSS",
                 "logo": "css.svg"
             },
             {
                 "name": "HTML5",
                 "logo": "html5.svg"
+            },
+            {
+                "name": "PHP",
+                "logo": "php.svg",
+                "version": "5.x, 7.x and 8.x"
+            },
+            {
+                "name": "Laravel",
+                "logo": "laravel.svg",
+                "version": "5.x, 8.x to 12.x"
+            },
+            {
+                "name": "CodeIgniter",
+                "logo": "codeigniter.svg"
             },
             {
                 "name": "MongoDB",
@@ -122,28 +122,29 @@
                 "position": "Full Stack Developer",
                 "dates": "From: May 2025 - To: Present",
                 "description": [
-                    "I work as a freelance developer, I have several clients and I work on different projects.",
-                    "I am a full stack developer, using PHP, NodeJS, ReactJS and NextJS."
+                    "As a freelance developer, I work with other developer, as a team, we have several clients and I work in different projects.",
+                    "The main technologies that we work with are: Typescript, ReactJS, VueJS, NextJS PHP and NodeJS.",
+                    "In the last months we improved our processes and the way we do software by using AI as an Agent."
                 ],
-                "techs": "PHP, NodeJS, ReactJS, NextJS, VueJS, Laravel, Docker"
+                "techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker"
             },
             {
                 "company": "Command|Link - USA",
-                "position": "Full Stack Senior Developer",
+                "position": "Full Stack Senior Web Developer",
                 "dates": "From: May 2024 - To: May 2025: 1 year",
                 "description": [
-                    "As a Senior Developer I:",
+                    "As a Full Stack Senior Web Developer I:",
                     [
-                        "Developed Using Laravel new internal APIs from scratch.",
-                        "Developed new UI interfaces using ReactJS",
+                        "Collaborated in the development of complex React applications using TypeScript, leveraging advanced type features (generics, interfaces, type guards) to ensure robust, maintainable, and scalable code.",
+                        "Developed new internal APIs from scratch using Laravel.",
                         "Connected to different DB vendors like MySQL and SQL Server",
-                        "Connected with third party APIs to consume information",
-                        "Participated in architecture definitions and proposed ideas for change and improvement.",
+                        "Connected with third party APIs to consume information, following the best practices.",
+                        "Participated in the architecture definitions and proposed ideas for change and improvement.",
                         "Worked alongside QA to bring quality and velocity when new features are ready to be tested.",
                         "Work well in messy legacy environments with little or no documentation."
                     ]
                 ],
-                "techs": "ReactJS, PHP 8.4, PHP 8.3, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
+                "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
                 "company": "Globant - Argentina | Kingdom of Saudi Arabia",
@@ -195,7 +196,7 @@
                     "BidMyListing is startup company, focused on real estate as a marketplace platform that allows homeowners to choose the best real estate agents in their area who will pay them upfront to list their home.",
                     "We were a dynamic team of very skilled developers, who keep you learning all the time, pushing to the best of your ability, I was very happy to be part of it!"
                 ],
-                "techs": "NodeJS, ReactJS, MongoDB, Jest."
+                "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
             },
             {
                 "company": "Willdom - USA",
