@@ -505,28 +505,29 @@
                 "position": "Desarrollador Full Stack",
                 "dates": "Desde: Mayo 2025 - Hasta: Actualidad",
                 "description": [
-                    "Trabajo como desarrollador freelance, tengo varios clientes y trabajo en diferentes proyectos.",
-                    "Soy un desarrollador full stack, usando PHP, NodeJS, ReactJS y NextJS."
+                    "Como desarrollador freelance, trabajo con otros desarrolladores en equipo, tenemos varios clientes y trabajo en diferentes proyectos.",
+                    "Las principales tecnologías con las que trabajamos son: Typescript, ReactJS, VueJS, NextJS, PHP y NodeJS.",
+                    "En los últimos meses mejoramos nuestros procesos y la forma en que desarrollamos software utilizando IA como agente."
                 ],
-                "techs": "PHP, NodeJS, ReactJS, NextJS, VueJS, Laravel, Docker"
+                "techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker"
             },
             {
                 "company": "Command|Link - USA",
-                "position": "Desarrollador Senior Full Stack",
+                "position": "Desarrollador Web Senior Full Stack",
                 "dates": "Desde: Mayo 2024 - Hasta: Mayo 2025: 1 año",
                 "description": [
-                    "Como Desarrollador Senior:",
+                    "Como Desarrollador Web Senior Full Stack:",
                     [
-                        "Desarrollé nuevas APIs internas desde cero usando Laravel.",
-                        "Desarrollé nuevas interfaces de usuario usando ReactJS.",
-                        "Conecté a diferentes proveedores de bases de datos como MySQL y SQL Server.",
-                        "Conecté con APIs de terceros para consumir información.",
-                        "Participé en definiciones de arquitectura y propuse ideas para cambios y mejoras.",
-                        "Trabajé junto a QA para aportar calidad y velocidad cuando las nuevas funcionalidades estaban listas para ser probadas.",
-                        "Trabajo bien en entornos legacy desordenados con poca o ninguna documentación."
+                        "Colaboré en el desarrollo de aplicaciones React complejas utilizando TypeScript, aprovechando características avanzadas de tipos (generics, interfaces, type guards) para garantizar un código robusto, mantenible y escalable.",
+                        "Desarrollé nuevas APIs internas desde cero utilizando Laravel.",
+                        "Me conecté a diferentes proveedores de bases de datos como MySQL y SQL Server.",
+                        "Me conecté con APIs de terceros para consumir información, siguiendo las mejores prácticas.",
+                        "Participé en las definiciones de arquitectura y propuse ideas para cambios y mejoras.",
+                        "Trabajé junto al equipo de QA para garantizar calidad y velocidad cuando las nuevas funcionalidades estaban listas para ser probadas.",
+                        "Trabajo bien en entornos heredados desordenados con poca o ninguna documentación."
                     ]
                 ],
-                "techs": "ReactJS, PHP 8.4, PHP 8.3, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
+                "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
                 "company": "Globant - Argentina | Reino de Arabia Saudita",
