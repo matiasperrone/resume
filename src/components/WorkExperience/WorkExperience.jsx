@@ -1,7 +1,6 @@
-import Link from "next/link";
 import AnchorShowHide from "@/components/AnchorShowHide";
 
-const WorkExperience = ({job, className = ""}) => {
+const WorkExperience = ({ job, className = "" }) => {
     return (
         <article className={className}>
             <h4>{job.company} - {job.position}</h4>
@@ -11,7 +10,7 @@ const WorkExperience = ({job, className = ""}) => {
                     <dt className="job-subtitle">{job.customer.title ?? "Customer"}: <b>{job.customer.content}</b></dt>
                 )}
                 {job.techs && typeof job.techs === "string" && (
-                <div><b>Techs:</b> {job.techs}</div>
+                    <div><b>Techs:</b> {job.techs}</div>
                 )}
                 {typeof job.techs === "object" && Object.entries(job.techs ?? {}).map(([name, techs]) => (
                     <div key={"tech-" + name}><b>{name}:</b> {techs}</div>
@@ -20,14 +19,13 @@ const WorkExperience = ({job, className = ""}) => {
                     {job.description.map((paragraph, ix) => {
                         const descriptionKey = "paragraph" + ix;
                         const errorResult = `typeof paragraph: ${typeof paragraph}`;
-                        switch (typeof paragraph)
-                        {
+                        switch (typeof paragraph) {
                             case "object":
                                 return Array.isArray(paragraph) ? (
                                     <ul key={descriptionKey}>
-                                    {paragraph.map((subParagraphText, ix) => (
-                                        <li key={descriptionKey + "sub-" + ix}>{subParagraphText}</li>
-                                    ))}
+                                        {paragraph.map((subParagraphText, ix) => (
+                                            <li key={descriptionKey + "sub-" + ix}>{subParagraphText}</li>
+                                        ))}
                                     </ul>
                                 ) : errorResult;
                             case "string":
@@ -42,7 +40,7 @@ const WorkExperience = ({job, className = ""}) => {
                 <AnchorShowHide className="show-all" showClassName={true}>See Less</AnchorShowHide>
             </dl>
         </article>
-        );
+    );
 };
 
 export default WorkExperience;

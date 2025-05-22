@@ -1,6 +1,6 @@
 "use client";
 
-const AnchorShowHide = ({className = "show-all", showClassName = false, children}) => {
+const AnchorShowHide = ({ className = "show-all", showClassName = false, children }) => {
 
     const toggleShowAll = (e) => {
         e.preventDefault();
@@ -9,7 +9,7 @@ const AnchorShowHide = ({className = "show-all", showClassName = false, children
     }
 
     return (
-        <a href="#" className={showClassName ? className : ""} onClick={toggleShowAll}>{children}</a>
+        <a href="#" className={`d-print-none ${showClassName ? className : ""}`} onClick={toggleShowAll}>{children}</a>
     );
 }
 

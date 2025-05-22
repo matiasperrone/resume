@@ -59,11 +59,11 @@ export default function Home({ language = "en" }) {
             <p>{work.title}</p>
             <div className={classes.otherInfo}>
               <section>
-                  <h3 className="d-print-none">Contact Info</h3>
-                  <p>
-                    Mobile: <span>&nbsp;<Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} /></span><br/>
-                    Email: <span>&nbsp;<Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} /></span>
-                  </p>
+                <h3 className="d-print-none">Contact Info</h3>
+                <p>
+                  Mobile: <span>&nbsp;<Link href={`tel:${process.env.NEXT_PHONE}`} text={process.env.NEXT_PHONE_FORMATED} /></span><br />
+                  Email: <span>&nbsp;<Link href={`mailto:${process.env.NEXT_EMAIL}`} text={process.env.NEXT_EMAIL} /></span>
+                </p>
               </section>
               <section className="d-print-none">
                 <h3>Languages</h3>
@@ -88,7 +88,7 @@ export default function Home({ language = "en" }) {
             </div>
           </div>
         </hgroup>
-        <section>
+        <section className="summary">
           <h3>SUMMARY</h3>
           <dl>
             <dd>
@@ -98,7 +98,7 @@ export default function Home({ language = "en" }) {
             </dd>
           </dl>
         </section>
-        <section>
+        <section className="education">
           <h3>EDUCATION</h3>
           {work.education.map(educationItem => (
             <div key={educationItem.institution + educationItem.degree}>
@@ -108,7 +108,7 @@ export default function Home({ language = "en" }) {
             </div>
           ))}
         </section>
-        <section>
+        <section className="technologies">
           <h3>TECHNOLOGIES</h3>
           <div className={classes.technologies}>
             {technologiesLogosList}
@@ -116,13 +116,17 @@ export default function Home({ language = "en" }) {
           <div className="text-center">{work.technologies.map(technology => technology.name).join(", ")}</div>
         </section>
         <article className="work-experiences">
-          <h3>WORK EXPERIENCE</h3>
-          {work.jobs.map(job => <WorkExperience key={job.company + job.dates + job.position} job={job} className="work-experience" />)}
-          <ShowHide show={false} text="older job experiences">
-            <div>
-              {work.oldjobs.map(job => <WorkExperience key={job.company + job.dates + job.position} job={job} />)}
-            </div>
-          </ShowHide>
+          <div className="work-experiences-print-header">
+            <h3>WORK EXPERIENCE</h3>
+          </div>
+          <div className="work-experiences-print-content">
+            {work.jobs.map(job => <WorkExperience key={job.company + job.dates + job.position} job={job} className="work-experience" />)}
+            <ShowHide show={false} text="older job experiences">
+              <div>
+                {work.oldjobs.map(job => <WorkExperience key={job.company + job.dates + job.position} job={job} />)}
+              </div>
+            </ShowHide>
+          </div>
         </article>
       </div>
     </div>

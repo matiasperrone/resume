@@ -18,6 +18,7 @@ $padding-top-layout: 2rem;
     border-right: none;
 
     @media print {
+        display: block;
         border: 20px solid rgb(var(--background-gray));
         border-bottom: none;
         border-right: none;
@@ -42,6 +43,9 @@ $padding-top-layout: 2rem;
         align-content: stretch;
         justify-content: stretch;
         color: rgb(var(--foreground-gray));
+        @media print {
+            display: block;
+        }
 
         @media screen and (min-width: 900px) {
             min-width: 486px;
@@ -57,7 +61,7 @@ $padding-top-layout: 2rem;
         }
 
         & h1 {
-            font-size: 48pt;
+            font-size: 48px;
             font-weight: 400;
             text-transform: uppercase;
             line-height: 1.1em;
