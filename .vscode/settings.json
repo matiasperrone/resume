@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true
+}

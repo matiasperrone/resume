@@ -1,11 +1,11 @@
 {
     "en": {
         "summary": [
-            "I've been a developer since 1998 and a full stack web developer since 2004, I have more than 20 years of experience.",
-            "I have experience in many different industries, like e-commerce, real estate, temporary accommodation rental, telecommunications, and more.",
-            "I also have experience in different roles, like developer, team lead, project manager, and founder.",
-            "I worked with: PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS, MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, Oracle, AWS, Docker.",
-            "I have a college degree in System Analysis."
+            "[b]Experienced Full Stack Developer  Architecting Scalable Solutions[/b]",
+            "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]e-commerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
+            "I specialize in [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], and database management with [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle[/b]. I also have [b]deep expertise[/b] in cloud computing ([b]AWS, Docker[/b]) and system scalability.",
+            "Holding a [b]college degree in System Analysis[/b], I thrive in [b]fast-paced environments[/b], solving complex technical challenges, optimizing performance, and mentoring teams to deliver high-impact solutions.",
+            "This version brings more energy and highlights leadership, adaptability, and results. If you want to tailor it further, we could integrate specific metrics from your past projects. Let me know what you think!"
         ],
         "title": "Senior Frontend and Backend Developer | Node, PHP, JS, Vue & React",
         "education": [
@@ -380,7 +380,11 @@
                 ],
                 "techs": "ANSI C, Bash scripting, Unix Administration."
             }
-        ]
+        ],
+        "traslation": {
+            "see more": "ver más",
+            "see less": "ver menos"
+        }
     },
     "es": {
         "summary": [

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import { Image } from "react-bootstrap";
 import classes from "./Page.module.scss";
 import { Montserrat } from 'next/font/google'
@@ -9,11 +10,24 @@ import workInfo from "@/data/work.json";
 import WorkExperience from "@/components/WorkExperience";
 import ShowHide from "@/components/ShowHide";
 import SVG from 'react-inlinesvg';
+import { convertMDTags } from "@/helpers/string";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSelector from "@/components/LanguageSelector";
+import { useEffect, useState } from 'react';
 
 const fontH1 = Montserrat({ subsets: ['latin'] });
 
-export default function Home({ language = "en" }) {
-  const work = workInfo[language];
+export default function Home() {
+  const { language } = useLanguage();
+  const [work, setWork] = useState(null);
+
+  useEffect(() => {
+    setWork(workInfo[language]);
+  }, [language]);
+
+  if (!work) {
+    return <div>Loading...</div>;
+  }
 
   const technologiesLogosList = work.technologies.map(technology => {
     return (
@@ -40,6 +54,7 @@ export default function Home({ language = "en" }) {
     <div className={classes.layout}>
       <div className={classes.ThemeSwitcher}>
         <ThemeSwitcher />
+        <LanguageSelector />
         <Download href={`/assets/${work.download.file}`} name={work.download.name}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5z" />
@@ -93,7 +108,7 @@ export default function Home({ language = "en" }) {
           <dl>
             <dd>
               {work.summary.map((paragraph, ix) => (
-                <p key={`paragraph-${ix}`}>{paragraph}</p>
+                <p key={`paragraph-${ix}`} dangerouslySetInnerHTML={{ __html: convertMDTags(paragraph) }} />
               ))}
             </dd>
           </dl>
