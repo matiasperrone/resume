@@ -13,7 +13,6 @@ import { convertMDTags, t } from "@/helpers/string";
 import { useWorkContext } from "@/contexts/WorkContext";
 import LanguageSelector from "@/components/LanguageSelector";
 import Translate from "@/components/Translate";
-import { PHONE_FORMATED, PHONE, EMAIL } from "@/constants/data";
 import { DataRender } from "../DataRender/DataRender";
 
 const fontH1 = Montserrat({ subsets: ['latin'] });
