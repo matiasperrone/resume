@@ -3,7 +3,7 @@
 const removeConsole = process.env.NODE_ENV === "production" ? { exclude: ["error"] } : false;
 
 const nextConfig = {
-  output: 'export',
+  // output: 'export',
   reactStrictMode: true,
   compiler: {
     reactRemoveProperties: true,
