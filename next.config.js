@@ -9,7 +9,6 @@ const nextConfig = {
     reactRemoveProperties: true,
     removeConsole,
   },
-  distDir: "build",
 }
 
 module.exports = nextConfig
