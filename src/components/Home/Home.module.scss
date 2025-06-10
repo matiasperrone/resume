@@ -43,6 +43,7 @@ $padding-top-layout: 2rem;
         align-content: stretch;
         justify-content: stretch;
         color: rgb(var(--foreground-gray));
+
         @media print {
             display: block;
         }
@@ -82,8 +83,10 @@ $padding-top-layout: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 30px;
     z-index: 3;
+    width: calc(100% - 75px);
 
     @media print {
         display: none;

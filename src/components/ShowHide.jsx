@@ -1,14 +1,17 @@
 "use client";
 import { useState } from "react";
+import Translate from "./Translate";
 
-const ShowHide = ({ show, children, text, showText = "Show", hideText = "Hide" }) => {
+const ShowHide = ({ show, children, text }) => {
     const [showing, setShowing] = useState(show);
     const toggle = () => {
         setShowing(!showing);
     }
     return (
         <>
-            <article className="cursor-pointer d-print-none pb-3" onClick={toggle}>{showing ? hideText : showText} {text}</article>
+            <article className="cursor-pointer d-print-none pb-3" onClick={toggle}>
+                <Translate text={showing ? "Hide" : "Show"} /> {text}
+            </article>
             <div className={`d-print-none ${showing ? "" : "d-none"}`}>
                 {children}
             </div>

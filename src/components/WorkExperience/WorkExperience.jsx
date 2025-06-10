@@ -1,19 +1,24 @@
 import AnchorShowHide from "@/components/AnchorShowHide";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useWorkContext } from "@/contexts/WorkContext";
 import { convertMDTags, t } from "@/helpers/string";
+import Translate from "@/components/Translate";
 
 const WorkExperience = ({ job, className = "" }) => {
-  const { language } = useLanguage();
+  const { language } = useWorkContext();
   return (
     <article className={className}>
       <h4>{job.company} - {job.position}</h4>
       <dl>
         <dt className="job-dates">{job.dates}</dt>
         {job.customer && (
-          <dt className="job-subtitle">{job.customer.title ?? "Customer"}: <b>{job.customer.content}</b></dt>
+          <dt className="job-subtitle">
+            {job.customer.title ?
+              <>{job.customer.title}</> :
+              <Translate text="customer" />
+            }: <b>{job.customer.content}</b></dt>
         )}
         {job.techs && typeof job.techs === "string" && (
-          <div><b>Techs:</b> {job.techs}</div>
+          <div><b className="text-capitalize"><Translate text="technologies used" />:</b> {job.techs}</div>
         )}
         {typeof job.techs === "object" && Object.entries(job.techs ?? {}).map(([name, techs]) => (
           <div key={"tech-" + name}><b>{name}:</b> {techs}</div>
@@ -41,8 +46,8 @@ const WorkExperience = ({ job, className = "" }) => {
             }
           })}
         </dd>
-        <AnchorShowHide showClassName={false}>{t("see more")}</AnchorShowHide>
-        <AnchorShowHide showClassName={true}>{t("see less")}</AnchorShowHide>
+        <AnchorShowHide showClassName={false}><Translate text="see more" /></AnchorShowHide>
+        <AnchorShowHide showClassName={true}><Translate text="see less" /></AnchorShowHide>
       </dl>
     </article>
   );

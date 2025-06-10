@@ -1,5 +1,6 @@
 {
     "en": {
+        "language": "English",
         "summary": [
             "[b]Experienced Full Stack Developer  Architecting Scalable Solutions[/b]",
             "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]e-commerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
@@ -380,13 +381,10 @@
                 ],
                 "techs": "ANSI C, Bash scripting, Unix Administration."
             }
-        ],
-        "traslation": {
-            "see more": "ver más",
-            "see less": "ver menos"
-        }
+        ]
     },
     "es": {
+        "language": "Español",
         "summary": [
             "Soy desarrollador desde 1998 y desarrollador web full stack desde 2004, tengo más de 20 años de experiencia.",
             "Tengo experiencia en muchas industrias diferentes, como comercio electrónico, bienes raíces, alquiler de alojamiento temporal, telecomunicaciones y más.",
@@ -767,6 +765,39 @@
                 ],
                 "techs": "ANSI C, Bash scripting, Administración Unix."
             }
-        ]
+        ],
+        "translation": {
+            "see more": "ver más",
+            "see less": "ver menos",
+            "Hide": "Ocultar",
+            "Show": "Mostrar",
+            "loading": "cargando",
+            "download": "descargar",
+            "mobile": "celular",
+            "email": "correo electrónico",
+            "contact info": "información de contacto",
+            "languages": "idiomas",
+            "sites": "sitios web",
+            "education": "educación",
+            "technologies": "tecnologías",
+            "summary": "resumen",
+            "jobs": "trabajos",
+            "old jobs": "trabajos anteriores",
+            "company": "empresa",
+            "position": "posición",
+            "dates": "fechas",
+            "description": "descripción",
+            "technologies used": "tecnologías utilizadas",
+            "work experience": "experiencia laboral",
+            "customer": "cliente",
+            "Translate to": "Traducir al",
+            "Switch to Light Mode": "Cambiar a Modo Claro",
+            "Switch to Dark Mode": "Cambiar a Modo Oscuro",
+            "older job experiences": "experiencias laborales anteriores"
+        },
+        "metadata": {
+            "title": "Matias Perrone's Resume",
+            "description": "Matias Perrone's Resume"
+        }
     }
 }
