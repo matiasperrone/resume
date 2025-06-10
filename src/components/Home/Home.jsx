@@ -4,7 +4,6 @@ import { Image } from "react-bootstrap";
 import classes from "./Home.module.scss";
 import { Montserrat } from 'next/font/google'
 import ThemeSwitcher from "@/components/ThemeSwitcher";
-import Link from "@/components/Link";
 import Download from "@/components/Download";
 import WorkExperience from "@/components/WorkExperience";
 import ShowHide from "@/components/ShowHide";
@@ -64,7 +63,7 @@ export default function Home() {
       <div>
         <hgroup>
           <div>
-            <Image src="/images/matias.jpg" alt="Matias' Picture" />
+            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_1200x1200.webp 1200w,/images/matias_153x153.jpg 153w" alt="Matias' Picture" />
           </div>
           <div>
             <h1 className={fontH1.className}>
