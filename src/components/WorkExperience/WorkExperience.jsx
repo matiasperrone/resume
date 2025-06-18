@@ -12,6 +12,7 @@ const WorkExperience = ({ job, className = "" }) => {
       <dl>
         <dt className="job-dates">
           From: <time dateTime={job.dates.from}>{formatDateYYYYMMToMMMYYYY(job.dates.from)}</time>
+          &nbsp;&#x002D;
           To: {job.dates.to ? (<time dateTime={job.dates.to}>{formatDateYYYYMMToMMMYYYY(job.dates.to)}</time>) : "Present"}
         </dt>
         {job.customer && (
@@ -33,20 +34,20 @@ const WorkExperience = ({ job, className = "" }) => {
             const descriptionKey = "paragraph" + ix;
             const errorResult = `typeof paragraph: ${typeof paragraph}`;
             switch (typeof paragraph) {
-            case "object":
-              return Array.isArray(paragraph) ? (
-                <ul key={descriptionKey}>
-                  {paragraph.map((subParagraphText, ix) => (
-                    <li key={descriptionKey + "sub-" + ix} dangerouslySetInnerHTML={{ __html: convertMDTags(subParagraphText) }} />
-                  ))}
-                </ul>
-              ) : errorResult;
-            case "string":
-              return (
-                <div key={descriptionKey} dangerouslySetInnerHTML={{ __html: convertMDTags(paragraph) }} />
-              );
-            default:
-              return errorResult;
+              case "object":
+                return Array.isArray(paragraph) ? (
+                  <ul key={descriptionKey}>
+                    {paragraph.map((subParagraphText, ix) => (
+                      <li key={descriptionKey + "sub-" + ix} dangerouslySetInnerHTML={{ __html: convertMDTags(subParagraphText) }} />
+                    ))}
+                  </ul>
+                ) : errorResult;
+              case "string":
+                return (
+                  <div key={descriptionKey} dangerouslySetInnerHTML={{ __html: convertMDTags(paragraph) }} />
+                );
+              default:
+                return errorResult;
 
             }
           })}
