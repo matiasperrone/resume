@@ -40,9 +40,9 @@ export default function Home() {
     <li key={`language-${name}`}>{name}: {level}</li>
   ));
 
-  const jobMapping = (job) => (
+  const jobMapping = (job, index) => (
     <WorkExperience
-      key={job.company + job.dates + job.position}
+      key={job.company + job.position + job.dates.from + (job.dates.to ?? "present") + index}
       job={job}
       className="work-experience"
     />
