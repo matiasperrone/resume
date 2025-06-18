@@ -120,7 +120,10 @@
             {
                 "company": "Freelance",
                 "position": "Full Stack Developer",
-                "dates": "From: May 2025 - To: Present",
+                "dates": {
+                    "from": "2025-05",
+                    "to": null
+                },
                 "description": [
                     "As a freelance developer, I work with other developer, as a team, we have several clients and I work in different projects.",
                     "The main technologies that we work with are: Typescript, ReactJS, VueJS, NextJS PHP and NodeJS.",
@@ -131,7 +134,10 @@
             {
                 "company": "Command|Link - USA",
                 "position": "Full Stack Senior Web Developer",
-                "dates": "From: May 2024 - To: May 2025: 1 year",
+                "dates": {
+                    "from": "2024-05",
+                    "to": "2025-05"
+                },
                 "description": [
                     "As a Full Stack Senior Web Developer I:",
                     [
@@ -149,7 +155,10 @@
             {
                 "company": "Globant - Argentina | Kingdom of Saudi Arabia",
                 "position": "Senior Web UI Developer",
-                "dates": "From: January 2024 - To: May 2024: 5 months",
+                "dates": {
+                    "from": "2024-01",
+                    "to": "2024-05"
+                },
                 "description": [
                     "As a Senior Web UI Developer I resolved a lot of performance issues and development issues.",
                     [
@@ -164,7 +173,10 @@
             {
                 "company": "Pest Share - USA",
                 "position": "Full Stack Developer",
-                "dates": "From: March 2023 - To: September 2023: 6 months",
+                "dates": {
+                    "from": "2023-03",
+                    "to": "2023-09"
+                },
                 "description": [
                     "As the main developer of the \"Claim Management\" project, I was able to convince the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version.",
                     "I also introduced Laravel along with a backend team member for the API, and at the same time keep the legacy code working as needed.",
@@ -185,7 +197,10 @@
             {
                 "company": "Mahisoft - USA",
                 "position": "Full Stack Developer",
-                "dates": "From: November 2021 - To: January 2023: 1 year, 2 months",
+                "dates": {
+                    "from": "2021-11",
+                    "to": "2023-01"
+                },
                 "customer": {
                     "title": "Customer",
                     "content": "BidMyListing.com"
@@ -201,7 +216,10 @@
             {
                 "company": "Willdom - USA",
                 "position": "Full Stack Developer",
-                "dates": "From: March 2021 - To: November 2021: 9 months",
+                "dates": {
+                    "from": "2021-03",
+                    "to": "2021-11"
+                },
                 "customer": {
                     "title": "Customer",
                     "content": "LaCure Villas"
@@ -216,7 +234,10 @@
             {
                 "company": "Wortise - Argentina / Uruguay",
                 "position": "Lead Developer",
-                "dates": "From: May 2020 - To: January 2021: 9 months",
+                "dates": {
+                    "from": "2020-05",
+                    "to": "2021-01"
+                },
                 "description": [
                     "In Wortise, which is a very young company with a dynamic spirit, I work in the development area, carrying out analysis, participating a lot, contributing my grain of sand and sharing with great minds a job that fills me a lot, I feel a belonging that I do not I felt before and the team&apos;s push allows me and asks me to give my best.",
                     "In particular, I carry out internal business support software development, changes within the AdServer core and also completely innovative, ambitious and disruptive projects."
@@ -229,7 +250,10 @@
             {
                 "company": "Global Innovation - Argentina, USA, etc.",
                 "position": "Developer and founder",
-                "dates": "From: February 2017 - To: May 2020: 3 years and 4 months",
+                "dates": {
+                    "from": "2017-02",
+                    "to": "2020-05"
+                },
                 "description": [
                     "This is my personal brand as developer.",
                     "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
@@ -243,7 +267,10 @@
             {
                 "company": "Global Innovation",
                 "position": "Senior Lead Software Engineer",
-                "dates": "From: February 2017 - To: January 2019: 2 years",
+                "dates": {
+                    "from": "2017-02",
+                    "to": "2019-01"
+                },
                 "customer": {
                     "title": "Customers",
                     "content": "Baires Apartments and Welcome2BA"
@@ -259,7 +286,10 @@
             {
                 "company": "aluGuest.com",
                 "position": "Founder, CTO and Senior Developer",
-                "dates": "From: April 2012 - To: January 2017: 4 years and 10 months",
+                "dates": {
+                    "from": "2012-04",
+                    "to": "2017-01"
+                },
                 "description": [
                     "aluGuest.com was a platform for temporary accomodation rental focused in the latinamerican market.",
                     "We have integrations with large credit card processing providers like Braintree and PayPal and we had to create are own credit card processing company with its own API and integration, we called it aluPays.",
@@ -272,7 +302,10 @@
             {
                 "company": "Movistar",
                 "position": "Functional Analyst",
-                "dates": "From: December 2010 - To: April 2012: 1 year and 5 months",
+                "dates": {
+                    "from": "2010-12",
+                    "to": "2012-04"
+                },
                 "description": [
                     "My task were the Project Management and Functional Analysis, as a link between business analysts and the software factory in addition to managing the setup of the environments for new applications and interact with other areas such as Production Management, Information Security and Application Architecture to reach the best possible solution, both technically and functionally.",
                     "The area is focused to everything involving applications for client’s self-management, such as www.movistar.com.ar, www.tiendamovistar.com.ar, online.movistar.com.ar (Self-management for individuals), portal-empresas.movistar.com.ar (Self-management for Companies and Organizations) and several others for internal customer management.",
@@ -282,7 +315,10 @@
             {
                 "company": "Global Innovation",
                 "position": "Developer and founder",
-                "dates": "From: May 2007 - To: December 2010: 3 years and 8 months",
+                "dates": {
+                    "from": "2007-05",
+                    "to": "2010-12"
+                },
                 "description": [
                     "This is my personal brand as developer.",
                     "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
@@ -294,7 +330,10 @@
             {
                 "company": "RealidadIT.com",
                 "position": "Author and Cofounder",
-                "dates": "From: October 2009 - To: September 2013: 4 years",
+                "dates": {
+                    "from": "2009-10",
+                    "to": "2013-09"
+                },
                 "description": [
                     "Blog with news about IT in Argentina and around the world."
                 ]
@@ -302,7 +341,10 @@
             {
                 "company": "Striggy.com",
                 "position": "Founder and developer",
-                "dates": "From: March 2006 - To: December 2010: 4 years and 10 months",
+                "dates": {
+                    "from": "2006-03",
+                    "to": "2010-12"
+                },
                 "description": [
                     "Business Plan. Design and development of the site. Product advertisement.",
                     "demo: https://www.matiasperrone.com/striggy"
@@ -312,7 +354,10 @@
             {
                 "company": "Plus Mobile Communications / Audiotel",
                 "position": "Systems Analyst",
-                "dates": "From: November 2004 - To: May 2006: 1 year and 7 months",
+                "dates": {
+                    "from": "2004-11",
+                    "to": "2006-05"
+                },
                 "description": [
                     "November of 2004 to March of 2005:",
                     "I worked as a Systems Analyst, analyzing and designing business support systems for internal and external clients, focusing mainly on the analysis, design and development business management system and billing for VoIP services.",
@@ -327,7 +372,10 @@
             {
                 "company": "IBM",
                 "position": "Semi-Senior Programmer Analyst",
-                "dates": "From: June 2004 - To: November 2004: 6 months",
+                "dates": {
+                    "from": "2004-06",
+                    "to": "2004-11"
+                },
                 "description": [
                     "As a programmer Analyst for one of the clients (IBM) in a project of Telefonica de Argentina. Responsible to detect wrong data in the information provided by the Commercial and Technical Management system and make the changes to correct them."
                 ],
@@ -336,7 +384,10 @@
             {
                 "company": "Physis Informática",
                 "position": "Programmer Analyst",
-                "dates": "From: March 2004 - To: May 2004: 3 months",
+                "dates": {
+                    "from": "2004-03",
+                    "to": "2004-05"
+                },
                 "description": [
                     "Development of new features to several systems that were commercialized by the company."
                 ],
@@ -345,7 +396,10 @@
             {
                 "company": "FunArg",
                 "position": "Programmer Analyst",
-                "dates": "From: August 2001 - To: November 2003: 2 years and 4 months",
+                "dates": {
+                    "from": "2001-08",
+                    "to": "2003-11"
+                },
                 "description": [
                     "This was my first time as a System Analyst, responsible of several management modules of the ERP of the company.",
                     "This multinational company was dedicated to the area of funeral services and private cemeteries."
@@ -355,7 +409,10 @@
             {
                 "company": "Freelance",
                 "position": "Developer",
-                "dates": "From: August 2001 - To: November 2003: 2 years and 4 months",
+                "dates": {
+                    "from": "2001-08",
+                    "to": "2003-11"
+                },
                 "description": [
                     "I developed several systems and offer support and technical advising to my clients."
                 ],
@@ -364,7 +421,10 @@
             {
                 "company": "Telectronica",
                 "position": "Software Developer",
-                "dates": "From: December 2000 - To: March 2001: 4 months",
+                "dates": {
+                    "from": "2000-12",
+                    "to": "2001-03"
+                },
                 "description": [
                     "Development of customized systems, mainly systems to collect data in devices like Palm Pilot. This company is Argentine and has branches in Uruguay and Brazil, and also is supplier of the necessary equipment to collect the information."
                 ],
@@ -373,7 +433,10 @@
             {
                 "company": "DayCom",
                 "position": "System Support and Developer",
-                "dates": "From: December 2000 - To: March 2001: 4 months",
+                "dates": {
+                    "from": "2000-12",
+                    "to": "2001-03"
+                },
                 "description": [
                     "Subsidiary company of Offnet S.p.A. from Italy that changed its trade name to Offnet Argentina S.A., It were dedicated to Telecommunications Businesses. Its main project was the maintenance of the services 112 and 114 of Telecom, among others.",
                     "Hired as a programmer, but due to a high demand of resources he changed to the Technical Support Department, although still developing systems for internal use that were oriented to maintenance and administration tasks in UNIX (IVRs) and Windows NT 4 servers."
@@ -503,7 +566,10 @@
             {
                 "company": "Freelance",
                 "position": "Desarrollador Full Stack",
-                "dates": "Desde: Mayo 2025 - Hasta: Actualidad",
+                "dates": {
+                    "from": "2025-05",
+                    "to": null
+                },
                 "description": [
                     "Como desarrollador freelance, trabajo con otros desarrolladores en equipo, tenemos varios clientes y trabajo en diferentes proyectos.",
                     "Las principales tecnologías con las que trabajamos son: Typescript, ReactJS, VueJS, NextJS, PHP y NodeJS.",
@@ -514,7 +580,10 @@
             {
                 "company": "Command|Link - USA",
                 "position": "Desarrollador Web Senior Full Stack",
-                "dates": "Desde: Mayo 2024 - Hasta: Mayo 2025: 1 año",
+                "dates": {
+                    "from": "2024-05",
+                    "to": "2025-05"
+                },
                 "description": [
                     "Como Desarrollador Web Senior Full Stack:",
                     [
@@ -532,7 +601,10 @@
             {
                 "company": "Globant - Argentina | Reino de Arabia Saudita",
                 "position": "Desarrollador Senior Web UI",
-                "dates": "Desde: Enero 2024 - Hasta: Mayo 2024: 5 meses",
+                "dates": {
+                    "from": "2024-01",
+                    "to": "2024-05"
+                },
                 "description": [
                     "Como Desarrollador Senior Web UI resolví muchos problemas de rendimiento y desarrollo.",
                     [
@@ -547,7 +619,10 @@
             {
                 "company": "Pest Share - USA",
                 "position": "Desarrollador Full Stack",
-                "dates": "Desde: Marzo 2023 - Hasta: Septiembre 2023: 6 meses",
+                "dates": {
+                    "from": "2023-03",
+                    "to": "2023-09"
+                },
                 "description": [
                     "Como desarrollador principal del proyecto \"Claim Management\", pude convencer a los líderes de cambiar la pila tecnológica del proyecto de JQuery, como se solicitó inicialmente, a una versión de ReactJS, particularmente una versión de NextJS.",
                     "También introduje Laravel junto con un miembro del equipo de backend para la API, y al mismo tiempo mantuve el código legacy funcionando según fuera necesario.",
@@ -568,7 +643,10 @@
             {
                 "company": "Mahisoft - USA",
                 "position": "Desarrollador Full Stack",
-                "dates": "Desde: Noviembre 2021 - Hasta: Enero 2023: 1 año, 2 meses",
+                "dates": {
+                    "from": "2021-11",
+                    "to": "2023-01"
+                },
                 "customer": {
                     "title": "Cliente",
                     "content": "BidMyListing.com"
@@ -584,7 +662,10 @@
             {
                 "company": "Willdom - USA",
                 "position": "Desarrollador Full Stack",
-                "dates": "Desde: Marzo 2021 - Hasta: Noviembre 2021: 9 meses",
+                "dates": {
+                    "from": "2021-03",
+                    "to": "2021-11"
+                },
                 "customer": {
                     "title": "Cliente",
                     "content": "LaCure Villas"
@@ -599,7 +680,10 @@
             {
                 "company": "Wortise - Argentina / Uruguay",
                 "position": "Desarrollador Líder",
-                "dates": "Desde: Mayo 2020 - Hasta: Enero 2021: 9 meses",
+                "dates": {
+                    "from": "2020-05",
+                    "to": "2021-01"
+                },
                 "description": [
                     "En Wortise, que es una empresa muy joven con un espíritu dinámico, trabajo en el área de desarrollo, realizando análisis, participando mucho, aportando mi grano de arena y compartiendo con grandes mentes un trabajo que me llena mucho, siento una pertenencia que no sentía antes y el empuje del equipo me permite y me pide que dé lo mejor de mí.",
                     "En particular, realizo desarrollo de software de soporte interno para el negocio, cambios dentro del núcleo del AdServer y también proyectos completamente innovadores, ambiciosos y disruptivos."
@@ -612,7 +696,10 @@
             {
                 "company": "Global Innovation - Argentina, USA, etc.",
                 "position": "Desarrollador y fundador",
-                "dates": "Desde: Febrero 2017 - Hasta: Mayo 2020: 3 años y 4 meses",
+                "dates": {
+                    "from": "2017-02",
+                    "to": "2020-05"
+                },
                 "description": [
                     "Esta es mi marca personal como desarrollador.",
                     "En mi trato diario con los clientes, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
@@ -626,7 +713,10 @@
             {
                 "company": "Global Innovation",
                 "position": "Ingeniero de Software Líder Senior",
-                "dates": "Desde: Febrero 2017 - Hasta: Enero 2019: 2 años",
+                "dates": {
+                    "from": "2017-02",
+                    "to": "2019-01"
+                },
                 "customer": {
                     "title": "Clientes",
                     "content": "Baires Apartments y Welcome2BA"
@@ -642,7 +732,10 @@
             {
                 "company": "aluGuest.com",
                 "position": "Fundador, CTO y Desarrollador Senior",
-                "dates": "Desde: Abril 2012 - Hasta: Enero 2017: 4 años y 10 meses",
+                "dates": {
+                    "from": "2012-04",
+                    "to": "2017-01"
+                },
                 "description": [
                     "aluGuest.com era una plataforma para el alquiler de alojamiento temporal enfocada en el mercado latinoamericano.",
                     "Teníamos integraciones con grandes proveedores de procesamiento de tarjetas de crédito como Braintree y PayPal y tuvimos que crear nuestra propia compañía de procesamiento de tarjetas de crédito con su propia API e integración, la llamamos aluPays.",
@@ -655,7 +748,10 @@
             {
                 "company": "Movistar",
                 "position": "Analista Funcional",
-                "dates": "Desde: Diciembre 2010 - Hasta: Abril 2012: 1 año y 5 meses",
+                "dates": {
+                    "from": "2010-12",
+                    "to": "2012-04"
+                },
                 "description": [
                     "Mis tareas eran la Gestión de Proyectos y Análisis Funcional, como enlace entre los analistas de negocio y la factoría de software además de gestionar la configuración de los entornos para nuevas aplicaciones e interactuar con otras áreas como Gestión de Producción, Seguridad de la Información y Arquitectura de Aplicaciones para alcanzar la mejor solución posible, tanto técnica como funcionalmente.",
                     "El área se enfoca a todo lo que involucra aplicaciones para la autogestión de clientes, tales como www.movistar.com.ar, www.tiendamovistar.com.ar, online.movistar.com.ar (Autogestión para particulares), portal-empresas.movistar.com.ar (Autogestión para Empresas y Organizaciones) y varias otras para la gestión interna de clientes.",
@@ -665,7 +761,10 @@
             {
                 "company": "Global Innovation",
                 "position": "Desarrollador y fundador",
-                "dates": "Desde: Mayo 2007 - Hasta: Diciembre 2010: 3 años y 8 meses",
+                "dates": {
+                    "from": "2007-05",
+                    "to": "2010-12"
+                },
                 "description": [
                     "Esta es mi marca personal como desarrollador.",
                     "En mi trato diario con los clientes, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
@@ -677,7 +776,10 @@
             {
                 "company": "RealidadIT.com",
                 "position": "Autor y Cofundador",
-                "dates": "Desde: Octubre 2009 - Hasta: Septiembre 2013: 4 años",
+                "dates": {
+                    "from": "2009-10",
+                    "to": "2013-09"
+                },
                 "description": [
                     "Blog con noticias sobre TI en Argentina y alrededor del mundo."
                 ]
@@ -685,7 +787,10 @@
             {
                 "company": "Striggy.com",
                 "position": "Fundador y desarrollador",
-                "dates": "Desde: Marzo 2006 - Hasta: Diciembre 2010: 4 años y 10 meses",
+                "dates": {
+                    "from": "2006-03",
+                    "to": "2010-12"
+                },
                 "description": [
                     "Plan de Negocios. Diseño y desarrollo del sitio. Publicidad del producto.",
                     "demo: https://www.matiasperrone.com/striggy"
@@ -695,7 +800,10 @@
             {
                 "company": "Plus Mobile Communications / Audiotel",
                 "position": "Analista de Sistemas",
-                "dates": "Desde: Noviembre 2004 - Hasta: Mayo 2006: 1 año y 7 meses",
+                "dates": {
+                    "from": "2004-11",
+                    "to": "2006-05"
+                },
                 "description": [
                     "Noviembre de 2004 a Marzo de 2005:",
                     "Trabajé como Analista de Sistemas, analizando y diseñando sistemas de soporte de negocio para clientes internos y externos, enfocándome principalmente en el análisis, diseño y desarrollo del sistema de gestión de negocio y facturación para servicios VoIP.",
@@ -710,7 +818,10 @@
             {
                 "company": "IBM",
                 "position": "Analista Programador Semi-Senior",
-                "dates": "Desde: Junio 2004 - Hasta: Noviembre 2004: 6 meses",
+                "dates": {
+                    "from": "2004-06",
+                    "to": "2004-11"
+                },
                 "description": [
                     "Como Analista Programador para uno de los clientes (IBM) en un proyecto de Telefónica de Argentina. Responsable de detectar datos erróneos en la información proporcionada por el sistema de Gestión Comercial y Técnica y realizar los cambios para corregirlos."
                 ],
@@ -719,7 +830,10 @@
             {
                 "company": "Physis Informática",
                 "position": "Analista Programador",
-                "dates": "Desde: Marzo 2004 - Hasta: Mayo 2004: 3 meses",
+                "dates": {
+                    "from": "2004-03",
+                    "to": "2004-05"
+                },
                 "description": [
                     "Desarrollo de nuevas funcionalidades para varios sistemas que comercializaba la empresa."
                 ],
@@ -728,7 +842,10 @@
             {
                 "company": "FunArg",
                 "position": "Analista Programador",
-                "dates": "Desde: Agosto 2001 - Hasta: Noviembre 2003: 2 años y 4 meses",
+                "dates": {
+                    "from": "2001-08",
+                    "to": "2003-11"
+                },
                 "description": [
                     "Esta fue mi primera vez como Analista de Sistemas, responsable de varios módulos de gestión del ERP de la empresa.",
                     "Esta empresa multinacional se dedicaba al área de servicios funerarios y cementerios privados."
@@ -738,7 +855,10 @@
             {
                 "company": "Freelance",
                 "position": "Desarrollador",
-                "dates": "Desde: Agosto 2001 - Hasta: Noviembre 2003: 2 años y 4 meses",
+                "dates": {
+                    "from": "2001-08",
+                    "to": "2003-11"
+                },
                 "description": [
                     "Desarrollé varios sistemas y ofrecí soporte y asesoramiento técnico a mis clientes."
                 ],
@@ -747,7 +867,10 @@
             {
                 "company": "Telectronica",
                 "position": "Desarrollador de Software",
-                "dates": "Desde: Diciembre 2000 - Hasta: Marzo 2001: 4 meses",
+                "dates": {
+                    "from": "2000-12",
+                    "to": "2001-03"
+                },
                 "description": [
                     "Desarrollo de sistemas personalizados, principalmente sistemas para recolectar datos en dispositivos como Palm Pilot. Esta empresa es argentina y tiene sucursales en Uruguay y Brasil, y también es proveedora del equipamiento necesario para recolectar la información."
                 ],
@@ -756,7 +879,10 @@
             {
                 "company": "DayCom",
                 "position": "Soporte de Sistemas y Desarrollador",
-                "dates": "Desde: Diciembre 2000 - Hasta: Marzo 2001: 4 meses",
+                "dates": {
+                    "from": "2000-12",
+                    "to": "2001-03"
+                },
                 "description": [
                     "Empresa subsidiaria de Offnet S.p.A. de Italia que cambió su nombre comercial a Offnet Argentina S.A., se dedicaba a Negocios de Telecomunicaciones. Su proyecto principal era el mantenimiento de los servicios 112 y 114 de Telecom, entre otros.",
                     "Contratado como programador, pero debido a una alta demanda de recursos cambió al Departamento de Soporte Técnico, aunque seguía desarrollando sistemas de uso interno orientados a tareas de mantenimiento y administración en servidores UNIX (IVRs) y Windows NT 4."
