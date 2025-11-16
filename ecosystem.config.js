@@ -7,12 +7,12 @@ module.exports = {
       interpreter: "none",
       env: {
         NODE_ENV: "production",
-        PORT: 3001,
+        PORT: 3000,
         PATH: `${process.env.HOME}/.bun/bin:${process.env.PATH}`,
       },
       env_development: {
         NODE_ENV: "development",
-        PORT: 3001,
+        PORT: 3000,
         PATH: `${process.env.HOME}/.bun/bin:${process.env.PATH}`,
       },
     },
