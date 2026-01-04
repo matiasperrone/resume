@@ -9,19 +9,19 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
-    "bootstrap": "^5.3.2",
-    "bootstrap-icons": "^1.11.1",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "next": "latest",
     "react": "latest",
-    "react-bootstrap": "^2.9.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "latest",
-    "react-inlinesvg": "^4.1.0"
+    "react-inlinesvg": "^4.2.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
-    "sass": "^1.68.0"
+    "sass": "^1.97.1"
   }
 }
