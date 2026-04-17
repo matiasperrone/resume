@@ -11,9 +11,9 @@ const WorkExperience = ({ job, className = "" }) => {
       <h4>{job.company} - {job.position}</h4>
       <dl>
         <dt className="job-dates">
-          From: <time dateTime={job.dates.from}>{formatDateYYYYMMToMMMYYYY(job.dates.from)}</time>
-          &nbsp;&#x002D;
-          To: {job.dates.to ? (<time dateTime={job.dates.to}>{formatDateYYYYMMToMMMYYYY(job.dates.to)}</time>) : "Present"}
+          <Translate text="From" />: <time dateTime={job.dates.from}>{formatDateYYYYMMToMMMYYYY(job.dates.from, language)}</time>
+          &nbsp;&#x002D;&nbsp;
+          <Translate text="To" />: {job.dates.to ? (<time dateTime={job.dates.to}>{formatDateYYYYMMToMMMYYYY(job.dates.to, language)}</time>) : <Translate text="Present" />}
         </dt>
         {job.customer && (
           <dt className="job-subtitle">
@@ -52,8 +52,8 @@ const WorkExperience = ({ job, className = "" }) => {
             }
           })}
         </dd>
-        <AnchorShowHide showClassName={false}><Translate text="see more" /></AnchorShowHide>
-        <AnchorShowHide showClassName={true}><Translate text="see less" /></AnchorShowHide>
+        <AnchorShowHide showClassName={false}><Translate text="See more" /></AnchorShowHide>
+        <AnchorShowHide showClassName={true}><Translate text="See less" /></AnchorShowHide>
       </dl>
     </article>
   );

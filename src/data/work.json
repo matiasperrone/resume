@@ -118,6 +118,21 @@
         },
         "jobs": [
             {
+                "company": "Exomindset",
+                "position": "Senior Web Developer",
+                "dates": {
+                    "from": "2025-08",
+                    "to": null
+                },
+                "description": [
+                    "I have worked for Open Infrastructure Foundation, migrating open and private source code projects:",
+                    "",
+                    "Migrating from SilverStripe (PHP) to Gatsby (ReactJS), using a Decap CMS (former Netlify CMS).",
+                    "Implementing OpenAPI (former Swagger) in several very complex API, doing reverse ingeniering to document the different API's endpoints property (+~1200)"
+                ],
+                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
+            },
+            {
                 "company": "Freelance",
                 "position": "Full Stack Developer",
                 "dates": {
@@ -564,6 +579,36 @@
         },
         "jobs": [
             {
+                "company": "Exomindset",
+                "position": "Senior Web Developer",
+                "dates": {
+                    "from": "2025-08",
+                    "to": null
+                },
+                "description": [
+                    "I have worked for Open Infrastructure Foundation, migrating open and private source code projects:",
+                    "",
+                    "Migrating from SilverStripe (PHP) to Gatsby (ReactJS), using a Decap CMS (former Netlify CMS).",
+                    "Implementing OpenAPI (former Swagger) in several very complex API, doing reverse ingeniering to document the different API's endpoints property (+~1200)"
+                ],
+                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
+            },
+            {
+                "company": "Exomindset",
+                "position": "Senior Web Developer",
+                "dates": {
+                    "from": "2025-08",
+                    "to": null
+                },
+                "description": [
+                    "He trabajado para Open Infrastructure Foundation, migrando proyectos de código fuente abiertos y privados:",
+                    "",
+                    "Migración de SilverStripe (PHP) a Gatsby (ReactJS), utilizando Decap CMS (anteriormente Netlify CMS).",
+                    "Implementación de OpenAPI (anteriormente Swagger) en varias APIs muy complejas, realizando ingeniería inversa para documentar las propiedades de los distintos endpoints de la API (+~1200)."
+                ],
+                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
+            },
+            {
                 "company": "Freelance",
                 "position": "Desarrollador Full Stack",
                 "dates": {
@@ -891,8 +936,12 @@
             }
         ],
         "translation": {
-            "see more": "ver más",
-            "see less": "ver menos",
+            "from": "desde",
+            "to": "hasta",
+            "From": "Desde",
+            "To": "Hasta",
+            "see more": "Ver más",
+            "see less": "Ver menos",
             "Hide": "Ocultar",
             "Show": "Mostrar",
             "loading": "cargando",
@@ -917,7 +966,8 @@
             "Translate to": "Traducir al",
             "Switch to Light Mode": "Cambiar a Modo Claro",
             "Switch to Dark Mode": "Cambiar a Modo Oscuro",
-            "older job experiences": "experiencias laborales anteriores"
+            "older job experiences": "experiencias laborales anteriores",
+            "Present": "Presente"
         },
         "metadata": {
             "title": "Matias Perrone's Resume",
