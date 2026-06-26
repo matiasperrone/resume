@@ -131,15 +131,9 @@
                     "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects are focused on web environments and web services depending on needs.",
                     "[b]Some of the main clients:[/b]",
                     [
-                        [
-                            "Welcome2BA.com: Platform development from the ground up, Slack, Calendars Sync, Online Payments, agency management. Customized PHP CodeIgniter and  jQuery later Nuxt/Vue and PHP/Laravel."
-                        ],
-                        [
-                            "BairesAparments.com: Merged with welcome2ba.com, system migration towards Welcome2BA platform."
-                        ],
-                        [
-                            "Fanyion.com: Startup, SaaS multi-tenant platform created from the ground up, PHP Laravel API and Next frontend UI."
-                        ]
+                        "Welcome2BA.com: Platform development from the ground up, Slack, Calendars Sync, Online Payments, agency management. Customized PHP CodeIgniter and  jQuery later Nuxt/Vue and PHP/Laravel.",
+                        "BairesAparments.com: Merged with welcome2ba.com, system migration towards Welcome2BA platform.",
+                        "Fanyion.com: Startup, SaaS multi-tenant platform created from the ground up, PHP Laravel API and Next frontend UI."
                     ]
                 ],
                 "techs": {
@@ -600,15 +594,9 @@
                     "Una vez aprobado el presupuesto, realizo un análisis más profundo, que se discute luego con el cliente, realizando los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocan en entornos web y servicios web según las necesidades.",
                     "[b]Algunos de los principales clientes:[/b]",
                     [
-                        [
-                            "Welcome2BA.com: Desarrollo de la plataforma desde cero, Slack, Sincronización de Calendarios, Pagos en Línea, gestión de agencias. PHP CodeIgniter personalizado y jQuery, luego Nuxt/Vue y PHP/Laravel."
-                        ],
-                        [
-                            "BairesAparments.com: Fusionado con welcome2ba.com, migración del sistema hacia la plataforma Welcome2BA."
-                        ],
-                        [
-                            "Fanyion.com: Startup, plataforma SaaS multi-tenant creada desde cero, API PHP Laravel y UI frontend Next."
-                        ]
+                        "Welcome2BA.com: Desarrollo de la plataforma desde cero, Slack, Sincronización de Calendarios, Pagos en Línea, gestión de agencias. PHP CodeIgniter personalizado y jQuery, luego Nuxt/Vue y PHP/Laravel.",
+                        "BairesAparments.com: Fusionado con welcome2ba.com, migración del sistema hacia la plataforma Welcome2BA.",
+                        "Fanyion.com: Startup, plataforma SaaS multi-tenant creada desde cero, API PHP Laravel y UI frontend Next."
                     ]
                 ],
                 "techs": {

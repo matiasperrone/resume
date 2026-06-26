@@ -1,11 +1,19 @@
 import workInfo from "@/data/work.json";
 
 export const convertMDTags = (str) =>
-  str.replace(/\[([a-z]+)\]([^\]]+)\[\/([a-z]+)\]/g, "<$1>$2</$3>");
+  typeof str === "string"
+    ? str.replace(/\[([a-z]+)\]([^\]]+)\[\/([a-z]+)\]/g, "<$1>$2</$3>")
+    : console.warn(`Expected a string but received ${typeof str}`, str);
+
 export const stripMDTags = (str) =>
-  str.replace(/\[\/?[a-z]+\]/g, "");
+  typeof str === "string"
+    ? str.replace(/\[\/?[a-z]+\]/g, "")
+    : console.warn(`Expected a string but received ${typeof str}`, str);
+
 export const ucfirst = (str) =>
-  str.trim().charAt(0).toUpperCase() + str.trim().slice(1);
+  typeof str === "string"
+    ? str.trim().charAt(0).toUpperCase() + str.trim().slice(1)
+    : console.warn(`Expected a string but received ${typeof str}`, str);
 
 export const t = (str, language) => {
   if (language === "en") {

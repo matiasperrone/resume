@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "serve": "next .next",
     "start": "next start",
     "lint": "next lint --fix"
   },

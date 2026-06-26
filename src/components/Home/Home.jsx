@@ -8,7 +8,7 @@ import Download from "@/components/Download";
 import WorkExperience from "@/components/WorkExperience";
 import ShowHide from "@/components/ShowHide";
 import SVG from 'react-inlinesvg';
-import { convertMDTags, stripMDTags, t } from "@/helpers/string";
+import { convertMDTags, stripMDTags } from "@/helpers/string";
 import { useWorkContext } from "@/contexts/WorkContext";
 import LanguageSelector from "@/components/LanguageSelector";
 import Translate from "@/components/Translate";
