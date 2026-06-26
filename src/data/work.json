@@ -460,7 +460,10 @@
                 ],
                 "techs": "ANSI C, Bash scripting, Unix Administration."
             }
-        ]
+        ],
+        "translation": {
+            "mobile": "Phone"
+        }
     },
     "es": {
         "language": "Español",
