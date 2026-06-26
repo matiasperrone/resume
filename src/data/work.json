@@ -2,7 +2,7 @@
     "en": {
         "language": "English",
         "summary": [
-            "[b]Experienced Full Stack Developer  Architecting Scalable Solutions[/b]",
+            "[b]Experienced Full Stack Developer Architecting Scalable Solutions[/b]",
             "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]e-commerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
             "I specialize in [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], and database management with [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle[/b]. I also have [b]deep expertise[/b] in cloud computing ([b]AWS, Docker[/b]) and system scalability.",
             "Holding a [b]college degree in System Analysis[/b], I thrive in [b]fast-paced environments[/b], solving complex technical challenges, optimizing performance, and mentoring teams to deliver high-impact solutions."
@@ -118,131 +118,166 @@
         },
         "jobs": [
             {
-                "company": "Exomindset",
-                "position": "Senior Web Developer",
+                "company": "Global Innovation - Argentina, USA, Mexico and others",
+                "position": "Senior Full Stack Developer / Contractor / Freelancer",
+                "dates": {
+                    "from": "2007-05",
+                    "to": null
+                },
+                "description": [
+                    "This company is my personal brand as developer, I have been working with it since 2007.",
+                    "Lately I've been working as a fulltime developer in several US companies and helping some local startups on their early stages on my weekends and free time.",
+                    "I used to deal with clients, in my daily dealings with them, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
+                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects are focused on web environments and web services depending on needs.",
+                    "[b]Some of the main clients:[/b]",
+                    [
+                        [
+                            "Welcome2BA.com: Platform development from the ground up, Slack, Calendars Sync, Online Payments, agency management. Customized PHP CodeIgniter and  jQuery later Nuxt/Vue and PHP/Laravel."
+                        ],
+                        [
+                            "BairesAparments.com: Merged with welcome2ba.com, system migration towards Welcome2BA platform."
+                        ],
+                        [
+                            "Fanyion.com: Startup, SaaS multi-tenant platform created from the ground up, PHP Laravel API and Next frontend UI."
+                        ]
+                    ]
+                ],
+                "techs": {
+                    "Techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker",
+                    "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
+                }
+            },
+            {
+                "company": "Exomindset - USA",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2025-08",
-                    "to": null
+                    "to": "2026-06"
+                },
+                "customer": {
+                    "title": "Clients:",
+                    "content": "OpenInfra Foundation (OpenStack) and FNTech"
                 },
                 "description": [
-                    "I have worked for Open Infrastructure Foundation, migrating open and private source code projects:",
-                    "",
-                    "Migrating from SilverStripe (PHP) to Gatsby (ReactJS), using a Decap CMS (former Netlify CMS).",
-                    "Implementing OpenAPI (former Swagger) in several very complex API, doing reverse ingeniering to document the different API's endpoints property (+~1200)"
+                    "Migration of open source and private source code projects:",
+                    [
+                        "Migrated several pages from SilverStripe (PHP) to Gatsby (ReactJS)",
+                        "Decap CMS (former Netlify CMS).",
+                        "Gatsby microsites creation.",
+                        "Implementing OpenAPI (former Swagger) in Laravel (PHP) APIs",
+                        "Implementing OpenAPI (former Swagger) in Django (Python) APIs",
+                        "Doing reverse engineering to document the different API's endpoints (+~1200)",
+                        "Open Telemetry implementation in Laravel (PHP) APIs",
+                        "Open Telemetry implementation in Django (Python) APIs"
+                    ]
                 ],
-                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
+                "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
             },
             {
-                "company": "Freelance",
-                "position": "Full Stack Developer",
-                "dates": {
-                    "from": "2025-05",
-                    "to": null
-                },
-                "description": [
-                    "As a freelance developer, I work with other developer, as a team, we have several clients and I work in different projects.",
-                    "The main technologies that we work with are: Typescript, ReactJS, VueJS, NextJS PHP and NodeJS.",
-                    "In the last months we improved our processes and the way we do software by using AI as an Agent."
-                ],
-                "techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker"
-            },
-            {
-                "company": "Command|Link - USA",
-                "position": "Full Stack Senior Web Developer",
+                "company": "Command Link - USA",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2024-05",
                     "to": "2025-05"
                 },
                 "description": [
-                    "As a Full Stack Senior Web Developer I:",
                     [
-                        "Collaborated in the development of complex React applications using TypeScript, leveraging advanced type features (generics, interfaces, type guards) to ensure robust, maintainable, and scalable code.",
-                        "Developed new internal APIs from scratch using Laravel.",
-                        "Connected to different DB vendors like MySQL and SQL Server",
-                        "Connected with third party APIs to consume information, following the best practices.",
-                        "Participated in the architecture definitions and proposed ideas for change and improvement.",
-                        "Worked alongside QA to bring quality and velocity when new features are ready to be tested.",
-                        "Work well in messy legacy environments with little or no documentation."
+                        "SaaS multi-tenant platform for network management and monitoring, with a complex architecture and several microservices.",
+                        "Leverage the legacy platform to improve performance.",
+                        "Connect React and legacy applications to work together.",
+                        "Create APIs to integrate different part of the company to achieve async communication.",
+                        "Scaffolding a brand new React development repository.",
+                        "Scaffolding several new PHP Laravel API development repositories."
                     ]
                 ],
                 "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
-                "company": "Globant - Argentina | Kingdom of Saudi Arabia",
+                "company": "Globant - Argentina",
                 "position": "Senior Web UI Developer",
                 "dates": {
                     "from": "2024-01",
                     "to": "2024-05"
                 },
+                "customer": {
+                    "title": "Client - Kingdom of Saudi Arabia",
+                    "content": "Kayanee.com"
+                },
                 "description": [
-                    "As a Senior Web UI Developer I resolved a lot of performance issues and development issues.",
                     [
-                        "Improved page load time from 16s to 1.5s, boosting conversion rates.",
-                        "Share knowledge of how to develop vanilla javascript with performance in mind.",
-                        "Teach others to follow performance guidelines.",
-                        "Participated as keynote speaker in a Javascript development seminar about performance improvements for young female developers."
+                        "[b]Shopify[/b] project",
+                        "Performance enhancement [b]from 16s to 0.8s load time[/b] to user interaction.",
+                        "Change Javascript code to enhance and improve performance to avoid locking times.",
+                        "Home page video loading [b]from 24s to <1s[/b] using advanced streaming techniques.",
+                        "Detect bottle necks on code to optimize.",
+                        "Keynote speaker in a performance seminar for junior developers."
                     ]
                 ],
                 "techs": "Shopify, Liquid, Vanilla Javascript, HTML, jQuery, CSS."
             },
             {
                 "company": "Pest Share - USA",
-                "position": "Full Stack Developer",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2023-03",
                     "to": "2023-09"
                 },
                 "description": [
-                    "As the main developer of the \"Claim Management\" project, I was able to convince the leaders to change the project tech stack from JQuery as initially was requested to a ReactJS version, particularly a NextJS version.",
-                    "I also introduced Laravel along with a backend team member for the API, and at the same time keep the legacy code working as needed.",
-                    "This project allows a customer to request a pest control service and, at the same time, to the Pest Share operations team handle such service removing the current manual process.",
-                    "In my time in Pest Share I've:",
+                    "In my 6 months project in Pest Share I've:",
                     [
-                        "Created the integration code to submit a pest control request from any web page.",
-                        "Move part of the project to ReactJS and into a new way of doing software.",
+                        "Created the SDK code to submit pest control request from any web page.",
+                        "Moved part of the project to ReactJS and into a new way of doing software.",
                         "Fixed bugs in the legacy code.",
                         "Integrated the legacy code with the new ReactJS code.",
                         "Solved various DB issues in the legacy code.",
                         "Solved the database synchronization between old and new tables."
-                    ],
-                    "Pest Share is a startup company their goal is to \"Remove the confusion and frustration around property manager pest control. Residents report pest problems and local service providers take care of the rest.\"."
+                    ]
                 ],
-                "techs": "NextJS, ReactJS, PHP 7.4, PHP 8.2, CodeIgniter, Laravel, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
+                "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
             },
             {
                 "company": "Mahisoft - USA",
-                "position": "Full Stack Developer",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2021-11",
                     "to": "2023-01"
                 },
                 "customer": {
-                    "title": "Customer",
+                    "title": "Startup Client",
                     "content": "BidMyListing.com"
                 },
                 "description": [
-                    "As part of the team I had to implement the features requested by the business on the frontend side.",
-                    "I was with the team since started, prior the production version, building the foundation of the first versions of the platform and always improving ever since.",
-                    "BidMyListing is startup company, focused on real estate as a marketplace platform that allows homeowners to choose the best real estate agents in their area who will pay them upfront to list their home.",
-                    "We were a dynamic team of very skilled developers, who keep you learning all the time, pushing to the best of your ability, I was very happy to be part of it!"
+                    [
+                        "Real Estate SaaS as a marketplace platform.",
+                        "Node API in Express.js with Typescript.",
+                        "Frontend in React built from scratch.",
+                        "Pixel perfect frontend developer.",
+                        "Experienced with Agile/SCRUM methodology and sprint-based development."
+                    ]
                 ],
                 "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
             },
             {
                 "company": "Willdom - USA",
-                "position": "Full Stack Developer",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2021-03",
                     "to": "2021-11"
                 },
                 "customer": {
-                    "title": "Customer",
-                    "content": "LaCure Villas"
+                    "title": "Client",
+                    "content": "Lacure Villas, temporary rental agency for luxury villas"
                 },
                 "description": [
-                    "My objective in LaCure Villas was to stabilize the old system, that have been suffering a lot of bug issues and crashes, so the business can still work and then start design and develop a new system.",
-                    "The new system should be handling the calendar synchronization across different providers and connect to several external providers' API's and, at the same time, improve the response time and reduce the downtime of the internal process, providing, in the future, the possibility of online payments, connection with the ERP, and the CRM and a lot of new features that the business needed.",
-                    "LaCure Villas is a luxury temporary rental agency for the more exclusive and demanding customers. We were a small team of 3 developers and a manager."
+                    "In my time working with Lacure Villas I have:",
+                    [
+                        "Stabilized the old system (Vue + old Laravel), so the business can still work and then start design and develop a new system.",
+                        "Created a calendar synchronization process across different providers using PHP Laravel.",
+                        "Improved the response time and reduce the downtime of the internal process",
+                        "I laid the groundwork for online payments.",
+                        "I have help debug and improve the connection with the ERP",
+                        "I have help debug and improve the connection with CRM (Zoho)"
+                    ]
                 ],
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
             },
@@ -254,63 +289,36 @@
                     "to": "2021-01"
                 },
                 "description": [
-                    "In Wortise, which is a very young company with a dynamic spirit, I work in the development area, carrying out analysis, participating a lot, contributing my grain of sand and sharing with great minds a job that fills me a lot, I feel a belonging that I do not I felt before and the team&apos;s push allows me and asks me to give my best.",
-                    "In particular, I carry out internal business support software development, changes within the AdServer core and also completely innovative, ambitious and disruptive projects."
+                    [
+                        "Fast-paced and dynamic startup environment with a strong culture of innovation and collaboration.",
+                        "Develop internal business support software and implement strategic changes within the core Ad Server infrastructure.",
+                        "Lead and contribute to ambitious, disruptive projects that push the boundaries of ad tech and digital innovation.",
+                        "Actively participate in analysis and decision-making processes, sharing insights and collaborating with a highly talented team.",
+                        "Foster a deep sense of ownership and commitment, driven by the team's energy and shared purpose."
+                    ]
                 ],
                 "techs": {
-                    "Techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB.",
+                    "Techs": "NodeJS, VueJS, PHP",
                     "Databases": "MongoDB, MySQL, PostgreSQL, ElasticSearch, BigQuery."
                 }
             },
             {
-                "company": "Global Innovation - Argentina, USA, etc.",
-                "position": "Developer and founder",
-                "dates": {
-                    "from": "2017-02",
-                    "to": "2020-05"
-                },
-                "description": [
-                    "This is my personal brand as developer.",
-                    "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
-                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects are focused on web environments and web services depending on needs."
-                ],
-                "techs": {
-                    "Techs": "NodeJS, VueJS, PHP, C#.",
-                    "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
-                }
-            },
-            {
-                "company": "Global Innovation",
-                "position": "Senior Lead Software Engineer",
-                "dates": {
-                    "from": "2017-02",
-                    "to": "2019-01"
-                },
-                "customer": {
-                    "title": "Customers",
-                    "content": "Baires Apartments and Welcome2BA"
-                },
-                "description": [
-                    "BAires Apartments partnered with Welcome2BA in order to become more profitable and, together be, the biggest player on Temporary Rentals in Buenos Aires.",
-                    "My main goal: migration of systems, process integration, change the process and systems smoothly in order to do what each one does better and improve the others.",
-                    "Integration with third parties software, like ZenDesk, Slack, Zoho CRM, Cliengo, aluPays.",
-                    "My main goal: migration of systems, process integration, smoothly changes in the process and systems to do what each do better and improve each other processes and systems."
-                ],
-                "techs": "PHP 5.6 and 7, CodeIgniter, CakePHP, jQuery, Javascript, SQL Server, MariaDB, NuxtJS (VueJS), MongoDB."
-            },
-            {
                 "company": "aluGuest.com",
-                "position": "Founder, CTO and Senior Developer",
+                "position": "Co-Founder, CTO and Senior Developer",
                 "dates": {
                     "from": "2012-04",
                     "to": "2017-01"
                 },
                 "description": [
-                    "aluGuest.com was a platform for temporary accomodation rental focused in the latinamerican market.",
-                    "We have integrations with large credit card processing providers like Braintree and PayPal and we had to create are own credit card processing company with its own API and integration, we called it aluPays.",
-                    "It was a big challenge create everything from zero and one of the greatest moments in my carrier, I've lead a team of designers, developers, I also overseed operations, and managed budgets."
+                    [
+                        "Multi-tenant platform for temporary accommodation rentals targeting the Latin-American market.",
+                        "Spearheaded the development of aluPays, a proprietary credit card processing solution with its own API and full integration, complementing external providers like Braintree and PayPal.",
+                        "Led a multidisciplinary team of designers and developers to build the platform from the ground up, overcoming complex technical and operational challenges.",
+                        "Oversaw day-to-day operations, managed budgets, and ensured alignment between product development and business goals.",
+                        "Considered one of the most rewarding and formative experiences in my career, combining entrepreneurship, innovation, and leadership."
+                    ]
                 ],
-                "techs": "PHP 5.6, PHP 7, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1."
+                "techs": "PHP, Laravel, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1"
             }
         ],
         "oldjobs": [

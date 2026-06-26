@@ -8,7 +8,7 @@ import Download from "@/components/Download";
 import WorkExperience from "@/components/WorkExperience";
 import ShowHide from "@/components/ShowHide";
 import SVG from 'react-inlinesvg';
-import { convertMDTags, t } from "@/helpers/string";
+import { convertMDTags, stripMDTags, t } from "@/helpers/string";
 import { useWorkContext } from "@/contexts/WorkContext";
 import LanguageSelector from "@/components/LanguageSelector";
 import Translate from "@/components/Translate";
@@ -17,7 +17,24 @@ import { DataRender } from "../DataRender/DataRender";
 const fontH1 = Montserrat({ subsets: ['latin'] });
 
 export default function Home() {
-  const { work } = useWorkContext();
+  const { work, language } = useWorkContext();
+
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Matias Perrone",
+    jobTitle: work.title,
+    description: stripMDTags(work.summary[0]),
+    url: "https://resume.matiasperrone.com",
+    image: "https://resume.matiasperrone.com/images/matias_1200x1200.webp",
+    inLanguage: language,
+    sameAs: Object.values(work.websites),
+    knowsAbout: work.technologies.map((technology) => technology.name),
+    alumniOf: work.education.map((educationItem) => ({
+      "@type": "CollegeOrUniversity",
+      name: educationItem.institution,
+    })),
+  };
 
   const technologiesLogosList = work.technologies.map(technology => {
     return (
@@ -50,6 +67,10 @@ export default function Home() {
 
   return (
     <div className={classes.layout}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
       <div className={classes.ThemeSwitcher}>
         <LanguageSelector />
         <ThemeSwitcher />

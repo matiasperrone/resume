@@ -2,6 +2,8 @@ import workInfo from "@/data/work.json";
 
 export const convertMDTags = (str) =>
   str.replace(/\[([a-z]+)\]([^\]]+)\[\/([a-z]+)\]/g, "<$1>$2</$3>");
+export const stripMDTags = (str) =>
+  str.replace(/\[\/?[a-z]+\]/g, "");
 export const ucfirst = (str) =>
   str.trim().charAt(0).toUpperCase() + str.trim().slice(1);
 
