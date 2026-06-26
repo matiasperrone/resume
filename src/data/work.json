@@ -500,22 +500,12 @@
                 "logo": "docker.svg"
             },
             {
-                "name": "PHP",
-                "logo": "php.svg",
-                "version": "5.x, 7.x y 8.x"
-            },
-            {
                 "name": "Javascript",
                 "logo": "javascript.svg"
             },
             {
-                "name": "Laravel",
-                "logo": "laravel.svg",
-                "version": "5.x, 8.x a 11.x"
-            },
-            {
-                "name": "CodeIgniter",
-                "logo": "codeigniter.svg"
+                "name": "Typescript",
+                "logo": "typescript.svg"
             },
             {
                 "name": "NodeJS",
@@ -539,16 +529,26 @@
                 "logo": "nuxtjs.svg"
             },
             {
-                "name": "Bootstrap",
-                "logo": "bootstrap.svg"
-            },
-            {
                 "name": "CSS",
                 "logo": "css.svg"
             },
             {
                 "name": "HTML5",
                 "logo": "html5.svg"
+            },
+            {
+                "name": "PHP",
+                "logo": "php.svg",
+                "version": "5.x, 7.x y 8.x"
+            },
+            {
+                "name": "Laravel",
+                "logo": "laravel.svg",
+                "version": "5.x, 8.x a 12.x"
+            },
+            {
+                "name": "CodeIgniter",
+                "logo": "codeigniter.svg"
             },
             {
                 "name": "MongoDB",
@@ -587,146 +587,166 @@
         },
         "jobs": [
             {
-                "company": "Exomindset",
-                "position": "Senior Web Developer",
+                "company": "Global Innovation - Argentina, USA, México y otros",
+                "position": "Desarrollador Full Stack Senior / Contratista / Freelancer",
+                "dates": {
+                    "from": "2007-05",
+                    "to": null
+                },
+                "description": [
+                    "Esta empresa es mi marca personal como desarrollador, he estado trabajando con ella desde 2007.",
+                    "Últimamente he estado trabajando como desarrollador a tiempo completo en varias empresas de EE.UU. y ayudando a algunas startups locales en sus etapas iniciales en mis fines de semana y tiempo libre.",
+                    "Solía tratar con clientes, en mi trato diario con ellos, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
+                    "Una vez aprobado el presupuesto, realizo un análisis más profundo, que se discute luego con el cliente, realizando los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocan en entornos web y servicios web según las necesidades.",
+                    "[b]Algunos de los principales clientes:[/b]",
+                    [
+                        [
+                            "Welcome2BA.com: Desarrollo de la plataforma desde cero, Slack, Sincronización de Calendarios, Pagos en Línea, gestión de agencias. PHP CodeIgniter personalizado y jQuery, luego Nuxt/Vue y PHP/Laravel."
+                        ],
+                        [
+                            "BairesAparments.com: Fusionado con welcome2ba.com, migración del sistema hacia la plataforma Welcome2BA."
+                        ],
+                        [
+                            "Fanyion.com: Startup, plataforma SaaS multi-tenant creada desde cero, API PHP Laravel y UI frontend Next."
+                        ]
+                    ]
+                ],
+                "techs": {
+                    "Techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker",
+                    "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
+                }
+            },
+            {
+                "company": "Exomindset - USA",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2025-08",
-                    "to": null
+                    "to": "2026-06"
+                },
+                "customer": {
+                    "title": "Clientes:",
+                    "content": "OpenInfra Foundation (OpenStack) y FNTech"
                 },
                 "description": [
-                    "I have worked for Open Infrastructure Foundation, migrating open and private source code projects:",
-                    "",
-                    "Migrating from SilverStripe (PHP) to Gatsby (ReactJS), using a Decap CMS (former Netlify CMS).",
-                    "Implementing OpenAPI (former Swagger) in several very complex API, doing reverse ingeniering to document the different API's endpoints property (+~1200)"
+                    "Migración de proyectos de código fuente abierto y privado:",
+                    [
+                        "Migración de varias páginas de SilverStripe (PHP) a Gatsby (ReactJS)",
+                        "Decap CMS (anteriormente Netlify CMS).",
+                        "Creación de micrositios con Gatsby.",
+                        "Implementación de OpenAPI (anteriormente Swagger) en APIs de Laravel (PHP)",
+                        "Implementación de OpenAPI (anteriormente Swagger) en APIs de Django (Python)",
+                        "Realizando ingeniería inversa para documentar los distintos endpoints de las APIs (+~1200)",
+                        "Implementación de Open Telemetry en APIs de Laravel (PHP)",
+                        "Implementación de Open Telemetry en APIs de Django (Python)"
+                    ]
                 ],
-                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
+                "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
             },
             {
-                "company": "Exomindset",
-                "position": "Senior Web Developer",
-                "dates": {
-                    "from": "2025-08",
-                    "to": null
-                },
-                "description": [
-                    "He trabajado para Open Infrastructure Foundation, migrando proyectos de código fuente abiertos y privados:",
-                    "",
-                    "Migración de SilverStripe (PHP) a Gatsby (ReactJS), utilizando Decap CMS (anteriormente Netlify CMS).",
-                    "Implementación de OpenAPI (anteriormente Swagger) en varias APIs muy complejas, realizando ingeniería inversa para documentar las propiedades de los distintos endpoints de la API (+~1200)."
-                ],
-                "techs": "ReactJS, NextJS, PHP, NodeJS, Laravel, Docker"
-            },
-            {
-                "company": "Freelance",
-                "position": "Desarrollador Full Stack",
-                "dates": {
-                    "from": "2025-05",
-                    "to": null
-                },
-                "description": [
-                    "Como desarrollador freelance, trabajo con otros desarrolladores en equipo, tenemos varios clientes y trabajo en diferentes proyectos.",
-                    "Las principales tecnologías con las que trabajamos son: Typescript, ReactJS, VueJS, NextJS, PHP y NodeJS.",
-                    "En los últimos meses mejoramos nuestros procesos y la forma en que desarrollamos software utilizando IA como agente."
-                ],
-                "techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker"
-            },
-            {
-                "company": "Command|Link - USA",
-                "position": "Desarrollador Web Senior Full Stack",
+                "company": "Command Link - USA",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2024-05",
                     "to": "2025-05"
                 },
                 "description": [
-                    "Como Desarrollador Web Senior Full Stack:",
                     [
-                        "Colaboré en el desarrollo de aplicaciones React complejas utilizando TypeScript, aprovechando características avanzadas de tipos (generics, interfaces, type guards) para garantizar un código robusto, mantenible y escalable.",
-                        "Desarrollé nuevas APIs internas desde cero utilizando Laravel.",
-                        "Me conecté a diferentes proveedores de bases de datos como MySQL y SQL Server.",
-                        "Me conecté con APIs de terceros para consumir información, siguiendo las mejores prácticas.",
-                        "Participé en las definiciones de arquitectura y propuse ideas para cambios y mejoras.",
-                        "Trabajé junto al equipo de QA para garantizar calidad y velocidad cuando las nuevas funcionalidades estaban listas para ser probadas.",
-                        "Trabajo bien en entornos heredados desordenados con poca o ninguna documentación."
+                        "Plataforma SaaS multi-tenant para gestión y monitoreo de redes, con una arquitectura compleja y varios microservicios.",
+                        "Aprovechar la plataforma legacy para mejorar el rendimiento.",
+                        "Conectar aplicaciones React y legacy para que trabajen juntas.",
+                        "Crear APIs para integrar diferentes partes de la empresa y lograr comunicación asíncrona.",
+                        "Scaffolding de un nuevo repositorio de desarrollo React.",
+                        "Scaffolding de varios nuevos repositorios de desarrollo de APIs PHP Laravel."
                     ]
                 ],
                 "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
-                "company": "Globant - Argentina | Reino de Arabia Saudita",
+                "company": "Globant - Argentina",
                 "position": "Desarrollador Senior Web UI",
                 "dates": {
                     "from": "2024-01",
                     "to": "2024-05"
                 },
+                "customer": {
+                    "title": "Cliente - Reino de Arabia Saudita",
+                    "content": "Kayanee.com"
+                },
                 "description": [
-                    "Como Desarrollador Senior Web UI resolví muchos problemas de rendimiento y desarrollo.",
                     [
-                        "Mejoré el tiempo de carga de la página de 16s a 1.5s, impulsando las tasas de conversión.",
-                        "Compartí conocimientos sobre cómo desarrollar javascript vanilla teniendo en cuenta el rendimiento.",
-                        "Enseñé a otros a seguir las directrices de rendimiento.",
-                        "Participé como ponente principal en un seminario de desarrollo Javascript sobre mejoras de rendimiento para jóvenes desarrolladoras."
+                        "Proyecto [b]Shopify[/b]",
+                        "Mejora de rendimiento [b]de 16s a 0.8s de tiempo de carga[/b] hasta la interacción del usuario.",
+                        "Cambio del código Javascript para mejorar el rendimiento y evitar tiempos de bloqueo.",
+                        "Carga del video de la página principal [b]de 24s a <1s[/b] usando técnicas avanzadas de streaming.",
+                        "Detección de cuellos de botella en el código para optimizar.",
+                        "Ponente principal en un seminario de rendimiento para desarrolladores junior."
                     ]
                 ],
                 "techs": "Shopify, Liquid, Vanilla Javascript, HTML, jQuery, CSS."
             },
             {
                 "company": "Pest Share - USA",
-                "position": "Desarrollador Full Stack",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2023-03",
                     "to": "2023-09"
                 },
                 "description": [
-                    "Como desarrollador principal del proyecto \"Claim Management\", pude convencer a los líderes de cambiar la pila tecnológica del proyecto de JQuery, como se solicitó inicialmente, a una versión de ReactJS, particularmente una versión de NextJS.",
-                    "También introduje Laravel junto con un miembro del equipo de backend para la API, y al mismo tiempo mantuve el código legacy funcionando según fuera necesario.",
-                    "Este proyecto permite a un cliente solicitar un servicio de control de plagas y, al mismo tiempo, al equipo de operaciones de Pest Share manejar dicho servicio eliminando el proceso manual actual.",
-                    "En mi tiempo en Pest Share:",
+                    "En mis 6 meses de proyecto en Pest Share:",
                     [
-                        "Creé el código de integración para enviar una solicitud de control de plagas desde cualquier página web.",
+                        "Creé el código del SDK para enviar solicitudes de control de plagas desde cualquier página web.",
                         "Moví parte del proyecto a ReactJS y a una nueva forma de hacer software.",
                         "Corregí errores en el código legacy.",
                         "Integré el código legacy con el nuevo código ReactJS.",
                         "Resolví varios problemas de base de datos en el código legacy.",
                         "Resolví la sincronización de la base de datos entre tablas antiguas y nuevas."
-                    ],
-                    "Pest Share es una empresa startup cuyo objetivo es \"Eliminar la confusión y la frustración en torno al control de plagas de los administradores de propiedades. Los residentes informan problemas de plagas y los proveedores de servicios locales se encargan del resto.\""
+                    ]
                 ],
-                "techs": "NextJS, ReactJS, PHP 7.4, PHP 8.2, CodeIgniter, Laravel, Docker, MySQL Server (AWS RDS), AWS (S3 y EC2)."
+                "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 y EC2)."
             },
             {
                 "company": "Mahisoft - USA",
-                "position": "Desarrollador Full Stack",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2021-11",
                     "to": "2023-01"
                 },
                 "customer": {
-                    "title": "Cliente",
+                    "title": "Cliente Startup",
                     "content": "BidMyListing.com"
                 },
                 "description": [
-                    "Como parte del equipo, tuve que implementar las funcionalidades solicitadas por el negocio en el lado del frontend.",
-                    "Estuve con el equipo desde el inicio, antes de la versión de producción, construyendo la base de las primeras versiones de la plataforma y siempre mejorando desde entonces.",
-                    "BidMyListing es una empresa startup, enfocada en bienes raíces como una plataforma de mercado que permite a los propietarios elegir los mejores agentes inmobiliarios en su área que les pagarán por adelantado para listar su casa.",
-                    "Éramos un equipo dinámico de desarrolladores muy capacitados, que te mantenían aprendiendo todo el tiempo, empujándote al máximo de tu capacidad, ¡estaba muy feliz de ser parte de él!"
+                    [
+                        "Plataforma SaaS de Bienes Raíces como marketplace.",
+                        "API Node en Express.js con Typescript.",
+                        "Frontend en React construido desde cero.",
+                        "Desarrollador frontend pixel perfect.",
+                        "Experiencia con metodología Agile/SCRUM y desarrollo basado en sprints."
+                    ]
                 ],
-                "techs": "NodeJS, ReactJS, MongoDB, Jest."
+                "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
             },
             {
                 "company": "Willdom - USA",
-                "position": "Desarrollador Full Stack",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2021-03",
                     "to": "2021-11"
                 },
                 "customer": {
                     "title": "Cliente",
-                    "content": "LaCure Villas"
+                    "content": "Lacure Villas, agencia de alquiler temporal de villas de lujo"
                 },
                 "description": [
-                    "Mi objetivo en LaCure Villas era estabilizar el sistema antiguo, que había estado sufriendo muchos problemas de errores y caídas, para que el negocio pudiera seguir funcionando y luego comenzar a diseñar y desarrollar un nuevo sistema.",
-                    "El nuevo sistema debería manejar la sincronización del calendario entre diferentes proveedores y conectarse a las API de varios proveedores externos y, al mismo tiempo, mejorar el tiempo de respuesta y reducir el tiempo de inactividad del proceso interno, proporcionando, en el futuro, la posibilidad de pagos en línea, conexión con el ERP y el CRM y muchas características nuevas que el negocio necesitaba.",
-                    "LaCure Villas es una agencia de alquiler temporal de lujo para los clientes más exclusivos y exigentes. Éramos un pequeño equipo de 3 desarrolladores y un gerente."
+                    "En mi tiempo trabajando con Lacure Villas:",
+                    [
+                        "Estabilicé el sistema antiguo (Vue + Laravel antiguo), para que el negocio pudiera seguir funcionando y luego comenzar a diseñar y desarrollar un nuevo sistema.",
+                        "Creé un proceso de sincronización de calendarios entre diferentes proveedores usando PHP Laravel.",
+                        "Mejoré el tiempo de respuesta y reduje el tiempo de inactividad del proceso interno.",
+                        "Senté las bases para los pagos en línea.",
+                        "Ayudé a depurar y mejorar la conexión con el ERP.",
+                        "Ayudé a depurar y mejorar la conexión con el CRM (Zoho)."
+                    ]
                 ],
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
             },
@@ -738,63 +758,36 @@
                     "to": "2021-01"
                 },
                 "description": [
-                    "En Wortise, que es una empresa muy joven con un espíritu dinámico, trabajo en el área de desarrollo, realizando análisis, participando mucho, aportando mi grano de arena y compartiendo con grandes mentes un trabajo que me llena mucho, siento una pertenencia que no sentía antes y el empuje del equipo me permite y me pide que dé lo mejor de mí.",
-                    "En particular, realizo desarrollo de software de soporte interno para el negocio, cambios dentro del núcleo del AdServer y también proyectos completamente innovadores, ambiciosos y disruptivos."
+                    [
+                        "Entorno de startup dinámico y de ritmo acelerado con una fuerte cultura de innovación y colaboración.",
+                        "Desarrollar software de soporte interno para el negocio e implementar cambios estratégicos dentro de la infraestructura central del Ad Server.",
+                        "Liderar y contribuir a proyectos ambiciosos y disruptivos que amplían los límites del ad tech y la innovación digital.",
+                        "Participar activamente en los procesos de análisis y toma de decisiones, compartiendo conocimientos y colaborando con un equipo de gran talento.",
+                        "Fomentar un profundo sentido de pertenencia y compromiso, impulsado por la energía del equipo y el propósito compartido."
+                    ]
                 ],
                 "techs": {
-                    "Techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB.",
+                    "Techs": "NodeJS, VueJS, PHP",
                     "Databases": "MongoDB, MySQL, PostgreSQL, ElasticSearch, BigQuery."
                 }
             },
             {
-                "company": "Global Innovation - Argentina, USA, etc.",
-                "position": "Desarrollador y fundador",
-                "dates": {
-                    "from": "2017-02",
-                    "to": "2020-05"
-                },
-                "description": [
-                    "Esta es mi marca personal como desarrollador.",
-                    "En mi trato diario con los clientes, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
-                    "Una vez aprobado el presupuesto, realizo un análisis más profundo, que se discute luego con el cliente, realizando los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocan en entornos web y servicios web según las necesidades."
-                ],
-                "techs": {
-                    "Techs": "NodeJS, VueJS, PHP, C#.",
-                    "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
-                }
-            },
-            {
-                "company": "Global Innovation",
-                "position": "Ingeniero de Software Líder Senior",
-                "dates": {
-                    "from": "2017-02",
-                    "to": "2019-01"
-                },
-                "customer": {
-                    "title": "Clientes",
-                    "content": "Baires Apartments y Welcome2BA"
-                },
-                "description": [
-                    "Baires Apartments se asoció con Welcome2BA para ser más rentable y, juntos, ser el jugador más grande en Alquileres Temporales en Buenos Aires.",
-                    "Mi objetivo principal: migración de sistemas, integración de procesos, cambiar los procesos y sistemas sin problemas para hacer lo que cada uno hace mejor y mejorar los demás.",
-                    "Integración con software de terceros, como ZenDesk, Slack, Zoho CRM, Cliengo, aluPays.",
-                    "Mi objetivo principal: migración de sistemas, integración de procesos, cambios fluidos en los procesos y sistemas para hacer lo que cada uno hace mejor y mejorar los procesos y sistemas de cada uno."
-                ],
-                "techs": "PHP 5.6 y 7, CodeIgniter, CakePHP, jQuery, Javascript, SQL Server, MariaDB, NuxtJS (VueJS), MongoDB."
-            },
-            {
                 "company": "aluGuest.com",
-                "position": "Fundador, CTO y Desarrollador Senior",
+                "position": "Cofundador, CTO y Desarrollador Senior",
                 "dates": {
                     "from": "2012-04",
                     "to": "2017-01"
                 },
                 "description": [
-                    "aluGuest.com era una plataforma para el alquiler de alojamiento temporal enfocada en el mercado latinoamericano.",
-                    "Teníamos integraciones con grandes proveedores de procesamiento de tarjetas de crédito como Braintree y PayPal y tuvimos que crear nuestra propia compañía de procesamiento de tarjetas de crédito con su propia API e integración, la llamamos aluPays.",
-                    "Fue un gran desafío crear todo desde cero y uno de los mejores momentos de mi carrera, lideré un equipo de diseñadores, desarrolladores, también supervisé operaciones y administré presupuestos."
+                    [
+                        "Plataforma multi-tenant para alquiler de alojamiento temporal orientada al mercado latinoamericano.",
+                        "Lideré el desarrollo de aluPays, una solución propietaria de procesamiento de tarjetas de crédito con su propia API e integración completa, complementando proveedores externos como Braintree y PayPal.",
+                        "Dirigí un equipo multidisciplinario de diseñadores y desarrolladores para construir la plataforma desde cero, superando desafíos técnicos y operativos complejos.",
+                        "Supervisé las operaciones diarias, gestioné presupuestos y aseguré la alineación entre el desarrollo del producto y los objetivos comerciales.",
+                        "Considerada una de las experiencias más gratificantes y formativas de mi carrera, combinando emprendimiento, innovación y liderazgo."
+                    ]
                 ],
-                "techs": "PHP 5.6, PHP 7, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1."
+                "techs": "PHP, Laravel, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1"
             }
         ],
         "oldjobs": [
