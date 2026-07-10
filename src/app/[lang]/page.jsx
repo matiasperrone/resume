@@ -31,7 +31,7 @@ export async function generateMetadata({ params }) {
       },
     },
     openGraph: {
-      title: "Matias Perrone's Resume",
+      title: lang === 'es' ? "Currículum de Matias Perrone" : "Matias Perrone's Resume",
       description: work.title,
       url: `${SITE_URL}/${lang}`,
       siteName: "Matias Perrone",
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
           url: `${SITE_URL}/images/matias_1200x1200.webp`,
           width: 1200,
           height: 1200,
-          alt: "Matias Perrone's Resume",
+          alt: lang === 'es' ? "Currículum de Matias Perrone" : "Matias Perrone's Resume",
         },
       ],
       locale: OG_LOCALES[lang] ?? OG_LOCALES.en,
