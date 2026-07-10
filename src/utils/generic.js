@@ -1,0 +1,51 @@
+import workInfo from "@/data/work.json";
+import { stripMDTags } from "@/helpers/string";
+
+export const SITE_URL = "https://resume.matiasperrone.com";
+export const OG_LOCALES = { en: "en_US", es: "es_ES" };
+
+export const generateStaticParams = async () => {
+  return [{ lang: "en" }, { lang: "es" }];
+};
+
+export const generateMetadata = async ({ params }) => {
+  const { lang } = await params;
+  const work = workInfo[lang] ?? workInfo.en;
+  const description = stripMDTags(work.summary[0]);
+
+  return {
+    title: `Matias Perrone - ${work.title}`,
+    description,
+    keywords:
+      "Matias Perrone, resume, CV, portfolio, web developer, software engineer, frontend developer, backend developer, Node.js, PHP, JavaScript, Vue.js, React.js",
+    alternates: {
+      canonical: `${SITE_URL}/${lang}`,
+      languages: {
+        en: `${SITE_URL}/en`,
+        es: `${SITE_URL}/es`,
+      },
+    },
+    openGraph: {
+      title:
+        lang === "es"
+          ? "Currículum de Matias Perrone"
+          : "Matias Perrone's Resume",
+      description: work.title,
+      url: `${SITE_URL}/${lang}`,
+      siteName: "Matias Perrone",
+      images: [
+        {
+          url: `${SITE_URL}/images/matias_1200x1200.webp`,
+          width: 1200,
+          height: 1200,
+          alt:
+            lang === "es"
+              ? "Currículum de Matias Perrone"
+              : "Matias Perrone's Resume",
+        },
+      ],
+      locale: OG_LOCALES[lang] ?? OG_LOCALES.en,
+      type: "website",
+    },
+  };
+};

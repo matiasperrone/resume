@@ -16,13 +16,13 @@
     "react": "latest",
     "react-bootstrap": "^2.10.10",
     "react-dom": "latest",
-    "react-inlinesvg": "^4.2.0"
+    "react-inlinesvg": "^4.5.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
-    "sass": "^1.97.1"
+    "sass": "^1.101.0"
   }
 }
