@@ -6,7 +6,7 @@ import Home from "@/components/Home";
 import { useRouter } from 'next/navigation';
 
 const DownloadPage = () => {
-  const { work: { download } } = useWorkContext();
+  const { work: { download }, language } = useWorkContext();
   const router = useRouter();
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const DownloadPage = () => {
     link.click();
     document.body.removeChild(link);
 
-    router.push('/'); // Redirect to the home page after download
+    router.push(`/${language}`); // Redirect to the home page after download
   }, []);
 
   return (
