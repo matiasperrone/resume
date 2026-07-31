@@ -35,7 +35,7 @@ export const generateMetadata = async ({ params }) => {
       siteName: "Matias Perrone",
       images: [
         {
-          url: `${SITE_URL}/images/matias_1200x1200.webp`,
+          url: `${SITE_URL}/images/matias_470x470.webp`,
           width: 1200,
           height: 1200,
           alt:

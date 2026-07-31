@@ -26,7 +26,7 @@ export default function Home() {
     jobTitle: work.title,
     description: stripMDTags(work.summary[0]),
     url: "https://resume.matiasperrone.com",
-    image: "https://resume.matiasperrone.com/images/matias_1200x1200.webp",
+    image: "https://resume.matiasperrone.com/images/matias_470x470.webp",
     inLanguage: language,
     sameAs: Object.values(work.websites),
     knowsAbout: work.technologies.map((technology) => technology.name),
@@ -84,7 +84,7 @@ export default function Home() {
       <div>
         <hgroup>
           <div>
-            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_1200x1200.webp 1200w,/images/matias_153x153.jpg 153w" alt="Matias' Picture" />
+            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_470x470.webp 1200w,/images/matias_153x153.jpg 153w" alt="Matias' Picture" />
           </div>
           <div>
             <h1 className={fontH1.className}>

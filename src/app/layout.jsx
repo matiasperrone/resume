@@ -15,7 +15,7 @@ export const metadata = {
     siteName: "Matias Perrone",
     images: [
       {
-        url: "https://matiasperrone.com/public/images/matias_1200x1200.webp",
+        url: "https://matiasperrone.com/public/images/matias_470x470.webp",
         width: 1200,
         height: 1200,
         alt: "Matias Perrone's Resume",
