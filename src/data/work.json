@@ -3,7 +3,7 @@
         "language": "English",
         "summary": [
             "[b]Experienced Full Stack Developer Architecting Scalable Solutions[/b]",
-            "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]e-commerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
+            "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]SaaS, ecommerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
             "I specialize in [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], and database management with [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle[/b]. I also have [b]deep expertise[/b] in cloud computing ([b]AWS, Docker[/b]) and system scalability.",
             "Holding a [b]college degree in System Analysis[/b], I thrive in [b]fast-paced environments[/b], solving complex technical challenges, optimizing performance, and mentoring teams to deliver high-impact solutions."
         ],
@@ -125,15 +125,15 @@
                     "to": null
                 },
                 "description": [
-                    "This company is my personal brand as developer, I have been working with it since 2007.",
-                    "Lately I've been working as a fulltime developer in several US companies and helping some local startups on their early stages on my weekends and free time.",
-                    "I used to deal with clients, in my daily dealings with them, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
-                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects are focused on web environments and web services depending on needs.",
+                    "Clients needed clear project scope, realistic budgets, and defined milestones before technical work could begin, often with evolving requirements.",
+                    "I gather custom requirements directly with each client, estimate project scope, and negotiate budgets, payment schedules, and deliverables for every milestone.",
+                    "Once the budget is approved, I run a deeper technical and functional analysis, refining scope together with the client before design work begins.",
+                    "I deliver web environments and web services tailored to each client's needs, aligning technical design with business goals, which reduces scope misalignment and rework by front loading analysis and negotiation before development starts.",
                     "[b]Some of the main clients:[/b]",
                     [
-                        "Welcome2BA.com: Platform development from the ground up, Slack, Calendars Sync, Online Payments, agency management. Customized PHP CodeIgniter and  jQuery later Nuxt/Vue and PHP/Laravel.",
-                        "BairesAparments.com: Merged with welcome2ba.com, system migration towards Welcome2BA platform.",
-                        "Fanyion.com: Startup, SaaS multi-tenant platform created from the ground up, PHP Laravel API and Next frontend UI."
+                        "Welcome2BA.com: Platform development from the ground up, Slack, Calendars Sync, Online Payments, agency management. Customized PHP CodeIgniter and jQuery, later Nuxt/Vue and PHP/Laravel.",
+                        "BairesApartments.com: Merged with welcome2ba.com, system migration toward the Welcome2BA platform.",
+                        "Fanyion.com: Startup, SaaS multi tenant platform created from the ground up, PHP Laravel API and Next frontend UI."
                     ]
                 ],
                 "techs": {
@@ -155,14 +155,13 @@
                 "description": [
                     "Migration of open source and private source code projects:",
                     [
-                        "Migrated several pages from SilverStripe (PHP) to Gatsby (ReactJS)",
-                        "Decap CMS (former Netlify CMS).",
-                        "Gatsby microsites creation.",
-                        "Implementing OpenAPI (former Swagger) in Laravel (PHP) APIs",
-                        "Implementing OpenAPI (former Swagger) in Django (Python) APIs",
-                        "Doing reverse engineering to document the different API's endpoints (+~1200)",
-                        "Open Telemetry implementation in Laravel (PHP) APIs",
-                        "Open Telemetry implementation in Django (Python) APIs"
+                        "Migrated legacy SilverStripe (PHP) pages to Gatsby (ReactJS), improving performance and maintainability through a decoupled JAMstack architecture.",
+                        "Integrated Decap CMS (formerly Netlify CMS) to preserve a familiar content editing workflow after the migration.",
+                        "Built standalone Gatsby microsites to support targeted initiatives without adding overhead to the core codebase.",
+                        "Reverse engineered and documented over 1200 undocumented API endpoints across Laravel (PHP) and Django (Python) services.",
+                        "Implemented OpenAPI (formerly Swagger) specifications for both APIs, creating a single source of truth that cut developer onboarding time and removed integration guesswork.",
+                        "Implemented Open Telemetry in the Laravel (PHP) APIs.",
+                        "Implemented Open Telemetry in the Django (Python) APIs."
                     ]
                 ],
                 "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
@@ -176,12 +175,11 @@
                 },
                 "description": [
                     [
-                        "SaaS multi-tenant platform for network management and monitoring, with a complex architecture and several microservices.",
-                        "Leverage the legacy platform to improve performance.",
-                        "Connect React and legacy applications to work together.",
-                        "Create APIs to integrate different part of the company to achieve async communication.",
-                        "Scaffolding a brand new React development repository.",
-                        "Scaffolding several new PHP Laravel API development repositories."
+                        "SaaS multi tenant platform for network management and monitoring, with a complex architecture and several microservices.",
+                        "Modernized the legacy platform by embedding React applications, improving performance without a full rewrite.",
+                        "Built the integration layer connecting React and legacy applications so they work seamlessly together.",
+                        "Designed and developed APIs enabling async communication across company systems, reducing tight coupling and improving resilience.",
+                        "Scaffolded a new React development repository and multiple PHP Laravel API repositories, standardizing project setup and speeding up future development."
                     ]
                 ],
                 "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
@@ -217,15 +215,17 @@
                     "to": "2023-09"
                 },
                 "description": [
-                    "In my 6 months project in Pest Share I've:",
+                    "In my 6 months project in Pest Share I have:",
                     [
-                        "Created the SDK code to submit pest control request from any web page.",
+                        "Created the integration code to submit pest control requests from any web page.",
                         "Moved part of the project to ReactJS and into a new way of doing software.",
                         "Fixed bugs in the legacy code.",
                         "Integrated the legacy code with the new ReactJS code.",
                         "Solved various DB issues in the legacy code.",
                         "Solved the database synchronization between old and new tables."
-                    ]
+                    ],
+                    "I convinced the leaders to change the project tech stack from jQuery, as initially requested, to a ReactJS version, specifically NextJS. I also introduced Laravel for the API together with a backend team member, while keeping the legacy code in CodeIgniter working as needed.",
+                    "I built the Claim Management module, a way for customers to request a pest control service and for Pest Share operations to handle it, removing the previous manual process."
                 ],
                 "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
             },
@@ -242,11 +242,11 @@
                 },
                 "description": [
                     [
-                        "Real Estate SaaS as a marketplace platform.",
-                        "Node API in Express.js with Typescript.",
-                        "Frontend in React built from scratch.",
-                        "Pixel perfect frontend developer.",
-                        "Experienced with Agile/SCRUM methodology and sprint-based development."
+                        "Real Estate SaaS marketplace platform, built from the ground up as a founding engineer, with no existing codebase or established patterns to follow.",
+                        "Built frontend features in ReactJS, translating InVision designs into pixel accurate pages and components.",
+                        "Contributed to backend development using NodeJS, with and without TypeScript, for API endpoints as needed.",
+                        "Improved maintainability by using TypeScript in the API.",
+                        "Participated in the full Scrum process, including daily standups, sprint planning, grooming, and retrospectives, estimating and discussing story points with the team."
                     ]
                 ],
                 "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
@@ -265,12 +265,10 @@
                 "description": [
                     "In my time working with Lacure Villas I have:",
                     [
-                        "Stabilized the old system (Vue + old Laravel), so the business can still work and then start design and develop a new system.",
-                        "Created a calendar synchronization process across different providers using PHP Laravel.",
-                        "Improved the response time and reduce the downtime of the internal process",
-                        "I laid the groundwork for online payments.",
-                        "I have help debug and improve the connection with the ERP",
-                        "I have help debug and improve the connection with CRM (Zoho)"
+                        "Stabilized the unstable legacy system (Vue and old Laravel API), which put business continuity at risk, keeping the business running while leading the design and development of its successor.",
+                        "Built a calendar synchronization service across multiple external providers using PHP Laravel.",
+                        "Improved response times and reduced downtime of internal processes, adding support for online payments.",
+                        "Managed integrations connecting external sources with the company's ERP and CRM (Zoho) simultaneously."
                     ]
                 ],
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
@@ -284,11 +282,10 @@
                 },
                 "description": [
                     [
-                        "Fast-paced and dynamic startup environment with a strong culture of innovation and collaboration.",
-                        "Develop internal business support software and implement strategic changes within the core Ad Server infrastructure.",
-                        "Lead and contribute to ambitious, disruptive projects that push the boundaries of ad tech and digital innovation.",
-                        "Actively participate in analysis and decision-making processes, sharing insights and collaborating with a highly talented team.",
-                        "Foster a deep sense of ownership and commitment, driven by the team's energy and shared purpose."
+                        "An ad industry company needed to scale to a massive sales and invoicing architecture while facing performance bottlenecks across core systems.",
+                        "Identified and fixed bottlenecks across the AdServer core and internal business support software to support massive scale.",
+                        "Improved the sales and invoicing architecture performance, enabling the company to handle massive scale reliably.",
+                        "Contributed to innovative and disruptive projects leveraging Big Data for future Ad industry approaches."
                     ]
                 ],
                 "techs": {
@@ -305,11 +302,11 @@
                 },
                 "description": [
                     [
-                        "Multi-tenant platform for temporary accommodation rentals targeting the Latin-American market.",
-                        "Spearheaded the development of aluPays, a proprietary credit card processing solution with its own API and full integration, complementing external providers like Braintree and PayPal.",
-                        "Led a multidisciplinary team of designers and developers to build the platform from the ground up, overcoming complex technical and operational challenges.",
-                        "Oversaw day-to-day operations, managed budgets, and ensured alignment between product development and business goals.",
-                        "Considered one of the most rewarding and formative experiences in my career, combining entrepreneurship, innovation, and leadership."
+                        "The Latin American market lacked a dedicated temporary accommodation rental platform, and existing payment processors limited control over the payment flow.",
+                        "Built aluGuest from the ground up as a greenfield platform, integrating Braintree and PayPal for credit card processing.",
+                        "Designed and built aluPays, a proprietary credit card processing solution with its own API, reducing dependency on third party processors.",
+                        "Led a team of designers and developers while overseeing operations and managing budgets.",
+                        "Delivered a fully functioning platform with its own payment infrastructure, giving the company greater control and flexibility over transactions."
                     ]
                 ],
                 "techs": "PHP, Laravel, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1"
@@ -324,9 +321,10 @@
                     "to": "2012-04"
                 },
                 "description": [
-                    "My task were the Project Management and Functional Analysis, as a link between business analysts and the software factory in addition to managing the setup of the environments for new applications and interact with other areas such as Production Management, Information Security and Application Architecture to reach the best possible solution, both technically and functionally.",
-                    "The area is focused to everything involving applications for client’s self-management, such as www.movistar.com.ar, www.tiendamovistar.com.ar, online.movistar.com.ar (Self-management for individuals), portal-empresas.movistar.com.ar (Self-management for Companies and Organizations) and several others for internal customer management.",
-                    "The company allowed me to grow professionally by finding more formal ways and procedures."
+                    "Client self management applications needed a clear link between business analysts, the software factory, and multiple technical areas in order to deliver aligned solutions.",
+                    "I acted as functional analyst and project manager, coordinating between business analysts, development teams, Production Management, Information Security, and Application Architecture.",
+                    "I managed environment setup for new applications supporting self management platforms for both individuals and companies, including movistar.com.ar, tiendamovistar.com.ar, and portal empresas.movistar.com.ar, among others.",
+                    "The role let me grow professionally by developing more formal ways of working and procedures."
                 ]
             },
             {
@@ -337,10 +335,10 @@
                     "to": "2010-12"
                 },
                 "description": [
-                    "This is my personal brand as developer.",
-                    "In my daily dealings with clients, I make custom requirements, and estimate project scope for trade budget, scope, negotiate the dates of payments and deliverables for each milestone.",
-                    "Once approved the budget, I make a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects were focused on web environments and web services depending on the different needs.",
-                    "Clients: Terminales Rio de la Plata (Port Operator), FunArg, ATM (Insurance), Plus Mobile Communications, Welcome2BA.com (ARG +1 year), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA +2 years), Urge Interactive (USA), Datta Point (USA), among others."
+                    "This company is my personal brand as a developer; I have been working under it since 2007.",
+                    "In my daily dealings with clients, I gather custom requirements, estimate project scope for the trade budget, and negotiate payment dates and deliverables for each milestone.",
+                    "Once the budget is approved, I run a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects were focused on web environments and web services depending on the different needs.",
+                    "Clients: Terminales Rio de la Plata (Port Operator), FunArg, ATM (Insurance), Plus Mobile Communications, Welcome2BA.com (Argentina, over 1 year), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA, over 2 years), Urge Interactive (USA), Datta Point (USA), among others."
                 ],
                 "techs": "PHP 5.x, Javascript. jQuery, Symfony, CodeIgniter, CakePHP, Zend, MongoDB, SQL Server, Oracle, MariaDB, MySQL."
             },
@@ -352,7 +350,8 @@
                     "to": "2013-09"
                 },
                 "description": [
-                    "Blog with news about IT in Argentina and around the world."
+                    "The Argentine tech audience needed accessible, timely coverage of IT news, both locally and globally.",
+                    "I researched and wrote articles covering IT news and trends in Argentina and around the world, building a consistent publishing habit and growing the site's coverage and reach through regular contributions."
                 ]
             },
             {
@@ -363,7 +362,8 @@
                     "to": "2010-12"
                 },
                 "description": [
-                    "Business Plan. Design and development of the site. Product advertisement.",
+                    "The business needed a business plan and a functional website built from scratch to support product advertisement and market entry.",
+                    "I designed and developed the business plan alongside the site's design and development, delivering a functional site that launched the business's online presence and advertising capability.",
                     "demo: https://www.matiasperrone.com/striggy"
                 ],
                 "techs": "PHP 5.x, Javascript. jQuery, MySQL."
@@ -376,13 +376,13 @@
                     "to": "2006-05"
                 },
                 "description": [
-                    "November of 2004 to March of 2005:",
-                    "I worked as a Systems Analyst, analyzing and designing business support systems for internal and external clients, focusing mainly on the analysis, design and development business management system and billing for VoIP services.",
-                    "And before switching to Plus Mobile, I performed the construction of a system for surveys that integrates human resources with staff supervision area of the Call Center, in order to implement a tracking system of recruitment, compliance tasks and access to the building.",
+                    "November 2004 to March 2005:",
+                    "Spain's VoIP and fixed telephony service needed a commercial management and invoicing system, while Call Center operations lacked integration between HR and staff supervision. I analyzed, designed, and developed the commercial management and invoicing system for the VoIP and fixed telephony service in Spain.",
+                    "Before moving to Plus Mobile, I conducted requirements gathering for a system integrating HR with Call Center supervision, covering hiring tracking, task compliance, and building access.",
                     "",
-                    "April of 2005 to May of 2006:",
-                    "Given a horizontal growth, I changed of company within the enterprise group to Plus Mobile Communications, overseeing and helping to overcome the disadvantages that used to present to programmers and designers in the tasks to be performed.",
-                    "I did the analysis and design of several systems that supported the main core business, that were the SMS services and mobile content for both Argentina and Latin America. The project consisted in web services and server."
+                    "April 2005 to May 2006:",
+                    "Given a horizontal growth within the group, I transitioned to Plus Mobile Communications, supervising developers and designers while analyzing and designing systems supporting SMS and mobile content services across Argentina and Latin America.",
+                    "I delivered functional business support systems for both telephony billing and mobile content services, improving operational tracking and cross team coordination."
                 ],
                 "techs": "PHP 4, PHP 5, Javascript, ASP 3, jQuery, SQL Server, MySQL."
             },
@@ -394,7 +394,7 @@
                     "to": "2004-11"
                 },
                 "description": [
-                    "As a programmer Analyst for one of the clients (IBM) in a project of Telefonica de Argentina. Responsible to detect wrong data in the information provided by the Commercial and Technical Management system and make the changes to correct them."
+                    "As part of an IBM led project for Telefonica de Argentina, the Commercial and Technical Management system contained wrong data, risking inaccurate reporting and decision making. I detected the data inconsistencies and implemented the corrections needed to fix them, improving data accuracy and reducing reporting errors."
                 ],
                 "techs": "Visual Basic 6, SQL Server, LocalDB."
             },
@@ -406,7 +406,7 @@
                     "to": "2004-05"
                 },
                 "description": [
-                    "Development of new features to several systems that were commercialized by the company."
+                    "The company's commercialized systems needed new features to stay competitive and meet evolving client requirements. I developed and implemented new features across several of these systems, delivering enhancements that expanded product capabilities for the company's client base."
                 ],
                 "techs": "Visual Basic 6, SQL Server, LocalDB."
             },
@@ -418,8 +418,8 @@
                     "to": "2003-11"
                 },
                 "description": [
-                    "This was my first time as a System Analyst, responsible of several management modules of the ERP of the company.",
-                    "This multinational company was dedicated to the area of funeral services and private cemeteries."
+                    "This was my first role as a Systems Analyst. The company, a multinational dedicated to funeral services and private cemeteries, faced corrupt databases and change resistant staff while needing a redesigned ERP system across several management modules.",
+                    "I analyzed the existing operations and designed a new system covering multiple ERP management modules, solved the corrupt database issues to restore data integrity, and managed the organizational change needed to help resistant staff embrace the new system and ways of working."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -431,7 +431,7 @@
                     "to": "2003-11"
                 },
                 "description": [
-                    "I developed several systems and offer support and technical advising to my clients."
+                    "Clients needed custom systems along with ongoing technical support and guidance to keep their operations running smoothly. I developed several systems tailored to each client's needs and provided technical support and advising, delivering reliable systems and consistent support that strengthened client relationships and trust."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -443,7 +443,8 @@
                     "to": "2001-03"
                 },
                 "description": [
-                    "Development of customized systems, mainly systems to collect data in devices like Palm Pilot. This company is Argentine and has branches in Uruguay and Brazil, and also is supplier of the necessary equipment to collect the information."
+                    "This Argentine company, with branches in Uruguay and Brazil, needed customized data collection systems for handheld devices like Palm Pilot to support operations across the three countries.",
+                    "I developed customized systems for collecting data on Palm Pilot devices, aligned with the company's equipment supply business, delivering functional data collection tools that supported operations across multiple countries."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -455,8 +456,9 @@
                     "to": "2001-03"
                 },
                 "description": [
-                    "Subsidiary company of Offnet S.p.A. from Italy that changed its trade name to Offnet Argentina S.A., It were dedicated to Telecommunications Businesses. Its main project was the maintenance of the services 112 and 114 of Telecom, among others.",
-                    "Hired as a programmer, but due to a high demand of resources he changed to the Technical Support Department, although still developing systems for internal use that were oriented to maintenance and administration tasks in UNIX (IVRs) and Windows NT 4 servers."
+                    "This subsidiary of Offnet S.p.A. from Italy, later renamed Offnet Argentina S.A., was dedicated to telecommunications business, with the maintenance of Telecom's 112 and 114 services as its main project. Monitoring over 40 servers took too long on dial up connections, and the team faced high resource demand across support and internal tooling.",
+                    "I developed a client/server solution that reduced monitoring time for 40+ servers to under 5 minutes over dial up, significantly improving monitoring efficiency for the critical maintenance of these services.",
+                    "I was hired as a programmer, but due to high resource demand I transitioned to the Technical Support department, while continuing to build internal systems for maintenance and administration on UNIX (IVR) and Windows NT 4 servers, and learned to install an IVR system from the ground up."
                 ],
                 "techs": "ANSI C, Bash scripting, Unix Administration."
             }
@@ -468,8 +470,8 @@
     "es": {
         "language": "Español",
         "summary": [
-            "[b]Desarrollador Full Stack experimentado  Arquitecto de Soluciones Escalables[/b]",
-            "Con más de [b]20 años[/b] de experiencia en desarrollo de software, he construido y liderado aplicaciones web innovadoras en múltiples industrias, incluyendo [b]e-commerce, bienes raíces, telecomunicaciones y alquiler temporal de alojamientos[/b]. Mi experiencia abarca [b]desarrollo frontend y backend[/b], arquitectura de software y roles de liderazgo como líder de equipo, project manager y fundador.",
+            "[b]Desarrollador Full Stack experimentado, Arquitecto de Soluciones Escalables[/b]",
+            "Con más de [b]20 años[/b] de experiencia en desarrollo de software, he construido y liderado aplicaciones web innovadoras en múltiples industrias, incluyendo [b]SaaS, e commerce, bienes raíces, telecomunicaciones y alquiler temporal de alojamientos[/b]. Mi experiencia abarca [b]desarrollo frontend y backend[/b], arquitectura de software y roles de liderazgo como líder de equipo, project manager y fundador.",
             "Me especializo en [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], y gestión de bases de datos con [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server y Oracle[/b]. También tengo [b]amplia experiencia[/b] en computación en la nube ([b]AWS, Docker[/b]) y escalabilidad de sistemas.",
             "Con un [b]título universitario en Análisis de Sistemas[/b], destaco en [b]entornos de ritmo acelerado[/b], resolviendo desafíos técnicos complejos, optimizando el rendimiento y guiando equipos para entregar soluciones de alto impacto."
         ],
@@ -591,15 +593,15 @@
                     "to": null
                 },
                 "description": [
-                    "Esta empresa es mi marca personal como desarrollador, he estado trabajando con ella desde 2007.",
-                    "Últimamente he estado trabajando como desarrollador a tiempo completo en varias empresas de EE.UU. y ayudando a algunas startups locales en sus etapas iniciales en mis fines de semana y tiempo libre.",
-                    "Solía tratar con clientes, en mi trato diario con ellos, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
-                    "Una vez aprobado el presupuesto, realizo un análisis más profundo, que se discute luego con el cliente, realizando los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocan en entornos web y servicios web según las necesidades.",
+                    "Los clientes necesitaban un alcance de proyecto claro, presupuestos realistas e hitos definidos antes de comenzar el trabajo técnico, muchas veces con requerimientos cambiantes.",
+                    "Recopilo requerimientos personalizados directamente con cada cliente, estimo el alcance del proyecto y negocio presupuestos, cronogramas de pago y entregables para cada hito.",
+                    "Una vez aprobado el presupuesto, realizo un análisis técnico y funcional más profundo, ajustando el alcance junto al cliente antes de comenzar el diseño.",
+                    "Entrego entornos web y servicios web adaptados a las necesidades de cada cliente, alineando el diseño técnico con los objetivos del negocio, lo que reduce desalineaciones de alcance y retrabajo al anticipar el análisis y la negociación antes de empezar el desarrollo.",
                     "[b]Algunos de los principales clientes:[/b]",
                     [
-                        "Welcome2BA.com: Desarrollo de la plataforma desde cero, Slack, Sincronización de Calendarios, Pagos en Línea, gestión de agencias. PHP CodeIgniter personalizado y jQuery, luego Nuxt/Vue y PHP/Laravel.",
-                        "BairesAparments.com: Fusionado con welcome2ba.com, migración del sistema hacia la plataforma Welcome2BA.",
-                        "Fanyion.com: Startup, plataforma SaaS multi-tenant creada desde cero, API PHP Laravel y UI frontend Next."
+                        "Welcome2BA.com: Desarrollo de la plataforma desde cero, Slack, sincronización de calendarios, pagos en línea, gestión de agencias. PHP CodeIgniter y jQuery personalizados, luego Nuxt/Vue y PHP/Laravel.",
+                        "BairesApartments.com: Fusionado con welcome2ba.com, migración del sistema hacia la plataforma Welcome2BA.",
+                        "Fanyion.com: Startup, plataforma SaaS multi tenant creada desde cero, API PHP Laravel y UI frontend en Next."
                     ]
                 ],
                 "techs": {
@@ -619,16 +621,15 @@
                     "content": "OpenInfra Foundation (OpenStack) y FNTech"
                 },
                 "description": [
-                    "Migración de proyectos de código fuente abierto y privado:",
+                    "Migración de proyectos de código abierto y de código privado:",
                     [
-                        "Migración de varias páginas de SilverStripe (PHP) a Gatsby (ReactJS)",
-                        "Decap CMS (anteriormente Netlify CMS).",
-                        "Creación de micrositios con Gatsby.",
-                        "Implementación de OpenAPI (anteriormente Swagger) en APIs de Laravel (PHP)",
-                        "Implementación de OpenAPI (anteriormente Swagger) en APIs de Django (Python)",
-                        "Realizando ingeniería inversa para documentar los distintos endpoints de las APIs (+~1200)",
-                        "Implementación de Open Telemetry en APIs de Laravel (PHP)",
-                        "Implementación de Open Telemetry en APIs de Django (Python)"
+                        "Migré páginas legacy de SilverStripe (PHP) a Gatsby (ReactJS), mejorando el rendimiento y la mantenibilidad mediante una arquitectura JAMstack desacoplada.",
+                        "Integré Decap CMS (anteriormente Netlify CMS) para conservar un flujo de edición de contenido familiar luego de la migración.",
+                        "Construí micrositios independientes con Gatsby para dar soporte a iniciativas puntuales sin agregar peso al código base principal.",
+                        "Realicé ingeniería inversa y documenté más de 1200 endpoints de API sin documentar en servicios de Laravel (PHP) y Django (Python).",
+                        "Implementé especificaciones OpenAPI (anteriormente Swagger) para ambas APIs, creando una fuente única de verdad que redujo el tiempo de onboarding de desarrolladores y eliminó las dudas de integración.",
+                        "Implementé Open Telemetry en las APIs de Laravel (PHP).",
+                        "Implementé Open Telemetry en las APIs de Django (Python)."
                     ]
                 ],
                 "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
@@ -642,12 +643,11 @@
                 },
                 "description": [
                     [
-                        "Plataforma SaaS multi-tenant para gestión y monitoreo de redes, con una arquitectura compleja y varios microservicios.",
-                        "Aprovechar la plataforma legacy para mejorar el rendimiento.",
-                        "Conectar aplicaciones React y legacy para que trabajen juntas.",
-                        "Crear APIs para integrar diferentes partes de la empresa y lograr comunicación asíncrona.",
-                        "Scaffolding de un nuevo repositorio de desarrollo React.",
-                        "Scaffolding de varios nuevos repositorios de desarrollo de APIs PHP Laravel."
+                        "Plataforma SaaS multi tenant para gestión y monitoreo de redes, con una arquitectura compleja y varios microservicios.",
+                        "Modernicé la plataforma legacy incorporando aplicaciones React, mejorando el rendimiento sin necesidad de una reescritura completa.",
+                        "Construí la capa de integración que conecta las aplicaciones React y legacy para que funcionen en conjunto sin fricciones.",
+                        "Diseñé y desarrollé APIs que habilitan comunicación asíncrona entre los sistemas de la empresa, reduciendo el acoplamiento y mejorando la resiliencia.",
+                        "Armé desde cero un nuevo repositorio de desarrollo en React y varios repositorios de APIs en PHP Laravel, estandarizando la configuración de proyectos y acelerando el desarrollo futuro."
                     ]
                 ],
                 "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
@@ -683,15 +683,17 @@
                     "to": "2023-09"
                 },
                 "description": [
-                    "En mis 6 meses de proyecto en Pest Share:",
+                    "En mi proyecto de 6 meses en Pest Share:",
                     [
-                        "Creé el código del SDK para enviar solicitudes de control de plagas desde cualquier página web.",
-                        "Moví parte del proyecto a ReactJS y a una nueva forma de hacer software.",
+                        "Creé el código de integración para enviar solicitudes de control de plagas desde cualquier página web.",
+                        "Moví parte del proyecto a ReactJS, adoptando una nueva forma de desarrollar software.",
                         "Corregí errores en el código legacy.",
-                        "Integré el código legacy con el nuevo código ReactJS.",
+                        "Integré el código legacy con el nuevo código en ReactJS.",
                         "Resolví varios problemas de base de datos en el código legacy.",
-                        "Resolví la sincronización de la base de datos entre tablas antiguas y nuevas."
-                    ]
+                        "Resolví la sincronización de la base de datos entre las tablas antiguas y las nuevas."
+                    ],
+                    "Convencí a los líderes de cambiar el stack tecnológico del proyecto, que originalmente se pedía en jQuery, hacia una versión en ReactJS, específicamente NextJS. También introduje Laravel para la API junto a un integrante del equipo de backend, manteniendo al mismo tiempo el código legacy en CodeIgniter funcionando según se necesitaba.",
+                    "Construí el módulo de Gestión de Reclamos, una forma para que los clientes soliciten un servicio de control de plagas y para que el equipo de operaciones de Pest Share lo gestione, eliminando el proceso manual anterior."
                 ],
                 "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 y EC2)."
             },
@@ -708,11 +710,11 @@
                 },
                 "description": [
                     [
-                        "Plataforma SaaS de Bienes Raíces como marketplace.",
-                        "API Node en Express.js con Typescript.",
-                        "Frontend en React construido desde cero.",
-                        "Desarrollador frontend pixel perfect.",
-                        "Experiencia con metodología Agile/SCRUM y desarrollo basado en sprints."
+                        "Plataforma SaaS de bienes raíces tipo marketplace, construida desde cero como ingeniero fundador, sin código base ni patrones establecidos previos.",
+                        "Construí funcionalidades de frontend en ReactJS, traduciendo diseños de InVision en páginas y componentes con precisión pixel perfect.",
+                        "Contribuí al desarrollo de backend usando NodeJS, con y sin TypeScript, para los endpoints de la API según se necesitaba.",
+                        "Mejoré la mantenibilidad usando TypeScript en la API.",
+                        "Participé en el proceso completo de Scrum, incluyendo daily standups, sprint planning, grooming y retrospectivas, estimando y discutiendo story points junto al equipo."
                     ]
                 ],
                 "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
@@ -731,12 +733,10 @@
                 "description": [
                     "En mi tiempo trabajando con Lacure Villas:",
                     [
-                        "Estabilicé el sistema antiguo (Vue + Laravel antiguo), para que el negocio pudiera seguir funcionando y luego comenzar a diseñar y desarrollar un nuevo sistema.",
-                        "Creé un proceso de sincronización de calendarios entre diferentes proveedores usando PHP Laravel.",
-                        "Mejoré el tiempo de respuesta y reduje el tiempo de inactividad del proceso interno.",
-                        "Senté las bases para los pagos en línea.",
-                        "Ayudé a depurar y mejorar la conexión con el ERP.",
-                        "Ayudé a depurar y mejorar la conexión con el CRM (Zoho)."
+                        "Estabilicé el sistema legacy inestable (Vue y Laravel antiguo), que ponía en riesgo la continuidad del negocio, manteniendo la operación en funcionamiento mientras lideraba el diseño y desarrollo de su sucesor.",
+                        "Construí un servicio de sincronización de calendarios entre múltiples proveedores externos usando PHP Laravel.",
+                        "Mejoré los tiempos de respuesta y reduje el tiempo de inactividad de los procesos internos, sumando soporte para pagos en línea.",
+                        "Gestioné integraciones que conectaban fuentes externas con el ERP y el CRM (Zoho) de la empresa simultáneamente."
                     ]
                 ],
                 "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
@@ -750,11 +750,10 @@
                 },
                 "description": [
                     [
-                        "Entorno de startup dinámico y de ritmo acelerado con una fuerte cultura de innovación y colaboración.",
-                        "Desarrollar software de soporte interno para el negocio e implementar cambios estratégicos dentro de la infraestructura central del Ad Server.",
-                        "Liderar y contribuir a proyectos ambiciosos y disruptivos que amplían los límites del ad tech y la innovación digital.",
-                        "Participar activamente en los procesos de análisis y toma de decisiones, compartiendo conocimientos y colaborando con un equipo de gran talento.",
-                        "Fomentar un profundo sentido de pertenencia y compromiso, impulsado por la energía del equipo y el propósito compartido."
+                        "Una empresa de la industria publicitaria necesitaba escalar hacia una arquitectura masiva de ventas y facturación mientras enfrentaba cuellos de botella de rendimiento en sus sistemas core.",
+                        "Identifiqué y resolví cuellos de botella en el core del AdServer y en el software interno de soporte al negocio para sostener esa escala masiva.",
+                        "Mejoré el rendimiento de la arquitectura de ventas y facturación, permitiendo que la empresa manejara escala masiva de forma confiable.",
+                        "Contribuí a proyectos innovadores y disruptivos aprovechando Big Data para los enfoques futuros de la industria publicitaria."
                     ]
                 ],
                 "techs": {
@@ -771,11 +770,11 @@
                 },
                 "description": [
                     [
-                        "Plataforma multi-tenant para alquiler de alojamiento temporal orientada al mercado latinoamericano.",
-                        "Lideré el desarrollo de aluPays, una solución propietaria de procesamiento de tarjetas de crédito con su propia API e integración completa, complementando proveedores externos como Braintree y PayPal.",
-                        "Dirigí un equipo multidisciplinario de diseñadores y desarrolladores para construir la plataforma desde cero, superando desafíos técnicos y operativos complejos.",
-                        "Supervisé las operaciones diarias, gestioné presupuestos y aseguré la alineación entre el desarrollo del producto y los objetivos comerciales.",
-                        "Considerada una de las experiencias más gratificantes y formativas de mi carrera, combinando emprendimiento, innovación y liderazgo."
+                        "El mercado latinoamericano carecía de una plataforma dedicada al alquiler temporal de alojamientos, y los procesadores de pago existentes limitaban el control sobre el flujo de pagos.",
+                        "Construí aluGuest desde cero como una plataforma greenfield, integrando Braintree y PayPal para el procesamiento de tarjetas de crédito.",
+                        "Diseñé y construí aluPays, una solución propia de procesamiento de tarjetas de crédito con su propia API, reduciendo la dependencia de procesadores externos.",
+                        "Lideré un equipo de diseñadores y desarrolladores, además de supervisar las operaciones y gestionar los presupuestos.",
+                        "Entregué una plataforma completamente funcional con su propia infraestructura de pagos, dando a la empresa mayor control y flexibilidad sobre las transacciones."
                     ]
                 ],
                 "techs": "PHP, Laravel, CodeIgniter, CakePHP, jQuery, Javascript, MariaDB, MongoDB, ReactJS 1"
@@ -790,9 +789,10 @@
                     "to": "2012-04"
                 },
                 "description": [
-                    "Mis tareas eran la Gestión de Proyectos y Análisis Funcional, como enlace entre los analistas de negocio y la factoría de software además de gestionar la configuración de los entornos para nuevas aplicaciones e interactuar con otras áreas como Gestión de Producción, Seguridad de la Información y Arquitectura de Aplicaciones para alcanzar la mejor solución posible, tanto técnica como funcionalmente.",
-                    "El área se enfoca a todo lo que involucra aplicaciones para la autogestión de clientes, tales como www.movistar.com.ar, www.tiendamovistar.com.ar, online.movistar.com.ar (Autogestión para particulares), portal-empresas.movistar.com.ar (Autogestión para Empresas y Organizaciones) y varias otras para la gestión interna de clientes.",
-                    "La empresa me permitió crecer profesionalmente encontrando formas y procedimientos más formales."
+                    "Las aplicaciones de autogestión de clientes necesitaban un vínculo claro entre los analistas de negocio, la fábrica de software y las distintas áreas técnicas para entregar soluciones alineadas.",
+                    "Actué como analista funcional y project manager, coordinando entre analistas de negocio, equipos de desarrollo, Gestión de Producción, Seguridad de la Información y Arquitectura de Aplicaciones.",
+                    "Gestioné la configuración de entornos para nuevas aplicaciones que daban soporte a las plataformas de autogestión, tanto para particulares como para empresas, incluyendo movistar.com.ar, tiendamovistar.com.ar y portal empresas.movistar.com.ar, entre otras.",
+                    "El rol me permitió crecer profesionalmente encontrando formas de trabajo y procedimientos más formales."
                 ]
             },
             {
@@ -803,10 +803,10 @@
                     "to": "2010-12"
                 },
                 "description": [
-                    "Esta es mi marca personal como desarrollador.",
-                    "En mi trato diario con los clientes, realizo requerimientos personalizados y estimo el alcance del proyecto para el presupuesto comercial, alcance, negocio las fechas de pagos y entregables para cada hito.",
-                    "Una vez aprobado el presupuesto, realizo un análisis más profundo, que se discute luego con el cliente, realizando los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocaban en entornos web y servicios web dependiendo de las diferentes necesidades.",
-                    "Clientes: Terminales Río de la Plata (Operador Portuario), FunArg, ATM (Seguros), Plus Mobile Communications, Welcome2BA.com (ARG +1 año), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA +2 años), Urge Interactive (USA), Datta Point (USA), entre otros."
+                    "Esta empresa es mi marca personal como desarrollador; he estado trabajando bajo ella desde 2007.",
+                    "En mi trato diario con los clientes, recopilo requerimientos personalizados, estimo el alcance del proyecto para el presupuesto comercial y negocio las fechas de pago y entregables para cada hito.",
+                    "Una vez aprobado el presupuesto, realizo un análisis más profundo, que luego se discute con el cliente, haciendo los ajustes necesarios antes del diseño técnico y funcional. En general, los proyectos se enfocaban en entornos web y servicios web según las distintas necesidades.",
+                    "Clientes: Terminales Río de la Plata (Operador Portuario), FunArg, ATM (Seguros), Plus Mobile Communications, Welcome2BA.com (Argentina, más de 1 año), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA, más de 2 años), Urge Interactive (USA), Datta Point (USA), entre otros."
                 ],
                 "techs": "PHP 5.x, Javascript. jQuery, Symfony, CodeIgniter, CakePHP, Zend, MongoDB, SQL Server, Oracle, MariaDB, MySQL."
             },
@@ -818,7 +818,8 @@
                     "to": "2013-09"
                 },
                 "description": [
-                    "Blog con noticias sobre TI en Argentina y alrededor del mundo."
+                    "La audiencia tech argentina necesitaba cobertura accesible y oportuna de noticias de IT, tanto locales como globales.",
+                    "Investigué y escribí artículos sobre noticias y tendencias de IT en Argentina y el resto del mundo, construyendo un hábito de publicación constante y haciendo crecer el alcance del sitio a través de contribuciones regulares."
                 ]
             },
             {
@@ -829,7 +830,8 @@
                     "to": "2010-12"
                 },
                 "description": [
-                    "Plan de Negocios. Diseño y desarrollo del sitio. Publicidad del producto.",
+                    "El negocio necesitaba un plan de negocios y un sitio web funcional construido desde cero para dar soporte a la publicidad del producto y al ingreso al mercado.",
+                    "Diseñé y desarrollé el plan de negocios junto con el diseño y desarrollo del sitio, entregando un sitio funcional que lanzó la presencia en línea del negocio y su capacidad publicitaria.",
                     "demo: https://www.matiasperrone.com/striggy"
                 ],
                 "techs": "PHP 5.x, Javascript. jQuery, MySQL."
@@ -842,13 +844,13 @@
                     "to": "2006-05"
                 },
                 "description": [
-                    "Noviembre de 2004 a Marzo de 2005:",
-                    "Trabajé como Analista de Sistemas, analizando y diseñando sistemas de soporte de negocio para clientes internos y externos, enfocándome principalmente en el análisis, diseño y desarrollo del sistema de gestión de negocio y facturación para servicios VoIP.",
-                    "Y antes de cambiar a Plus Mobile, realicé la construcción de un sistema para encuestas que integra recursos humanos con el área de supervisión de personal del Call Center, con el fin de implementar un sistema de seguimiento de reclutamiento, cumplimiento de tareas y acceso al edificio.",
+                    "Noviembre de 2004 a marzo de 2005:",
+                    "El servicio de VoIP y telefonía fija de España necesitaba un sistema de gestión comercial y facturación, mientras que las operaciones del Call Center carecían de integración entre RRHH y la supervisión de personal. Analicé, diseñé y desarrollé el sistema de gestión comercial y facturación para el servicio de VoIP y telefonía fija en España.",
+                    "Antes de pasar a Plus Mobile, relevé los requerimientos para un sistema que integraba RRHH con la supervisión del Call Center, cubriendo seguimiento de contrataciones, cumplimiento de tareas y acceso al edificio.",
                     "",
-                    "Abril de 2005 a Mayo de 2006:",
-                    "Dado un crecimiento horizontal, cambié de empresa dentro del grupo empresarial a Plus Mobile Communications, supervisando y ayudando a superar las desventajas que solían presentar a programadores y diseñadores en las tareas a realizar.",
-                    "Realicé el análisis y diseño de varios sistemas que soportaban el core business principal, que eran los servicios SMS y contenido móvil tanto para Argentina como para Latinoamérica. El proyecto consistía en servicios web y servidor."
+                    "Abril de 2005 a mayo de 2006:",
+                    "Dado un crecimiento horizontal dentro del grupo, pasé a Plus Mobile Communications, supervisando a desarrolladores y diseñadores mientras analizaba y diseñaba sistemas que daban soporte a los servicios de SMS y contenido móvil en Argentina y Latinoamérica.",
+                    "Entregué sistemas de soporte de negocio funcionales tanto para la facturación de telefonía como para los servicios de contenido móvil, mejorando el seguimiento operativo y la coordinación entre equipos."
                 ],
                 "techs": "PHP 4, PHP 5, Javascript, ASP 3, jQuery, SQL Server, MySQL."
             },
@@ -860,7 +862,7 @@
                     "to": "2004-11"
                 },
                 "description": [
-                    "Como Analista Programador para uno de los clientes (IBM) en un proyecto de Telefónica de Argentina. Responsable de detectar datos erróneos en la información proporcionada por el sistema de Gestión Comercial y Técnica y realizar los cambios para corregirlos."
+                    "Como parte de un proyecto liderado por IBM para Telefónica de Argentina, el sistema de Gestión Comercial y Técnica contenía datos incorrectos, lo que ponía en riesgo la precisión de los reportes y la toma de decisiones. Detecté las inconsistencias de datos e implementé las correcciones necesarias, mejorando la precisión de los datos y reduciendo los errores de reporte."
                 ],
                 "techs": "Visual Basic 6, SQL Server, LocalDB."
             },
@@ -872,7 +874,7 @@
                     "to": "2004-05"
                 },
                 "description": [
-                    "Desarrollo de nuevas funcionalidades para varios sistemas que comercializaba la empresa."
+                    "Los sistemas comercializados por la empresa necesitaban nuevas funcionalidades para mantenerse competitivos y responder a requerimientos cambiantes de los clientes. Desarrollé e implementé nuevas funcionalidades en varios de estos sistemas, entregando mejoras que ampliaron las capacidades del producto para la base de clientes de la empresa."
                 ],
                 "techs": "Visual Basic 6, SQL Server, LocalDB."
             },
@@ -884,8 +886,8 @@
                     "to": "2003-11"
                 },
                 "description": [
-                    "Esta fue mi primera vez como Analista de Sistemas, responsable de varios módulos de gestión del ERP de la empresa.",
-                    "Esta empresa multinacional se dedicaba al área de servicios funerarios y cementerios privados."
+                    "Este fue mi primer rol como Analista de Sistemas. La empresa, una multinacional dedicada a servicios funerarios y cementerios privados, enfrentaba bases de datos corruptas y personal resistente al cambio, mientras necesitaba un ERP rediseñado que cubriera varios módulos de gestión.",
+                    "Analicé las operaciones existentes y diseñé un nuevo sistema que cubría múltiples módulos de gestión del ERP, resolví los problemas de bases de datos corruptas para restaurar la integridad de los datos, y gestioné el cambio organizacional necesario para que el personal resistente adoptara el nuevo sistema y las nuevas formas de trabajo."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -897,7 +899,7 @@
                     "to": "2003-11"
                 },
                 "description": [
-                    "Desarrollé varios sistemas y ofrecí soporte y asesoramiento técnico a mis clientes."
+                    "Los clientes necesitaban sistemas a medida junto con soporte técnico y asesoramiento continuo para mantener sus operaciones funcionando sin problemas. Desarrollé varios sistemas adaptados a las necesidades de cada cliente y ofrecí soporte técnico y asesoramiento, entregando sistemas confiables y un soporte constante que fortaleció la relación y la confianza con los clientes."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -909,7 +911,8 @@
                     "to": "2001-03"
                 },
                 "description": [
-                    "Desarrollo de sistemas personalizados, principalmente sistemas para recolectar datos en dispositivos como Palm Pilot. Esta empresa es argentina y tiene sucursales en Uruguay y Brasil, y también es proveedora del equipamiento necesario para recolectar la información."
+                    "Esta empresa argentina, con sucursales en Uruguay y Brasil, necesitaba sistemas de recolección de datos a medida para dispositivos portátiles como Palm Pilot, para dar soporte a sus operaciones en los tres países.",
+                    "Desarrollé sistemas a medida para recolectar datos en dispositivos Palm Pilot, alineados con el negocio de provisión de equipamiento de la empresa, entregando herramientas de recolección de datos funcionales que dieron soporte a las operaciones en varios países."
                 ],
                 "techs": "Visual Basic 6, SQL Server, Microsoft Access."
             },
@@ -921,8 +924,9 @@
                     "to": "2001-03"
                 },
                 "description": [
-                    "Empresa subsidiaria de Offnet S.p.A. de Italia que cambió su nombre comercial a Offnet Argentina S.A., se dedicaba a Negocios de Telecomunicaciones. Su proyecto principal era el mantenimiento de los servicios 112 y 114 de Telecom, entre otros.",
-                    "Contratado como programador, pero debido a una alta demanda de recursos cambió al Departamento de Soporte Técnico, aunque seguía desarrollando sistemas de uso interno orientados a tareas de mantenimiento y administración en servidores UNIX (IVRs) y Windows NT 4."
+                    "Esta empresa, subsidiaria de Offnet S.p.A. de Italia y luego renombrada Offnet Argentina S.A., se dedicaba a negocios de telecomunicaciones, con el mantenimiento de los servicios 112 y 114 de Telecom como su proyecto principal. Monitorear más de 40 servidores llevaba demasiado tiempo sobre conexiones dial up, y el equipo enfrentaba una alta demanda de recursos entre soporte y herramientas internas.",
+                    "Desarrollé una solución cliente/servidor que redujo el tiempo de monitoreo de más de 40 servidores a menos de 5 minutos sobre dial up, mejorando significativamente la eficiencia del monitoreo para el mantenimiento crítico de estos servicios.",
+                    "Fui contratado como programador, pero debido a la alta demanda de recursos pasé al área de Soporte Técnico, aunque seguí construyendo sistemas internos de mantenimiento y administración en servidores UNIX (IVR) y Windows NT 4, y aprendí a instalar un sistema IVR desde cero."
                 ],
                 "techs": "ANSI C, Bash scripting, Administración Unix."
             }
