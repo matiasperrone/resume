@@ -24,7 +24,7 @@ const WorkExperience = ({ job, className = "" }) => {
           </dt>
         )}
         {job.techs && typeof job.techs === "string" && (
-          <div><b className="text-capitalize"><Translate text="technologies used" />:</b> {job.techs}</div>
+          <div><b className="text-capitalize"><Translate text="Technologies Used" />:</b> {job.techs}</div>
         )}
         {typeof job.techs === "object" && Object.entries(job.techs ?? {}).map(([name, techs]) => (
           <dd key={"tech-" + name}><b>{name}:</b> {techs}</dd>
@@ -34,20 +34,20 @@ const WorkExperience = ({ job, className = "" }) => {
             const descriptionKey = "paragraph" + ix;
             const errorResult = `typeof paragraph: ${typeof paragraph}`;
             switch (typeof paragraph) {
-            case "object":
-              return Array.isArray(paragraph) ? (
-                <ul key={descriptionKey}>
-                  {paragraph.map((subParagraphText, ix) => (
-                    <li key={descriptionKey + "sub-" + ix} dangerouslySetInnerHTML={{ __html: convertMDTags(subParagraphText) }} />
-                  ))}
-                </ul>
-              ) : errorResult;
-            case "string":
-              return (
-                <div key={descriptionKey} dangerouslySetInnerHTML={{ __html: convertMDTags(paragraph) }} />
-              );
-            default:
-              return errorResult;
+              case "object":
+                return Array.isArray(paragraph) ? (
+                  <ul key={descriptionKey}>
+                    {paragraph.map((subParagraphText, ix) => (
+                      <li key={descriptionKey + "sub-" + ix} dangerouslySetInnerHTML={{ __html: convertMDTags(subParagraphText) }} />
+                    ))}
+                  </ul>
+                ) : errorResult;
+              case "string":
+                return (
+                  <div key={descriptionKey} dangerouslySetInnerHTML={{ __html: convertMDTags(paragraph) }} />
+                );
+              default:
+                return errorResult;
 
             }
           })}

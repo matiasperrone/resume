@@ -153,7 +153,7 @@ export default function Home() {
           </div>
           <div className="text-center">{work.technologies.map(technology => technology.name).join(", ")}</div>
         </section>
-        <article className="work-experiences">
+        <section className="work-experiences">
           <div className="work-experiences-print-header">
             <h3><Translate text="work experience" /></h3>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
             </ShowHide>
           </div>
-        </article>
+        </section>
       </div >
     </div >
   )

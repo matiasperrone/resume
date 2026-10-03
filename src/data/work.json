@@ -108,7 +108,7 @@
         ],
         "languages": {
             "Spanish": "native",
-            "English": "fluid (no native)",
+            "English": "fluid (not native)",
             "Italian": "initial"
         },
         "websites": {
@@ -956,7 +956,7 @@
             "position": "posición",
             "dates": "fechas",
             "description": "descripción",
-            "technologies used": "tecnologías utilizadas",
+            "Technologies Used": "Tecnologías Utilizadas",
             "work experience": "experiencia laboral",
             "customer": "cliente",
             "Translate to": "Traducir al",
