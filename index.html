@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Matias Perrone — Résumé</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./resume.css">
+<script src="./doc-page.js"></script>
+</helmet>
+<doc-page size="letter" margin="0.6in">
+<div class="resume">
+  <header class="resume-header">
+    <img src="public/images/matias_153x153.jpg" alt="Matias Perrone" class="resume-photo">
+    <div>
+      <h1 class="resume-name">Matias Perrone</h1>
+      <p class="resume-title">Senior Frontend and Backend Developer | Node, PHP, JS, Vue &amp; React</p>
+      <div class="resume-links">
+        <a href="https://www.linkedin.com/in/matiasperrone/">LinkedIn</a>
+        <a href="https://www.github.com/matiasperrone/">GitHub</a>
+        <a href="https://resume.matiasperrone.com/">resume.matiasperrone.com</a>
+        <span>Spanish · English · Italian (initial)</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="summary">
+    <h2 class="section-title">Summary</h2>
+    <p class="summary-lead">Experienced Full Stack Developer Architecting Scalable Solutions</p>
+    <p>With over <b>20 years</b> of experience in software development, I have built and led innovative web applications across multiple industries, including <b>SaaS, ecommerce, real estate, telecommunications, and temporary accommodation rental</b>. My expertise spans <b>frontend and backend development</b>, software architecture, and leadership roles such as team lead, project manager, and founder.</p>
+    <p>I specialize in <b>PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS</b>, and database management with <b>MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle</b>. I also have <b>deep expertise</b> in cloud computing (<b>AWS, Docker</b>) and system scalability.</p>
+    <p>Holding a <b>college degree in System Analysis</b>, I thrive in <b>fast-paced environments</b>, solving complex technical challenges, optimizing performance, and mentoring teams to deliver high-impact solutions.</p>
+  </section>
+
+  <section class="avoid-break">
+    <h2 class="section-title">Education</h2>
+    <div class="row-between"><b>Systems Analyst — UTN, National Technology University</b><span class="muted"><time datetime="1997">1997</time> – <time datetime="2005">2005</time></span></div>
+    <div class="muted">Buenos Aires, Argentina</div>
+  </section>
+
+  <section class="avoid-break">
+    <h2 class="section-title">Technologies</h2>
+    <div class="chips">
+      <sc-for list="{{ techs }}" as="t" hint-placeholder-count="12"><span class="chip">{{ t }}</span></sc-for>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title section-title--ruled">Work experience</h2>
+    <div ref="{{ jobsRef }}"></div>
+  </section>
+</div>
+</doc-page>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const DATA_URL = "src/data/work.json";
+const LANGUAGE = "en";
+
+// work.json uses [tag]text[/tag] markup (same as convertMDTags in src/helpers/string.js).
+const toHtml = (str) => String(str).replace(/\[([a-z]+)\]([^\]]+)\[\/([a-z]+)\]/g, "<$1>$2</$3>");
+
+// "2007-05" -> "May 2007"
+const formatMonth = (ym) => {
+  const [year, month] = ym.split("-").map(Number);
+  return new Date(year, month - 1).toLocaleDateString("en-US", { year: "numeric", month: "short" });
+};
+
+const renderDates = ({ from, to }) =>
+  `<time datetime="${from}">${formatMonth(from)}</time> – ${to ? `<time datetime="${to}">${formatMonth(to)}</time>` : "Present"}`;
+
+const renderCustomer = (customer) => customer
+  ? `<div class="job-customer">${customer.title || "Customer"} <b>${customer.content}</b></div>`
+  : "";
+
+// Description items are paragraphs, or arrays rendered as bullet lists.
+const renderDescription = (items = []) => items.map((item) => Array.isArray(item)
+  ? `<ul class="job-list">${item.map((li) => `<li>${toHtml(li)}</li>`).join("")}</ul>`
+  : `<div class="job-para">${toHtml(item)}</div>`).join("");
+
+// techs is either a plain string or a { label: list } object.
+const renderTechs = (techs) => typeof techs === "string"
+  ? `<div class="job-techs"><b>Tech:</b> ${techs}</div>`
+  : Object.entries(techs || {}).map(([label, list]) =>
+      `<div class="job-techs job-techs--group"><b>${label}:</b> ${list}</div>`).join("");
+
+const renderJob = (job) => `<article class="job">
+  <div class="job-head"><h3 class="job-company">${job.company}</h3><span class="job-dates">${renderDates(job.dates)}</span></div>
+  <div class="job-position">${job.position}</div>
+  ${renderCustomer(job.customer)}${renderDescription(job.description)}${renderTechs(job.techs)}
+</article>`;
+
+class Component extends DCLogic {
+  jobsRef = React.createRef();
+  techs = ["AWS", "Docker", "Javascript", "Typescript", "NodeJS", "ReactJS", "NextJS", "VueJS", "NuxtJS", "CSS", "HTML5", "PHP", "Laravel", "CodeIgniter", "MongoDB", "MariaDB", "MySQL", "SQL Server", "PostgreSQL", "Oracle"];
+
+  renderVals() {
+    return { techs: this.techs, jobsRef: this.jobsRef };
+  }
+
+  async componentDidMount() {
+    const el = this.jobsRef.current;
+    if (!el) return;
+    try {
+      const response = await fetch(DATA_URL);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const { jobs = [], oldjobs = [] } = (await response.json())[LANGUAGE];
+      el.innerHTML = jobs.map(renderJob).join("")
+        + `<h2 class="section-title section-title--ruled">Older experience</h2>`
+        + oldjobs.map(renderJob).join("");
+    } catch (err) {
+      console.error(`Could not load ${DATA_URL}:`, err);
+      el.innerHTML = `<p class="load-error">Work experience could not be loaded. Serve this folder over HTTP (e.g. python3 -m http.server).</p>`;
+    }
+  }
+}
+</script>
+</body>
+</html>
