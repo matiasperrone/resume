@@ -2,7 +2,7 @@ import workInfo from "@/data/work.json";
 import { stripMDTags } from "@/helpers/string";
 
 export const SITE_URL =
-  process.env.SITE_URL || "https://resume.matiasperrone.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://resume.matiasperrone.com";
 export const OG_LOCALES = { en: "en_US", es: "es_ES" };
 
 export const generateStaticParams = async () => {
