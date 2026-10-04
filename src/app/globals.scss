@@ -3,17 +3,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-utilities.min.css");
 
+:root {
+  --doc-page-ar: 0.772727;
+  --doc-page-w: 8.5in;
+  --doc-page-h: 11in;
+  --doc-page-margin: 0.4in 0.3in 0.4in 0.6in;
+  --doc-hdr-h: 0px;
+  --doc-ftr-h: 0px;
+  --doc-hdr-pad: 0px;
+  --doc-ftr-pad: 0px;
+}
 
 @mixin light-theme {
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
   --foreground-gray: 23, 23, 23;
-  --background-gray: 232, 232, 232;
+  --background-gray: 245, 245, 245;
   --background-highlight: 85, 139, 184;
   --foreground-highlight: 255, 255, 255;
-  --foreground-title-highlight: 85, 139, 184;
+  --foreground-title-highlight: 0, 0, 0;
   --link: 20, 20, 20;
   --link-highlighted: 30, 30, 165;
+  --box-shadow: 53, 53, 53, 0.4;
+  --main-color: 98 150 194;
 }
 
 @mixin dark-theme {
@@ -23,9 +35,11 @@
   --foreground-gray: 232, 232, 232;
   --background-highlight: 85, 139, 184;
   --foreground-highlight: 255, 255, 255;
-  --foreground-title-highlight: 0, 139, 238;
+  --foreground-title-highlight: 255, 255, 255;
   --link: 205, 205, 205;
   --link-highlighted: 105, 105, 165;
+  --box-shadow: 200, 200, 200, 0.6;
+  --main-color: 98 150 194;
 }
 
 :root,
@@ -49,7 +63,13 @@
   }
 }
 
+html {
+  font-size: 14px;
 
+  @media print {
+    font-size: 13px;
+  }
+}
 
 html,
 body {
@@ -59,11 +79,19 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: rgb(var(--background-rgb));
+  background-color: rgb(var(--background-gray));
   padding: 0.5em;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+
+  &:last-of-type {
+    margin-bottom: 1em;
+  }
+}
 
 .w-10 {
   width: 10%;
@@ -127,7 +155,8 @@ hgroup > * {
 }
 
 h3 {
-  border-bottom: 2px solid #99b9d4;
+  color: rgb(var(--main-color));
+  border-bottom: 2px solid rgb(var(--main-color));
   font-weight: 800;
   margin-bottom: 0.3333em;
   text-transform: uppercase;
@@ -152,21 +181,61 @@ section {
   & > h3 {
     font-size: 1.2rem;
   }
+
+  &.summary {
+    & p {
+      margin-bottom: 1em !important;
+    }
+  }
 }
 
 article {
-  margin: 1rem 0;
-  padding: 0 0.3333em;
+  margin: 0;
+  padding: 1rem 0.3333em 0;
   font-size: 1rem;
-  border-bottom: 1px solid rgba(var(--foreground-rgb), 0.5);
+  border-top: 1px solid rgb(var(--main-color));
+
+  &:first-child {
+    border-top: none;
+  }
 
   &:last-child {
     border-bottom: none;
   }
 
+  & h4 {
+    font-size: 1.2rem;
+    padding-top: .75em;
+    color: rgb(var(--foreground-title-highlight));
+
+    & > .job-dates {
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 400;
+      min-width: 100%;
+      font-size: 1rem;
+      color: rgb(var(--foreground-rgb));
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      display: flex;
+      gap: 3rem;
+
+      & > .job-dates {
+        display: inline;
+        min-width: 250px;
+        line-height: 1.2rem;
+        text-align: right;
+      }
+    }
+  }
+
   & > dl {
     margin: 0;
-    padding: 1em 0;
+    padding: 0;
     position: relative;
 
     & > dt.job-dates {
@@ -236,7 +305,6 @@ hgroup {
 
     & > * {
       max-width: 100%;
-      border: 4px solid #0070c0;
       box-shadow: 0 0 0.66em rgb(var(--foreground-rgb));
     }
   }
@@ -244,15 +312,15 @@ hgroup {
 
 .work-experience {
   dd {
-    max-height: calc(1.42em * 3.5);
-    overflow: hidden;
+    // max-height: calc(1.42em * 3.5);
+    // overflow: hidden;
     cursor: pointer;
     padding-bottom: 2.42em;
 
-    &.show-all {
-      max-height: initial;
-      cursor: default;
-    }
+    // &.show-all {
+    //   max-height: initial;
+    //   cursor: default;
+    // }
   }
 
   a {
@@ -291,10 +359,6 @@ hgroup {
   justify-content: stretch;
   flex-wrap: nowrap;
   padding: 20px;
-  border-radius: 80px 0 0 0;
-  border: 45px solid rgb(var(--background-gray));
-  border-bottom: none;
-  border-right: none;
 
   @media screen and (max-width: 899px) {
     border: none;
@@ -327,7 +391,7 @@ hgroup {
     }
 
     & h1 {
-      font-size: 48px;
+      font-size: 4rem;
       font-weight: 400;
       text-transform: uppercase;
       line-height: 1.1em;
@@ -345,22 +409,48 @@ hgroup {
   [data-theme="light"],
   [data-theme="dark"] {
     @include light-theme;
+    font-size: 14px;
+  }
+
+  html {
+    font-size: 14px;
   }
 
   body {
-    font-size: 13px;
+    font-size: 1rem;
     color: inherit;
     background-color: inherit;
+    padding: 0;
+    margin: 0;
   }
 
   section {
-    font-size: 13px;
+    font-size: 1.1rem;
 
     &.summary,
     &.education,
     &.technologies {
       break-inside: avoid;
     }
+
+    &.languages {
+      align-self: stretch;
+      width: 100%;
+      flex-shrink: 0;
+      flex-grow: 1;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 4em;
+
+        li {
+          display: inline;
+        }
+      }
+    }
+
   }
 
   hgroup {
@@ -378,18 +468,15 @@ hgroup {
   }
 
   .layout {
-    border: 20px solid rgb(var(--background-gray));
-    border-bottom: none;
-    border-right: none;
-    border-radius: 40px 0 0 0;
     padding: 15px;
+    margin-bottom: 0;
   }
 
   .work-experiences {
     display: table;
     width: 100%;
     /* Ensures the table layout uses available width */
-    font-size: 13px;
+    font-size: 1.1rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     border-collapse: collapse;
@@ -401,14 +488,9 @@ hgroup {
 
   .work-experience {
     display: table-row-group;
-    font-size: 1em;
+    font-size: 1rem;
     break-inside: avoid;
     border-bottom: 1px solid rgb(var(--foreground-rgb));
-
-    & h4 {
-      font-size: 1.2em;
-      padding-top: .75em;
-    }
 
     & dd {
       max-height: initial;
@@ -422,7 +504,8 @@ hgroup {
       // Ensure your h3 styles are suitable for a repeating header.
       // You might want to re-apply or adjust styles like borders.
       // Example: Replicating existing h3 style for consistency:
-      border-bottom: 2px solid #99b9d4;
+      color: rgb(var(--main-color));
+      border-bottom: 2px solid rgb(var(--main-color));
       font-weight: 800;
       margin-bottom: 0.3333em; // Or adjust as needed
       font-size: 1.2rem; // From existing h3 style

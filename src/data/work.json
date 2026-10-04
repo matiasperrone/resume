@@ -1,13 +1,16 @@
 {
     "en": {
         "language": "English",
+        "name": "Matias Perrone",
         "summary": [
             "[b]Experienced Full Stack Developer Architecting Scalable Solutions[/b]",
             "With over [b]20 years[/b] of experience in software development, I have built and led innovative web applications across multiple industries, including [b]SaaS, ecommerce, real estate, telecommunications, and temporary accommodation rental[/b]. My expertise spans [b]frontend and backend development[/b], software architecture, and leadership roles such as team lead, project manager, and founder.",
-            "I specialize in [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], and database management with [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle[/b]. I also have [b]deep expertise[/b] in cloud computing ([b]AWS, Docker[/b]) and system scalability.",
+            "I specialize in [b]PHP, Node, React, Next, Vue, Nuxt[/b], and database management with [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server, and Oracle[/b]. I also have [b]deep expertise[/b] in cloud computing ([b]AWS, Docker[/b]) and system scalability.",
             "Holding a [b]college degree in System Analysis[/b], I thrive in [b]fast-paced environments[/b], solving complex technical challenges, optimizing performance, and mentoring teams to deliver high-impact solutions."
         ],
-        "title": "Senior Frontend and Backend Developer | Node, PHP, JS, Vue & React",
+        "title": "Senior Frontend and Backend Developer | Node, PHP, Javascript, Vue & React",
+        "ogtitle": "Matias Perrone's Resume",
+        "keywords": "Matias Perrone, resume, CV, portfolio, web developer, software engineer, frontend developer, backend developer, Node, PHP, JavaScript, Vue, React",
         "education": [
             {
                 "institution": "UTN - National Technology University",
@@ -39,24 +42,24 @@
                 "logo": "typescript.svg"
             },
             {
-                "name": "NodeJS",
+                "name": "Node",
                 "logo": "nodejs.svg"
             },
             {
-                "name": "ReactJS",
+                "name": "React",
                 "logo": "reactjs.svg"
             },
             {
-                "name": "NextJS",
+                "name": "Next",
                 "logo": "nextjs.svg"
             },
             {
-                "name": "VueJS",
+                "name": "Vue",
                 "logo": "vuejs.svg",
                 "version": "2.x and 3.x"
             },
             {
-                "name": "NuxtJS",
+                "name": "Nuxt",
                 "logo": "nuxtjs.svg"
             },
             {
@@ -71,6 +74,10 @@
                 "name": "PHP",
                 "logo": "php.svg",
                 "version": "5.x, 7.x and 8.x"
+            },
+            {
+                "name": "Python",
+                "logo": "python.svg"
             },
             {
                 "name": "Laravel",
@@ -108,7 +115,7 @@
         ],
         "languages": {
             "Spanish": "native",
-            "English": "fluid (not native)",
+            "English": "fluid",
             "Italian": "initial"
         },
         "websites": {
@@ -118,8 +125,8 @@
         },
         "jobs": [
             {
-                "company": "Global Innovation - Argentina, USA, Mexico and others",
-                "position": "Senior Full Stack Developer / Contractor / Freelancer",
+                "company": "Contractor / Freelancer - USA, Mexico, Argentina and others",
+                "position": "Senior Full Stack Developer",
                 "dates": {
                     "from": "2007-05",
                     "to": null
@@ -137,7 +144,7 @@
                     ]
                 ],
                 "techs": {
-                    "Techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker",
+                    "techs": "Typescript, React, Next, Vue, PHP, Node, Laravel, Docker",
                     "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
                 }
             },
@@ -149,7 +156,7 @@
                     "to": "2026-06"
                 },
                 "customer": {
-                    "title": "Clients:",
+                    "title": "Clients",
                     "content": "OpenInfra Foundation (OpenStack) and FNTech"
                 },
                 "description": [
@@ -164,7 +171,7 @@
                         "Implemented Open Telemetry in the Django (Python) APIs."
                     ]
                 ],
-                "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
+                "techs": "React, Gatsby, PHP, Laravel, Node, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
             },
             {
                 "company": "Command Link - USA",
@@ -182,7 +189,7 @@
                         "Scaffolded a new React development repository and multiple PHP Laravel API repositories, standardizing project setup and speeding up future development."
                     ]
                 ],
-                "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
+                "techs": "Typescript, React, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
                 "company": "Globant - Argentina",
@@ -224,10 +231,10 @@
                         "Solved various DB issues in the legacy code.",
                         "Solved the database synchronization between old and new tables."
                     ],
-                    "I convinced the leaders to change the project tech stack from jQuery, as initially requested, to a ReactJS version, specifically NextJS. I also introduced Laravel for the API together with a backend team member, while keeping the legacy code in CodeIgniter working as needed.",
+                    "I convinced the leaders to change the project tech stack from jQuery, as initially requested, to a ReactJS version, specifically Next. I also introduced Laravel for the API together with a backend team member, while keeping the legacy code in CodeIgniter working as needed.",
                     "I built the Claim Management module, a way for customers to request a pest control service and for Pest Share operations to handle it, removing the previous manual process."
                 ],
-                "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
+                "techs": "Next, React, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 and EC2)."
             },
             {
                 "company": "Mahisoft - USA",
@@ -243,13 +250,13 @@
                 "description": [
                     [
                         "Real Estate SaaS marketplace platform, built from the ground up as a founding engineer, with no existing codebase or established patterns to follow.",
-                        "Built frontend features in ReactJS, translating InVision designs into pixel accurate pages and components.",
-                        "Contributed to backend development using NodeJS, with and without TypeScript, for API endpoints as needed.",
+                        "Built frontend features in React, translating InVision designs into pixel accurate pages and components.",
+                        "Contributed to backend development using Node, with and without TypeScript, for API endpoints as needed.",
                         "Improved maintainability by using TypeScript in the API.",
                         "Participated in the full Scrum process, including daily standups, sprint planning, grooming, and retrospectives, estimating and discussing story points with the team."
                     ]
                 ],
-                "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
+                "techs": "Typescript, Node, React, Next, Docker"
             },
             {
                 "company": "Willdom - USA",
@@ -271,7 +278,7 @@
                         "Managed integrations connecting external sources with the company's ERP and CRM (Zoho) simultaneously."
                     ]
                 ],
-                "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
+                "techs": "Node, Vue, PHP, PostgreSQL, MongoDB."
             },
             {
                 "company": "Wortise - Argentina / Uruguay",
@@ -289,7 +296,7 @@
                     ]
                 ],
                 "techs": {
-                    "Techs": "NodeJS, VueJS, PHP",
+                    "Techs": "Node, Vue, PHP",
                     "Databases": "MongoDB, MySQL, PostgreSQL, ElasticSearch, BigQuery."
                 }
             },
@@ -326,21 +333,6 @@
                     "I managed environment setup for new applications supporting self management platforms for both individuals and companies, including movistar.com.ar, tiendamovistar.com.ar, and portal empresas.movistar.com.ar, among others.",
                     "The role let me grow professionally by developing more formal ways of working and procedures."
                 ]
-            },
-            {
-                "company": "Global Innovation",
-                "position": "Developer and founder",
-                "dates": {
-                    "from": "2007-05",
-                    "to": "2010-12"
-                },
-                "description": [
-                    "This company is my personal brand as a developer; I have been working under it since 2007.",
-                    "In my daily dealings with clients, I gather custom requirements, estimate project scope for the trade budget, and negotiate payment dates and deliverables for each milestone.",
-                    "Once the budget is approved, I run a deeper analysis, which is discussed later with the client, making the necessary adjustments before the technical and functional design. In general, projects were focused on web environments and web services depending on the different needs.",
-                    "Clients: Terminales Rio de la Plata (Port Operator), FunArg, ATM (Insurance), Plus Mobile Communications, Welcome2BA.com (Argentina, over 1 year), Striggy.com, GringoReports.com (USA), Bulldog Solutions (USA, over 2 years), Urge Interactive (USA), Datta Point (USA), among others."
-                ],
-                "techs": "PHP 5.x, Javascript. jQuery, Symfony, CodeIgniter, CakePHP, Zend, MongoDB, SQL Server, Oracle, MariaDB, MySQL."
             },
             {
                 "company": "RealidadIT.com",
@@ -464,18 +456,23 @@
             }
         ],
         "translation": {
-            "mobile": "Phone"
+            "mobile": "Phone",
+            "techs": "Technologies Used",
+            "Technologies": "Technologies Used"
         }
     },
     "es": {
         "language": "Español",
+        "name": "Matias Perrone",
         "summary": [
             "[b]Desarrollador Full Stack experimentado, Arquitecto de Soluciones Escalables[/b]",
             "Con más de [b]20 años[/b] de experiencia en desarrollo de software, he construido y liderado aplicaciones web innovadoras en múltiples industrias, incluyendo [b]SaaS, e commerce, bienes raíces, telecomunicaciones y alquiler temporal de alojamientos[/b]. Mi experiencia abarca [b]desarrollo frontend y backend[/b], arquitectura de software y roles de liderazgo como líder de equipo, project manager y fundador.",
-            "Me especializo en [b]PHP, NodeJS, ReactJS, NextJS, VueJS, NuxtJS[/b], y gestión de bases de datos con [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server y Oracle[/b]. También tengo [b]amplia experiencia[/b] en computación en la nube ([b]AWS, Docker[/b]) y escalabilidad de sistemas.",
+            "Me especializo en [b]PHP, Node, React, Next, Vue, Nuxt[/b], y gestión de bases de datos con [b]MySQL, PostgreSQL, MongoDB, MariaDB, SQL Server y Oracle[/b]. También tengo [b]amplia experiencia[/b] en computación en la nube ([b]AWS, Docker[/b]) y escalabilidad de sistemas.",
             "Con un [b]título universitario en Análisis de Sistemas[/b], destaco en [b]entornos de ritmo acelerado[/b], resolviendo desafíos técnicos complejos, optimizando el rendimiento y guiando equipos para entregar soluciones de alto impacto."
         ],
-        "title": "Desarrollador Senior Frontend y Backend | Node, PHP, JS, Vue & React",
+        "title": "Desarrollador Senior Frontend y Backend | Node, PHP, Javascript, Vue & React",
+        "ogtitle": "Currículum de Matias Perrone",
+        "keywords": "Matias Perrone, resume, CV, portfolio, web developer, software engineer, frontend developer, backend developer, Node, PHP, JavaScript, Vue, React",
         "education": [
             {
                 "institution": "UTN - Universidad Tecnológica Nacional",
@@ -507,24 +504,24 @@
                 "logo": "typescript.svg"
             },
             {
-                "name": "NodeJS",
+                "name": "Node",
                 "logo": "nodejs.svg"
             },
             {
-                "name": "ReactJS",
+                "name": "React",
                 "logo": "reactjs.svg"
             },
             {
-                "name": "NextJS",
+                "name": "Next",
                 "logo": "nextjs.svg"
             },
             {
-                "name": "VueJS",
+                "name": "Vue",
                 "logo": "vuejs.svg",
                 "version": "2.x y 3.x"
             },
             {
-                "name": "NuxtJS",
+                "name": "Nuxt",
                 "logo": "nuxtjs.svg"
             },
             {
@@ -576,7 +573,7 @@
         ],
         "languages": {
             "Español": "nativo",
-            "Inglés": "fluido (no nativo)",
+            "Inglés": "fluido",
             "Italiano": "inicial"
         },
         "websites": {
@@ -586,8 +583,8 @@
         },
         "jobs": [
             {
-                "company": "Global Innovation - Argentina, USA, México y otros",
-                "position": "Desarrollador Full Stack Senior / Contratista / Freelancer",
+                "company": "Contratista / Freelancer - Argentina, USA, México y otros",
+                "position": "Desarrollador Full Stack Senior",
                 "dates": {
                     "from": "2007-05",
                     "to": null
@@ -605,7 +602,7 @@
                     ]
                 ],
                 "techs": {
-                    "Techs": "Typescript, ReactJS, NextJS, VueJS, PHP, NodeJS, Laravel, Docker",
+                    "Techs": "Typescript, React, Next, Vue, PHP, Node, Laravel, Docker",
                     "Databases": "PostgreSQL, MongoDB, MySQL, Oracle, SQL Server."
                 }
             },
@@ -632,7 +629,7 @@
                         "Implementé Open Telemetry en las APIs de Django (Python)."
                     ]
                 ],
-                "techs": "ReactJS, Gatsby, PHP, Laravel, NodeJS, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
+                "techs": "React, Gatsby, PHP, Laravel, Node, Docker, Decap CMS, Python, Django, OpenAPI, Open Telemetry"
             },
             {
                 "company": "Command Link - USA",
@@ -650,7 +647,7 @@
                         "Armé desde cero un nuevo repositorio de desarrollo en React y varios repositorios de APIs en PHP Laravel, estandarizando la configuración de proyectos y acelerando el desarrollo futuro."
                     ]
                 ],
-                "techs": "Typescript, ReactJS, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
+                "techs": "Typescript, React, PHP 8.X, Yii, Laravel, Docker, MySQL Server (Azure Max Scale), MS SQL Server (Azure)."
             },
             {
                 "company": "Globant - Argentina",
@@ -686,16 +683,16 @@
                     "En mi proyecto de 6 meses en Pest Share:",
                     [
                         "Creé el código de integración para enviar solicitudes de control de plagas desde cualquier página web.",
-                        "Moví parte del proyecto a ReactJS, adoptando una nueva forma de desarrollar software.",
+                        "Moví parte del proyecto a React, adoptando una nueva forma de desarrollar software.",
                         "Corregí errores en el código legacy.",
                         "Integré el código legacy con el nuevo código en ReactJS.",
                         "Resolví varios problemas de base de datos en el código legacy.",
                         "Resolví la sincronización de la base de datos entre las tablas antiguas y las nuevas."
                     ],
-                    "Convencí a los líderes de cambiar el stack tecnológico del proyecto, que originalmente se pedía en jQuery, hacia una versión en ReactJS, específicamente NextJS. También introduje Laravel para la API junto a un integrante del equipo de backend, manteniendo al mismo tiempo el código legacy en CodeIgniter funcionando según se necesitaba.",
+                    "Convencí a los líderes de cambiar el stack tecnológico del proyecto, que originalmente se pedía en jQuery, hacia una versión en React, específicamente Next. También introduje Laravel para la API junto a un integrante del equipo de backend, manteniendo al mismo tiempo el código legacy en CodeIgniter funcionando según se necesitaba.",
                     "Construí el módulo de Gestión de Reclamos, una forma para que los clientes soliciten un servicio de control de plagas y para que el equipo de operaciones de Pest Share lo gestione, eliminando el proceso manual anterior."
                 ],
-                "techs": "NextJS, ReactJS, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 y EC2)."
+                "techs": "Next, React, PHP, Laravel, CodeIgniter, Docker, MySQL Server (AWS RDS), AWS (S3 y EC2)."
             },
             {
                 "company": "Mahisoft - USA",
@@ -711,13 +708,13 @@
                 "description": [
                     [
                         "Plataforma SaaS de bienes raíces tipo marketplace, construida desde cero como ingeniero fundador, sin código base ni patrones establecidos previos.",
-                        "Construí funcionalidades de frontend en ReactJS, traduciendo diseños de InVision en páginas y componentes con precisión pixel perfect.",
-                        "Contribuí al desarrollo de backend usando NodeJS, con y sin TypeScript, para los endpoints de la API según se necesitaba.",
+                        "Construí funcionalidades de frontend en React, traduciendo diseños de InVision en páginas y componentes con precisión pixel perfect.",
+                        "Contribuí al desarrollo de backend usando Node, con y sin TypeScript, para los endpoints de la API según se necesitaba.",
                         "Mejoré la mantenibilidad usando TypeScript en la API.",
                         "Participé en el proceso completo de Scrum, incluyendo daily standups, sprint planning, grooming y retrospectivas, estimando y discutiendo story points junto al equipo."
                     ]
                 ],
-                "techs": "Typescript, NodeJS, ReactJS, NextJS, Docker"
+                "techs": "Typescript, Node, React, Next, Docker"
             },
             {
                 "company": "Willdom - USA",
@@ -739,7 +736,7 @@
                         "Gestioné integraciones que conectaban fuentes externas con el ERP y el CRM (Zoho) de la empresa simultáneamente."
                     ]
                 ],
-                "techs": "NodeJS, VueJS, PHP, PostgreSQL, MongoDB."
+                "techs": "Node, Vue, PHP, PostgreSQL, MongoDB."
             },
             {
                 "company": "Wortise - Argentina / Uruguay",
@@ -757,7 +754,7 @@
                     ]
                 ],
                 "techs": {
-                    "Techs": "NodeJS, VueJS, PHP",
+                    "Techs": "Node, Vue, PHP",
                     "Databases": "MongoDB, MySQL, PostgreSQL, ElasticSearch, BigQuery."
                 }
             },
@@ -963,7 +960,10 @@
             "Switch to Light Mode": "Cambiar a Modo Claro",
             "Switch to Dark Mode": "Cambiar a Modo Oscuro",
             "older job experiences": "experiencias laborales anteriores",
-            "Present": "Presente"
+            "Present": "Presente",
+            "techs": "Tecnologías",
+            "Technologies": "Tecnologías",
+            "Databases": "Bases de datos"
         },
         "metadata": {
             "title": "Matias Perrone's Resume",

@@ -84,11 +84,11 @@ export default function Home() {
       <div>
         <hgroup>
           <div>
-            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_470x470.webp 1200w,/images/matias_153x153.jpg 153w" alt="Matias' Picture" />
+            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_470x470.webp 1200w,/images/matias_153x153.jpg 153w" alt={`${work.name}' Picture`} />
           </div>
           <div>
             <h1 className={fontH1.className}>
-              Matias Perrone
+              {work.name}
             </h1>
             <p>{work.title}</p>
             <div className={classes.otherInfo}>
@@ -103,8 +103,8 @@ export default function Home() {
                   </dd>
                 </dl>
               </section>
-              <section className="d-print-none">
-                <h3><Translate text="languages" /></h3>
+              <section className="languages">
+                <h3 className="d-print-none"><Translate text="languages" /></h3>
                 <dl>
                   <dd>
                     <ul>

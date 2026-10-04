@@ -8,13 +8,16 @@ const WorkExperience = ({ job, className = "" }) => {
   const { language } = useWorkContext();
   return (
     <article className={className}>
-      <h4>{job.company} - {job.position}</h4>
-      <dl>
-        <dt className="job-dates">
+      <h4>
+        {job.company} - {job.position}
+
+        <div className="job-dates">
           <Translate text="From" />: <time dateTime={job.dates.from}>{formatDateYYYYMMToMMMYYYY(job.dates.from, language)}</time>
           &nbsp;&#x002D;&nbsp;
           <Translate text="To" />: {job.dates.to ? (<time dateTime={job.dates.to}>{formatDateYYYYMMToMMMYYYY(job.dates.to, language)}</time>) : <Translate text="Present" />}
-        </dt>
+        </div>
+      </h4>
+      <dl>
         {job.customer && (
           <dt className="job-subtitle">
             {job.customer.title ?
@@ -27,7 +30,7 @@ const WorkExperience = ({ job, className = "" }) => {
           <div><b className="text-capitalize"><Translate text="Technologies Used" />:</b> {job.techs}</div>
         )}
         {typeof job.techs === "object" && Object.entries(job.techs ?? {}).map(([name, techs]) => (
-          <dd key={"tech-" + name}><b>{name}:</b> {techs}</dd>
+          <div key={`techs-${name}`}><b className="text-capitalize"><Translate text={name} />:</b> {techs}</div >
         ))}
         <dd>
           {job.description.map((paragraph, ix) => {
@@ -52,8 +55,8 @@ const WorkExperience = ({ job, className = "" }) => {
             }
           })}
         </dd>
-        <AnchorShowHide showClassName={false}><Translate text="See more" /></AnchorShowHide>
-        <AnchorShowHide showClassName={true}><Translate text="See less" /></AnchorShowHide>
+        {/* <AnchorShowHide showClassName={false}><Translate text="See more" /></AnchorShowHide>
+        <AnchorShowHide showClassName={true}><Translate text="See less" /></AnchorShowHide> */}
       </dl>
     </article>
   );

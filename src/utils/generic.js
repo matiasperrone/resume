@@ -1,7 +1,8 @@
 import workInfo from "@/data/work.json";
 import { stripMDTags } from "@/helpers/string";
 
-export const SITE_URL = "https://resume.matiasperrone.com";
+export const SITE_URL =
+  process.env.SITE_URL || "https://resume.matiasperrone.com";
 export const OG_LOCALES = { en: "en_US", es: "es_ES" };
 
 export const generateStaticParams = async () => {
@@ -14,34 +15,34 @@ export const generateMetadata = async ({ params }) => {
   const description = stripMDTags(work.summary[0]);
 
   return {
-    title: `Matias Perrone - ${work.title}`,
+    title: `${work.name} - ${work.title}`,
     description,
-    keywords:
-      "Matias Perrone, resume, CV, portfolio, web developer, software engineer, frontend developer, backend developer, Node.js, PHP, JavaScript, Vue.js, React.js",
+    keywords: work.keywords || "",
     alternates: {
-      canonical: `${SITE_URL}/${lang}`,
+      canonical: SITE_URL + (lang === "en" ? "" : `/${lang}`),
       languages: {
-        en: `${SITE_URL}/en`,
-        es: `${SITE_URL}/es`,
+        en: SITE_URL,
+        es: SITE_URL + "/es",
       },
     },
+    icons: {
+      icon: [
+        { url: "/favicon_64x64.ico", sizes: "64x64", type: "image/x-icon" },
+        { url: "/favicon_128x128.ico", sizes: "128x128", type: "image/x-icon" },
+      ],
+      shortcut: "/favicon_64x64.ico",
+    },
     openGraph: {
-      title:
-        lang === "es"
-          ? "Currículum de Matias Perrone"
-          : "Matias Perrone's Resume",
+      title: work.ogtitle,
       description: work.title,
       url: `${SITE_URL}/${lang}`,
-      siteName: "Matias Perrone",
+      siteName: work.name,
       images: [
         {
           url: `${SITE_URL}/images/matias_470x470.webp`,
           width: 1200,
           height: 1200,
-          alt:
-            lang === "es"
-              ? "Currículum de Matias Perrone"
-              : "Matias Perrone's Resume",
+          alt: work.ogtitle,
         },
       ],
       locale: OG_LOCALES[lang] ?? OG_LOCALES.en,
