@@ -203,8 +203,8 @@
                     "content": "Kayanee.com"
                 },
                 "description": [
+                    "[b]Shopify[/b] project:",
                     [
-                        "[b]Shopify[/b] project",
                         "Performance enhancement [b]from 16s to 0.8s load time[/b] to user interaction.",
                         "Change Javascript code to enhance and improve performance to avoid locking times.",
                         "Home page video loading [b]from 24s to <1s[/b] using advanced streaming techniques.",
@@ -661,8 +661,8 @@
                     "content": "Kayanee.com"
                 },
                 "description": [
+                    "Proyecto [b]Shopify[/b]:",
                     [
-                        "Proyecto [b]Shopify[/b]",
                         "Mejora de rendimiento [b]de 16s a 0.8s de tiempo de carga[/b] hasta la interacción del usuario.",
                         "Cambio del código Javascript para mejorar el rendimiento y evitar tiempos de bloqueo.",
                         "Carga del video de la página principal [b]de 24s a <1s[/b] usando técnicas avanzadas de streaming.",
