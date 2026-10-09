@@ -27,10 +27,10 @@ export const generateMetadata = async ({ params }) => {
     },
     icons: {
       icon: [
-        { url: "/favicon_64x64.ico", sizes: "64x64", type: "image/x-icon" },
-        { url: "/favicon_128x128.ico", sizes: "128x128", type: "image/x-icon" },
+        { url: "/favicon_64.ico", sizes: "64x64", type: "image/x-icon" },
+        { url: "/favicon_128.ico", sizes: "128x128", type: "image/x-icon" },
       ],
-      shortcut: "/favicon_64x64.ico",
+      shortcut: "/favicon_64.ico",
     },
     openGraph: {
       title: work.ogtitle,
