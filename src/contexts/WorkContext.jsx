@@ -6,7 +6,7 @@ const WorkContext = createContext();
 
 export const WorkProvider = ({ children, defaultLanguage = "en" }) => {
   const [language, setLanguage] = useState(defaultLanguage);
-  const [work, setWork] = useState(workInfo[language]);
+  const [work, setWork] = useState(workInfo[language] ?? workInfo.en);
 
   useEffect(() => {
     if (workInfo[language]) {
