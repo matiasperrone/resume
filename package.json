@@ -1,13 +1,13 @@
 {
   "name": "resume.matiasperrone.com",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "serve": "next .next",
-    "start": "next start",
-    "lint": "next lint --fix"
+    "dev": "bun --bun next dev",
+    "build": "bun --bun next build",
+    "serve": "bun --bun next .next",
+    "start": "bun --bun next start",
+    "lint": "bun --bun next lint --fix"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
