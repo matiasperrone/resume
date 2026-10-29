@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
-Package manager is Bun/pnpm/npm (lockfiles for bun and pnpm exist). No test suite is configured.
+Package manager is **bun** (use `bun install`, `bun run <script>`). No test suite is configured.
 
-- `npm run dev` — dev server
-- `npm run build` — production build
-- `npm run lint` — `next lint --fix` (note: it auto-fixes)
-- `npm start` — runs `next start`, which Next warns does NOT work with `output: 'standalone'`; the standalone server is `node .next/standalone/server.js` (needs `public/` and `.next/static` copied into `.next/standalone/`).
+- `bun run dev` — dev server
+- `bun run build` — production build
+- `bun run lint` — `next lint --fix` (note: it auto-fixes)
+- `bun start` — runs `next start`, which Next warns does NOT work with `output: 'standalone'`; the standalone server is `node .next/standalone/server.js` (needs `public/` and `.next/static` copied into `.next/standalone/`).
 
 Deployment: `ecosystem.config.js` (PM2, runs `bun start` on port 3001) behind nginx (`NGINX_CONFIG.md`, Laravel Forge-managed).
 

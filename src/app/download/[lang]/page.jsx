@@ -3,6 +3,7 @@ import DownloadPage from '@/components/DownloadPage';
 import { WorkProvider } from '@/contexts/WorkContext';
 import { generateMetadata as generateMetadataFn, generateStaticParams as generateStaticParamsFn } from '@/utils/generic';
 
+export const dynamicParams = false;
 export const generateStaticParams = generateStaticParamsFn
 export const generateMetadata = generateMetadataFn
 
