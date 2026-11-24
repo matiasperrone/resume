@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "eslint": "latest",
+    "eslint": "^9",
     "eslint-config-next": "latest",
     "postcss": "latest",
     "sass": "^1.101.0"

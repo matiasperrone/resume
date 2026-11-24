@@ -33,6 +33,7 @@ $padding-top-layout: 2rem;
     @media screen and (max-width: 899px) {
         border: none;
         border-radius: 0;
+        margin-top: 0;
         padding: 20px 10px 80px;
     }
 
@@ -72,13 +73,13 @@ $padding-top-layout: 2rem;
 
             @media screen and (max-width: 1200px) {
                 text-align: center;
+                font-size: 30px;
             }
         }
     }
 }
 
-.ThemeSwitcher {
-    position: static;
+.ButtonBar {
     justify-content: space-between;
     background-color: rgb(var(--background-gray));
     padding: 0 1em;
@@ -106,6 +107,14 @@ $padding-top-layout: 2rem;
         top: -2.4rem;
         padding: 0;
         width: calc(100% - 75px);
+    }
+
+    @media screen and (max-width: 767px) {
+        position: fixed;
+        left: 1rem;
+        bottom: 0;
+        width: calc(100% - 2rem);
+        padding: 2em 1em;
     }
 }
 

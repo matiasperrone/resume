@@ -121,6 +121,7 @@
         "websites": {
             "LinkedIn": "https://www.linkedin.com/in/matiasperrone/",
             "GitHub": "https://www.github.com/matiasperrone/",
+            "GitHub 2": "https://www.github.com/matiasperrone-exo/",
             "Resume": "https://resume.matiasperrone.com/"
         },
         "jobs": [
@@ -459,6 +460,10 @@
             "mobile": "Phone",
             "techs": "Technologies Used",
             "Technologies": "Technologies Used"
+        },
+        "metadata": {
+            "title": "Matias Perrone's Resume",
+            "description": "Matias Perrone's Resume"
         }
     },
     "es": {
@@ -579,6 +584,7 @@
         "websites": {
             "LinkedIn": "https://www.linkedin.com/in/matiasperrone/",
             "GitHub": "https://www.github.com/matiasperrone/",
+            "GitHub 2": "https://www.github.com/matiasperrone-exo/",
             "CV": "https://resume.matiasperrone.com/"
         },
         "jobs": [
@@ -966,8 +972,8 @@
             "Databases": "Bases de datos"
         },
         "metadata": {
-            "title": "Matias Perrone's Resume",
-            "description": "Matias Perrone's Resume"
+            "title": "CV de Matias Perrone",
+            "description": "CV de Matias Perrone"
         }
     }
 }

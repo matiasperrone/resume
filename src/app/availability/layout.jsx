@@ -1,12 +1,3 @@
-import './availability.layout.css'
+import AvailabilityLayout from '@/components/layouts/AvailabilityLayout/AvailabilityLayout';
 
-export default function RootLayout({ children }) {
-
-  return (
-    <html data-scroll-behavior="smooth" lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
-  )
-}
+export default AvailabilityLayout;

@@ -1,11 +1,7 @@
-const { FlatCompat } = require("@eslint/eslintrc");
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
+const nextCoreWebVitals = require("eslint-config-next/core-web-vitals");
 
 module.exports = [
-  ...compat.extends("next/core-web-vitals"),
+  ...nextCoreWebVitals,
   {
     rules: {
       "react/no-unescaped-entities": "off",

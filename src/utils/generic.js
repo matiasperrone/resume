@@ -3,27 +3,37 @@ import { stripMDTags } from "@/helpers/string";
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://resume.matiasperrone.com";
+export const SITE_URL_EN = process.env.NEXT_PUBLIC_SITE_URL_EN || SITE_URL;
+export const SITE_URL_ES =
+  process.env.NEXT_PUBLIC_SITE_URL_ES || SITE_URL + "/es";
 export const OG_LOCALES = { en: "en_US", es: "es_ES" };
 
 export const generateStaticParams = async () => {
   return [{ lang: "en" }, { lang: "es" }];
 };
 
-export const generateMetadata = async ({ params }) => {
+export const generateMetadata = async ({
+  params,
+  title,
+  ogtitle,
+  canonical,
+  languages = {
+    en: SITE_URL_EN,
+    es: SITE_URL_ES,
+  },
+}) => {
   const { lang } = await params;
   const work = workInfo[lang] ?? workInfo.en;
   const description = stripMDTags(work.summary[0]);
+  const CURRENT_SITE_URL = lang === "es" ? SITE_URL_ES : SITE_URL_EN;
 
   return {
-    title: `${work.name} - ${work.title}`,
+    title: `${work.name} - ${title ?? work.title}`,
     description,
     keywords: work.keywords || "",
     alternates: {
-      canonical: SITE_URL + (lang === "en" ? "" : `/${lang}`),
-      languages: {
-        en: SITE_URL,
-        es: SITE_URL + "/es",
-      },
+      canonical: canonical ?? CURRENT_SITE_URL,
+      languages,
     },
     icons: {
       icon: [
@@ -33,16 +43,16 @@ export const generateMetadata = async ({ params }) => {
       shortcut: "/favicon_64.ico",
     },
     openGraph: {
-      title: work.ogtitle,
-      description: work.title,
-      url: `${SITE_URL}/${lang}`,
+      title: ogtitle ?? work.ogtitle,
+      description: description ?? work.title,
+      url: canonical ?? CURRENT_SITE_URL,
       siteName: work.name,
       images: [
         {
-          url: `${SITE_URL}/images/matias_470x470.webp`,
+          url: `${CURRENT_SITE_URL}/images/matias_470x470.webp`,
           width: 1200,
           height: 1200,
-          alt: work.ogtitle,
+          alt: ogtitle ?? work.ogtitle,
         },
       ],
       locale: OG_LOCALES[lang] ?? OG_LOCALES.en,

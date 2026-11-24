@@ -71,7 +71,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
-      <div className={classes.ThemeSwitcher}>
+      <div className={classes.ButtonBar}>
         <LanguageSelector />
         <ThemeSwitcher />
         <Download href={`/assets/${work.download.file}`} name={work.download.name}>
@@ -83,9 +83,7 @@ export default function Home() {
       </div>
       <div>
         <hgroup>
-          <div>
-            <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_470x470.webp 1200w,/images/matias_153x153.jpg 153w" alt={`${work.name}' Picture`} />
-          </div>
+          <Image src="/images/matias_153x153.jpg" srcSet="/images/matias_153x153.webp 153w,/images/matias_470x470.webp 1200w,/images/matias_153x153.jpg 153w" alt={`${work.name}' Picture`} />
           <div>
             <h1 className={fontH1.className}>
               {work.name}
